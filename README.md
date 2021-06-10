@@ -83,3 +83,11 @@ As a user, I want to be able to access the site easily on my chosen device so th
 As a site owner, I want to create a site with great UX so that the users are inclined to return to it
 
 As a site owner, I want to be able to be contacted from the users via a contact form and social media, so that I can communicate with them and answer any questions
+
+### Structure:
+
+### Design: 
+
+#### Wireframes
+
+Low fidelity mock-ups were made using Balsamiq to help plan and visualise the navigation design, placement of information, features, relationship between the content and usefulness. They were created for 3 main screen sizes: mobile, tablet and desktop.
