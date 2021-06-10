@@ -13,7 +13,8 @@ body {
 }
 
 /*headings and logo*/
-h1, h2 {
+h1,
+h2 {
     font-family: Courgette, sans-serif;
     letter-spacing: 2px;
     color: #186577;
@@ -22,4 +23,37 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 210%;
+}
+
+/*horizontally align navigation bar elements*/
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+/*style the links inside the navigation bar*/
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 1.5vw;
+    text-transform: uppercase;
+}
+
+#menu a {
+    color: #186577ff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 120%;
+}
+
+/*change the color of navigation links and underline on hover*/
+
+#menu a:hover {
+    color: #846577ff;
+    border-bottom: 2px solid #846577ff;
+}
+
+.active {
+    border-bottom: 2px solid #186577ff;
 }
