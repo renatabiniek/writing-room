@@ -91,3 +91,21 @@ As a site owner, I want to be able to be contacted from the users via a contact 
 #### Wireframes
 
 Low fidelity mock-ups were made using Balsamiq to help plan and visualise the navigation design, placement of information, features, relationship between the content and usefulness. They were created for 3 main screen sizes: mobile, tablet and desktop.
+
+### Credits
+
+#### Code
+
+
+#### Images 
+
+
+#### Content
+
+### Acknowledgements
+
+### Disclaimer
+
+Writing Room is an imaginary group and the content of this website is for educational purposes only. 
+It was created for the Code Institute’s HTML and CSS Essentials Portfolio Project, as part of their Diploma in Full Stack Software Development.
+The requirements are to make a static front-end website, using HTML and CSS.
