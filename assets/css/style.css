@@ -60,8 +60,19 @@ h2 {
 
 /*hero image*/
 
-#hero-image {
-    height: 90vh;
+/*move hero image below the header*/
+
+#hero-outer {
+    height: 800px;
     width: 100%;
-    background: url(..//images/hero-image.jpg) no-repeat center center;
+    overflow: hidden;
 }
+
+/*set size, fall back color, background image and position of the hero image*/
+
+#hero-image {
+    height: 800px;
+    background: #c9c9c9ff url(..//images/hero-image.jpg) no-repeat center center;
+    background-size: cover;
+}
+
