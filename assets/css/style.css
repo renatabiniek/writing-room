@@ -57,7 +57,7 @@ h1, h2 {
     border-bottom: 2px solid #186577ff;
 }
 
-/*hero image*/
+/*hero image and cover text*/
 
 /*move hero image below the header*/
 
@@ -126,4 +126,21 @@ h1, h2 {
 .button a {
     text-decoration: none;
     color: white;
+}
+
+/*overlay cover text*/
+
+#cover-text {
+    background-color: rgba(132, 101, 119, .8);
+    color: white;
+    font-size: 110%;
+    height: 100px;
+    width: 250px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 5%;
+
+    top: 20px;
+
+    position: absolute;
 }
