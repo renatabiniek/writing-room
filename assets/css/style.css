@@ -13,8 +13,7 @@ body {
 }
 
 /*headings and logo*/
-h1,
-h2 {
+h1, h2 {
     font-family: Courgette, cursive;
     letter-spacing: 2px;
     color: #186577;
@@ -27,8 +26,7 @@ h2 {
 
 /*horizontally align navigation bar elements*/
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
 }
 
@@ -87,7 +85,7 @@ h2 {
     letter-spacing: 4px;
 }
 
-/*position the hero text and button in the center of the hero image */
+/*position the hero text in the center of the hero image */
 
 #hero-text {
     text-align: center;
@@ -99,8 +97,31 @@ h2 {
 
 /*style and position the hero text button*/
 
-#hero-text .button {
+#hero-image .button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #186577ff;
-    color: white;
+    font-size: 1.4em;
+    padding: .7em;
+    text-align: center;
+    border-radius: 15%;
 
+    /*add shadow to the button, code taken from https://www.w3schools.com/css/css3_buttons.asp*/
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*add hover effect to the button*/
+
+#hero-image .button:hover {
+    background-color: #846577ff;
+}
+
+/*remove text decoration and change color of links on buttons*/
+
+.button a {
+    text-decoration: none;
+    color: white;
 }
