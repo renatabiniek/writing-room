@@ -27,7 +27,8 @@ h2 {
 
 /*horizontally align navigation bar elements*/
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -74,5 +75,32 @@ h2 {
     height: 800px;
     background: #c9c9c9ff url(..//images/hero-image.jpg) no-repeat center center;
     background-size: cover;
+    position: relative;
 }
 
+/*style the hero text*/
+
+#hero-text p {
+    color: #2a2d32;
+    font-size: 4.5rem;
+    font-family: Courgette, cursive;
+    letter-spacing: 4px;
+}
+
+/*position the hero text and button in the center of the hero image */
+
+#hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*style and position the hero text button*/
+
+#hero-text .button {
+    background-color: #186577ff;
+    color: white;
+
+}
