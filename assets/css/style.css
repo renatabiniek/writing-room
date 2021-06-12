@@ -250,7 +250,7 @@ blockquote {
     height: 40vh;
     font-size: inherit;
     padding-top: 1.5em;
-    flex: 50%;
+    flex: 60%;
 }
 
 /*add padding to the text*/
@@ -262,7 +262,7 @@ blockquote {
 /*add and style image to mission section*/
 
 #mission-photo {
-    flex: 50%;
+    flex: 40%;
 }
 
 /*style the container into a circle*/
@@ -270,7 +270,7 @@ blockquote {
 #photo-container {
     height: 300px;
     width: 300px;
-    padding: 30px;
+    padding: 20px;
     margin: 0 auto;
     border: 1px solid #c9c9c9ff;
     border-radius: 50%;
@@ -279,7 +279,7 @@ blockquote {
 /*style the photo and position within the container*/
 
 #photo-background {
-    background: url("../images/notebook-and-coffee.jpg") no-repeat center center;
+    background: url("../images/mission-photo.webp") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
