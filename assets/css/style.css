@@ -207,9 +207,10 @@ blockquote {
     font-size: 300%;
     margin: .5em 0;
 }
+
 /*style and position individual divs*/
 
-.flex-container > div {
+.flex-container>div {
     width: 15%;
     height: 20vh;
     text-align: center;
@@ -242,9 +243,50 @@ blockquote {
     line-height: 20px;
 }
 
+/*style group mission section*/
+
 #mission {
     background: grey;
     height: 40vh;
     font-size: inherit;
     padding-top: 1.5em;
+    flex: 50%;
+}
+
+/*add padding to the text*/
+
+#about-writingroom {
+    padding: 1em;
+}
+
+/*add and style image to mission section*/
+
+#mission-photo {
+    flex: 50%;
+}
+
+/*style the container into a circle*/
+
+#photo-container {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    border: 1px solid #c9c9c9ff;
+    border-radius: 50%;
+}
+
+/*style the photo and position within the container*/
+
+#photo-background {
+    background: url("../images/notebook-and-coffee.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/*flex mission section*/
+
+.mission-flex {
+    display: flex;
+    flex-flow: row wrap;
 }
