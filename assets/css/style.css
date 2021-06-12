@@ -191,14 +191,13 @@ blockquote {
     quotes: "“""”""‘""’";
 }
 
-/*Writing Room group purpose & focus*/
+/*Writing Room group mission*/
 
 /*set height to match the height of the hero image*/
 
 #writing-room {
     height: 80vh;
     margin: 0 10%;
-    font-size: 2.5vh;
 }
 
 /*style and position individual divs*/
@@ -207,7 +206,7 @@ blockquote {
     width: 15%;
     height: 20vh;
     text-align: center;
-    line-height: 75px;
+    padding-top: 1.5em;
 }
 
 /*temp structure*/
@@ -218,25 +217,30 @@ blockquote {
 #reason-one {
     background: blue;
     flex: 25%;
+    line-height: 20px;
 }
 
 #reason-two {
     background: yellow;
     flex: 25%;
+    line-height: 20px;
 }
 
 #reason-three {
     background: green;
     flex: 25%;
+    line-height: 20px;
 }
 
 #reason-four {
     background: pink;
     flex: 25%;
+    line-height: 20px;
 }
 
 #mission {
     background: grey;
-    height: 55vh;
+    height: 40vh;
     font-size: inherit;
+    padding-top: 1.5em;
 }
