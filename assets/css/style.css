@@ -200,6 +200,13 @@ blockquote {
     margin: 0 10%;
 }
 
+/*style and position the group mission heading*/
+
+#writing-room h2 {
+    text-align: center;
+    font-size: 300%;
+    margin: .5em 0;
+}
 /*style and position individual divs*/
 
 .flex-container > div {
@@ -210,9 +217,6 @@ blockquote {
 }
 
 /*temp structure*/
-#writing-room {
-    border: 1px solid red;
-}
 
 #reason-one {
     background: blue;
