@@ -32,7 +32,7 @@ h2 {
     color: #186577;
 }
 
-/*style logo*/ 
+/*style logo*/
 
 #logo {
     font-size: 210%;
@@ -42,6 +42,7 @@ h2 {
 header a {
     text-decoration: none;
 }
+
 /*horizontally align navigation bar elements*/
 
 #menu,
@@ -151,7 +152,7 @@ header a {
 #cover-text {
     /*add oppacity to the background for better contrast between text and background*/
     background-color: rgba(132, 101, 119, .8);
-    
+
     color: white;
     font-size: 2vh;
     height: 10vh;
@@ -180,10 +181,62 @@ header a {
 
 blockquote::before {
     content: open-quote;
-  }
-  blockquote::after {
+}
+
+blockquote::after {
     content: close-quote;
-  }
-  blockquote {
-    quotes: "“" "”" "‘" "’";
-  }
+}
+
+blockquote {
+    quotes: "“""”""‘""’";
+}
+
+/*Writing Room group purpose & focus*/
+
+/*set height to match the height of the hero image*/
+
+#writing-room {
+    height: 80vh;
+    margin: 0 10%;
+    font-size: 2.5vh;
+}
+
+/*style and position individual divs*/
+
+.flex-container > div {
+    width: 15%;
+    height: 20vh;
+    text-align: center;
+    line-height: 75px;
+}
+
+/*temp structure*/
+#writing-room {
+    border: 1px solid red;
+}
+
+#reason-one {
+    background: blue;
+    flex: 25%;
+}
+
+#reason-two {
+    background: yellow;
+    flex: 25%;
+}
+
+#reason-three {
+    background: green;
+    flex: 25%;
+}
+
+#reason-four {
+    background: pink;
+    flex: 25%;
+}
+
+#mission {
+    background: grey;
+    height: 55vh;
+    font-size: inherit;
+}
