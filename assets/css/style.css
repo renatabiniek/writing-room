@@ -62,7 +62,7 @@ h1, h2 {
 /*move hero image below the header*/
 
 #hero-outer {
-    height: 800px;
+    height: 80vh;
     width: 100%;
     overflow: hidden;
 }
@@ -80,7 +80,7 @@ h1, h2 {
 
 #hero-text p {
     color: #2a2d32;
-    font-size: 4.5rem;
+    font-size: 6.5vh;
     font-family: Courgette, cursive;
     letter-spacing: 4px;
     border-radius: 15px;
@@ -132,11 +132,12 @@ h1, h2 {
 #cover-text {
     background-color: rgba(132, 101, 119, .8); /*add oppacity to the background for better contrast between text and background*/
     color: white;
-    font-size: 110%;
-    height: 100px;
-    width: 250px;
-    padding-top: 30px;
+    font-size: 2vh;
+    height: 10vh;
+    width: 25vh;
+    padding-top: 15px;
     padding-left: 20px;
+    padding-bottom: 10px;
     border-radius: 5%;
 
     top: 20px;
