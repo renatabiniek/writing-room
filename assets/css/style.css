@@ -20,7 +20,10 @@ body {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: space-between;
 }
+
+/*style headings throughout the whole site*/
 
 h1,
 h2 {
@@ -28,6 +31,8 @@ h2 {
     letter-spacing: 4px;
     color: #186577;
 }
+
+/*style logo*/ 
 
 #logo {
     font-size: 210%;
@@ -144,8 +149,9 @@ header a {
 /*overlay cover text*/
 
 #cover-text {
-    background-color: rgba(132, 101, 119, .8);
     /*add oppacity to the background for better contrast between text and background*/
+    background-color: rgba(132, 101, 119, .8);
+    
     color: white;
     font-size: 2vh;
     height: 10vh;
@@ -159,3 +165,25 @@ header a {
 
     position: absolute;
 }
+
+/*quote*/
+
+/*create quote separate from other text, taken from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/*/
+
+.quote {
+    padding: 1.5em;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+/*specify quotation marks for the quote, taken from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/*/
+
+blockquote::before {
+    content: open-quote;
+  }
+  blockquote::after {
+    content: close-quote;
+  }
+  blockquote {
+    quotes: "“" "”" "‘" "’";
+  }
