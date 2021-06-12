@@ -81,7 +81,7 @@ header a {
 /*move hero image below the header*/
 
 #hero-outer {
-    height: 80vh;
+    height: 95vh;
     width: 100%;
     overflow: hidden;
 }
@@ -89,7 +89,7 @@ header a {
 /*set size, fall back color, background image and position of the hero image*/
 
 #hero-image {
-    height: 80vh;
+    height: 95vh;
     background: #c9c9c9ff url(..//images/hero-image.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
