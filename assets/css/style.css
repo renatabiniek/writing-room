@@ -194,13 +194,6 @@ blockquote {
 
 /*Writing Room group mission*/
 
-/*set height to match the height of the hero image*/
-
-#writing-room {
-    height: 80vh;
-    margin: 0 10%;
-}
-
 /*style and position the group mission heading*/
 
 #writing-room h2 {
@@ -209,62 +202,53 @@ blockquote {
     margin: .5em 0;
 }
 
+/*flex container for reasons section*/
+.flex-reasons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /*style and position individual divs*/
 
-.flex-container>div {
-    width: 15%;
+.flex-reasons>div {
+    width: 360px;
     height: 20vh;
+    margin: 10px;
     text-align: center;
-    padding-top: 1.5em;
+    justify-content: center;
 }
 
 /*temp structure*/
 
 #reason-one {
     background: blue;
-    flex: 25%;
     line-height: 20px;
 }
 
 #reason-two {
     background: yellow;
-    flex: 25%;
+
     line-height: 20px;
 }
 
 #reason-three {
     background: green;
-    flex: 25%;
+
     line-height: 20px;
 }
 
 #reason-four {
     background: pink;
-    flex: 25%;
+
     line-height: 20px;
 }
 
 /*style group about-writingroom section*/
 
-#about-writingroom {
-    background: grey;
-    height: 320px;
-    font-size: inherit;
-    padding-top: 1em;
-    flex: 60%;
-}
-
-/*add and style image to mission section*/
-
-#mission-photo {
-    flex: 40%;
-}
-
-/*style the container for the photo*/
-
 #photo-container {
     height: 320px;
-    padding: 0.9em;
     margin: 0 auto;
 }
 
@@ -272,13 +256,32 @@ blockquote {
 
 #photo-background {
     background: #c9c9c9ff url("../images/about-writing-room.webp") no-repeat center center;
-    height: 100%;
+    height: 320px;
+    background-size: cover;
     border-radius: 15px;
 }
 
-/*flex mission section*/
+/*flex about writing room section*/
 
-.mission-flex {
+.flex-writingroom {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+ }
+
+#about-writingroom {
+    background-color: lawngreen;
+    width: 800px;
+    margin: 10px;
+    line-height: 1.5em;
+    font-size: medium;
+    padding: 1em;
+}
+
+#mission-photo {
+    background-color: lawngreen;
+    width: 500px;
+    margin: 10px;
 }
