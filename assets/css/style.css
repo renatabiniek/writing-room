@@ -120,7 +120,7 @@ header a {
 
 #hero-image .button {
     position: absolute;
-    top: 85%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #186577ff;
@@ -173,6 +173,7 @@ header a {
 
 .quote {
     padding: 1.5em;
+    margin-top: 0.5em;
     font-size: 2.5vh;
     text-align: center;
 }
