@@ -247,20 +247,6 @@ blockquote {
 
 /*style group about-writingroom section*/
 
-#photo-container {
-    height: 320px;
-    margin: 0 auto;
-}
-
-/*style the photo and position within the container*/
-
-#photo-background {
-    background: #c9c9c9ff url("../images/about-writing-room.webp") no-repeat center center;
-    height: 320px;
-    background-size: cover;
-    border-radius: 15px;
-}
-
 /*flex about writing room section*/
 
 .flex-writingroom {
@@ -281,7 +267,15 @@ blockquote {
 }
 
 #mission-photo {
-    background-color: lawngreen;
     width: 500px;
     margin: 10px;
+}
+
+/*style and position the photo*/
+
+#photo-background {
+    background: #c9c9c9ff url("../images/about-writing-room.webp") no-repeat center center;
+    height: 350px;
+    background-size: cover;
+    border-radius: 15px;
 }
