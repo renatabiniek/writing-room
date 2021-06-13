@@ -137,7 +137,7 @@ h3 {
     font-size: 2vh;
     padding: .7em;
     text-align: center;
-    border-radius: 15%;
+    border-radius: 15px;
 
     /*add shadow to the button, code taken from https://www.w3schools.com/css/css3_buttons.asp*/
 
@@ -271,4 +271,26 @@ blockquote {
     height: 350px;
     background-size: cover;
     border-radius: 15px;
+}
+
+/*style and center the events-button*/
+
+#events-button {
+    width: 1300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #186577ff;
+    font-size: 2vh;
+    padding: .7em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: #846577ff;
 }
