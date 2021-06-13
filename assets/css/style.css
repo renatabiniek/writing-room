@@ -244,20 +244,14 @@ blockquote {
     line-height: 20px;
 }
 
-/*style group mission section*/
-
-#mission {
-    background: grey;
-    height: 40vh;
-    font-size: inherit;
-    padding-top: 1.5em;
-    flex: 60%;
-}
-
-/*add padding to the text*/
+/*style group about-writingroom section*/
 
 #about-writingroom {
-    padding: 1em;
+    background: grey;
+    height: 320px;
+    font-size: inherit;
+    padding-top: 1em;
+    flex: 60%;
 }
 
 /*add and style image to mission section*/
@@ -266,23 +260,20 @@ blockquote {
     flex: 40%;
 }
 
-/*style the container into a circle*/
+/*style the container for the photo*/
 
 #photo-container {
-    height: 300px;
-    width: 300px;
-    padding: 20px;
+    height: 320px;
+    padding: 0.9em;
     margin: 0 auto;
-    border: 1px solid #c9c9c9ff;
-    border-radius: 50%;
 }
 
 /*style the photo and position within the container*/
 
 #photo-background {
-    background: url("../images/mission-photo.webp") no-repeat center center;
+    background: #c9c9c9ff url("../images/about-writing-room.webp") no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 15px;
 }
 
 /*flex mission section*/
