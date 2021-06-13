@@ -223,7 +223,7 @@ blockquote {
 /*style and position individual divs*/
 
 .flex-reasons>div {
-    width: 360px;
+    width: 300px;
     height: 10vh;
     margin: 50px 10px;
     text-align: center;
