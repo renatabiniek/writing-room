@@ -19,8 +19,6 @@ body {
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
 }
 
 /*style headings throughout the whole site*/
@@ -30,6 +28,11 @@ h2 {
     font-family: Courgette, cursive;
     letter-spacing: 4px;
     color: #186577;
+}
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    color: #3a3a3a;
 }
 
 /*style logo*/
@@ -53,7 +56,6 @@ header a {
 /*style the links inside the navigation bar*/
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 4vw;
     text-transform: uppercase;
@@ -62,7 +64,6 @@ header a {
 #menu a {
     color: #186577ff;
     text-decoration: none;
-    text-align: center;
     font-size: 120%;
 }
 
