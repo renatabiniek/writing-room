@@ -206,10 +206,10 @@ blockquote {
 
 /*style and position the group mission heading*/
 
-#writing-room h2 {
+h2 {
     text-align: center;
     font-size: 300%;
-    margin: 30px 0;
+    margin: 50px 0;
 }
 
 /*flex container for reasons section*/
@@ -287,10 +287,68 @@ blockquote {
     background-color: #186577ff;
     font-size: 2vh;
     padding: .7em;
+    margin: 20px 0;
     text-align: center;
     border-radius: 15px;
 }
 
 .button:hover {
     background-color: #846577ff;
+}
+
+/*mindful writing section*/
+
+#mindful-writing {
+    background-color: rgba(132, 101, 119, .2);
+    padding-bottom: 75px;
+}
+
+#mindful-writing h2 {
+    padding-top: 30px;
+}
+
+/*flex container for mindful writing section*/
+
+.flex-mindfulness {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/*style flex items of mindful writing section*/
+
+.flex-mindfulness > div {
+    text-align: left;
+}
+
+#mindful-photo {
+    width: 500px;
+    margin: 10px;
+}
+
+/*style and position the mindful-photo background*/
+
+#mindful-background {
+    background: #c9c9c9ff url("../images/mindful-writing.webp") no-repeat center center;
+    height: 350px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#mindful-text {
+    background-color: white;
+    width: 800px;
+    margin: 10px;
+    line-height: 1.5em;
+    font-size: medium;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#mindful-text a {
+    color: #186577ff;
+}
+
+#mindful-text a:hover {
+    color: #846577ff;
 }
