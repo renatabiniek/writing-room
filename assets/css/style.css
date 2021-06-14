@@ -407,7 +407,7 @@ h2 {
 #past-events {
     background-color: rgba(197, 224, 216, .4);
     text-align: center;
-    padding: 5px 0 20px;
+    padding: 5px 0;
 }
 
 /*add images to gallery and masonry styling with 4 columns on desktop*/
@@ -434,23 +434,31 @@ h2 {
  }
 
  /*style location text and map*/
- 
+
 .flex-location > div {
     text-align: left;
     padding: 10px;
-    height: 300px;
     margin: 10px;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 #address {
     background-color: rgba(132, 101, 119, .2);
     border-radius: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 50px 50px;
 }
 
 #map {
     border: 2px solid rgba(132, 101, 119, .2);
     border-radius: 15px;
+}
+
+#location > h2 {
+    padding-top: 20px;
+}
+
+/*contact and signup form*/
+
+#contact {
+    background-color: rgba(197, 224, 216, .4);
 }
