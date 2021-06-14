@@ -460,7 +460,6 @@ h2 {
 /*contact and signup form*/
 
 #form-section {
-    background-color: rgba(197, 224, 216, .5);
     padding-bottom: 50px;
 }
 
@@ -469,7 +468,7 @@ h2 {
 }
 
 .signup-form {
-    background-color: rgba(201, 201, 201, 1);
+    background-color: rgba(201, 201, 201, .5);
     width: 33%;
     margin: auto;
     padding: 30px;
