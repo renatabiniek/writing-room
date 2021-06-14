@@ -403,16 +403,18 @@ h2 {
 
 #past-events {
     background-color: rgba(197, 224, 216, .4);
+    text-align: center;
+    padding-top: 5px;
 }
 
-.flex-gallery {
-    background-color: rebeccapurple;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+/*add images to gallery and masonry styling with 4 columns on desktop*/
+.gallery { 
+    column-count: 4;
+    line-height: auto;
+    column-gap: 5px;
+    margin-top: 25px;
 }
 
-.flex-gallery > img {
-    width: 300px;
-    padding: 10px;
+.gallery > img {
+    width: 100%;
 }
