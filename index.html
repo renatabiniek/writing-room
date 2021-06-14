@@ -229,8 +229,41 @@
             </div>
         </div>
     </section>
-    <section id="contact">
-        <h2>Sign up / Contact</h2>
+    <section id="form-section">
+        <h2>Sign up and write</h2>
+        <form class="signup-form" action="https://formdump.codeinstitute.net" method="POST">
+            <label for="name-field"><strong>Name:</strong></label>
+            <input class="text-input" id="name-field" type="text" name="first_name" required>
+            
+            <label for="surname-field"><strong>Surname:</strong></label>
+            <input class="text-input" id="surname-field" type="text" name="surname">
+
+            <label for="email-field"><strong>Email:</strong></label>
+            <input class="text-input" id="email-field" type="email" name="email" required>
+
+            <input id="morning-pages" type="radio" name="event" value="morning_pages" checked required>
+            <label for="morning-pages">Morning Pages</label>
+
+            <input id="writing-cafe" type="radio" name="event" value="writing_cafe">
+            <label for="writing-cafe">Writing Cafe</label>
+
+            <input id="workshop" type="radio" name="event" value="critique_workshop">
+            <label for="workshop">Workshop</label>
+
+            <input id="bookclub" type="radio" name="event" value="windful_bookclub">
+            <label for="bookclub">Bookclub</label>
+
+            <input id="question" type="radio" name="event" value="question">
+            <label for="question">Other</label><br>
+            <br>
+            
+            <label for="message-field"><strong>Your message:</strong></label><br>
+            <br>
+            <textarea id="message-field" name="message" cols="50" rows="10" placeholder="Sign up by selecting one of the events above or send me a message if you have any questions"></textarea>
+            
+
+            <input type="submit" value="Send">
+        </form>
     </section>
     <section>Signup for newsletter</section>
     <footer>Footer</footer>

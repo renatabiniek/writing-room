@@ -459,6 +459,31 @@ h2 {
 
 /*contact and signup form*/
 
-#contact {
+#form-section {
     background-color: rgba(197, 224, 216, .4);
+}
+
+#form-section > h2 {
+    padding-top: 20px;
+}
+
+.signup-form {
+    background-color: rgba(132, 101, 119, .6);
+    width: 33%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#message-field {
+    width: 100%;
+    border-radius: 5px;
 }
