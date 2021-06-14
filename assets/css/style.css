@@ -273,9 +273,9 @@ h2 {
     border-radius: 15px;
 }
 
-/*style and center the events-button*/
+/*style and center the buttons for the remainder of the page*/
 
-#events-button {
+.flex-button {
     margin: 10px auto;
     display: flex;
     justify-content: center;
@@ -349,7 +349,9 @@ h2 {
     color: #846577ff;
 }
 
-/*temp*/
+/*schedule of events section*/
+
+/*flex container for the events blocks*/
 
 .flex-events {
     display: flex;
@@ -359,33 +361,40 @@ h2 {
 
 .flex-events>div {
     width: 350px;
-    height: 300px;
-    margin: 10px;
+    height: 400px;
+    margin: 40px 10px;
     text-align: center;
     line-height: 75px;
+    border-radius: 15px;
 }
 
-#events-schedule {
-    background-color: teal;
-}
+/*style paragraph text in the events section*/
 
 #events-schedule p {
-    background-color: thistle;
     line-height: 1.5em;
+    text-align: center;
 }
 
-#morning-pages {
-    background-color: red;
+/*style event column boxes*/
+
+.paragraph-box {
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
-#writing-cafe {
-    background-color: yellow;
+#morning-pages, #critique-workshop {
+    background-color: rgba(197, 224, 216, .7)
 }
 
-#critique-workshop {
-    background-color: tomato;
+#writing-cafe, #mindful-reader {
+    background-color: rgba(132, 101, 119, .6);
 }
 
-#mindful-reader {
-    background-color: turquoise;
+/*style paragraph text within the event columns*/
+
+.paragraph-box p {
+    padding-top: 20px;
 }
