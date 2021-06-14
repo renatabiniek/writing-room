@@ -407,7 +407,7 @@ h2 {
 #past-events {
     background-color: rgba(197, 224, 216, .4);
     text-align: center;
-    padding-top: 5px;
+    padding: 5px 0 20px;
 }
 
 /*add images to gallery and masonry styling with 4 columns on desktop*/
@@ -424,21 +424,33 @@ h2 {
 
 /*location section*/
 
-#address {
-    background-color: red;
-}
-
-#map {
-    background-color: blue;
-}
+/*flex container for location*/
 
 .flex-location {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+ }
+
+ /*style location text and map*/
+ 
+.flex-location > div {
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+    margin: 10px;
+    line-height: 2em;
 }
 
-.flex-location >div {
-    width: 40%;
+#address {
+    background-color: rgba(132, 101, 119, .2);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#map {
+    border: 2px solid rgba(132, 101, 119, .2);
+    border-radius: 15px;
 }
