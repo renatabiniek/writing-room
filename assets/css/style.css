@@ -210,6 +210,7 @@ h2 {
     text-align: center;
     font-size: 300%;
     margin: 50px 0;
+    text-transform: capitalize;
 }
 
 /*flex container for reasons section*/
@@ -385,11 +386,13 @@ h2 {
     border-radius: 15px;
 }
 
-#morning-pages, #critique-workshop {
+#morning-pages,
+#critique-workshop {
     background-color: rgba(197, 224, 216, .8)
 }
 
-#writing-cafe, #mindful-reader {
+#writing-cafe,
+#mindful-reader {
     background-color: rgba(132, 101, 119, .6);
 }
 
@@ -408,13 +411,34 @@ h2 {
 }
 
 /*add images to gallery and masonry styling with 4 columns on desktop*/
-.gallery { 
+.gallery {
     column-count: 4;
     line-height: auto;
     column-gap: 5px;
     margin-top: 25px;
 }
 
-.gallery > img {
+.gallery>img {
     width: 100%;
+}
+
+/*location section*/
+
+#address {
+    background-color: red;
+}
+
+#map {
+    background-color: blue;
+}
+
+.flex-location {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-location >div {
+    width: 40%;
 }
