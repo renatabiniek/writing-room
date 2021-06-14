@@ -232,7 +232,10 @@ h2 {
 
 /*temp structure*/
 
-#reason-one, #reason-two, #reason-three, #reason-four {
+#reason-one,
+#reason-two,
+#reason-three,
+#reason-four {
     line-height: 30px;
 }
 
@@ -317,7 +320,7 @@ h2 {
 
 /*style flex items of mindful writing section*/
 
-.flex-mindfulness > div {
+.flex-mindfulness>div {
     text-align: left;
 }
 
@@ -351,4 +354,45 @@ h2 {
 
 #mindful-text a:hover {
     color: #846577ff;
+}
+
+/*temp*/
+
+.flex-events {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex-events>div {
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+
+#events-schedule {
+    background-color: teal;
+}
+
+#events-schedule p {
+    background-color: thistle;
+    line-height: 1.5em;
+}
+
+#morning-pages {
+    background-color: red;
+}
+
+#writing-cafe {
+    background-color: yellow;
+}
+
+#critique-workshop {
+    background-color: tomato;
+}
+
+#mindful-reader {
+    background-color: turquoise;
 }
