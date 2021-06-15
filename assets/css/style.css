@@ -490,10 +490,11 @@ h2 {
 
 #form-button {
     width: 100%;
+    color: white;
 }
 
-/*footer*/
+/*fixed footer*/
 
 .footer {
     background:#846577ff;
-}
+}git a
