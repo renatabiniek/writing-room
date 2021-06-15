@@ -537,3 +537,10 @@ footer {
 #newsletter-button:hover {
     border: 2px solid #186577ff;
 }
+
+/*2nd page temp*/
+
+.morning-pages {
+    height: 80vh;
+    background-color:teal;
+}
