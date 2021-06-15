@@ -24,7 +24,7 @@ nav {
     overflow: hidden;
     background-color: white;
     /*add z-index to keep the navbar on the top of other content*/
-    z-index:1000;
+    z-index: 1000;
 }
 
 /*style logo*/
@@ -502,7 +502,7 @@ h2 {
 /*footer with flexbox*/
 
 footer {
-    background:#846577ff;
+    background: #846577ff;
     height: 150px;
     width: 100%;
     display: flex;
@@ -513,7 +513,7 @@ footer {
 
 /*style social icons*/
 
-.flex-social-links > li {
+.flex-social-links>li {
     display: inline-block;
 }
 
@@ -591,4 +591,14 @@ footer {
     padding: 30px;
     margin: 10px;
     border-radius: 15px;
+}
+
+.morning-text h3, p, ol, ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+hr {
+    border: 2px solid #846577ff;
 }
