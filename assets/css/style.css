@@ -492,28 +492,41 @@ h2 {
     color: white;
 }
 
-/*fixed footer*/
+/*footer with flexbox*/
 
-.footer {
+footer {
     background:#846577ff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    height: 150px;
     width: 100%;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /*style social icons*/
-.social-links {
-    text-align: center;
+
+.flex-social-links > li {
+    display: inline-block;
 }
 
-.social-links i {
+.flex-social-links i {
     font-size: 200%;
     color: white;
     padding: 5px;
 }
 
+#newsletter-email {
+    width: 200px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
 #newsletter-button {
     color: white;
+    font-size: 1rem;
+}
+
+#newsletter-button:hover {
+    border: 2px solid #186577ff;
 }
