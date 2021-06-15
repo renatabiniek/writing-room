@@ -333,7 +333,7 @@ h2 {
 #mindful-photo {
     width: 500px;
     margin: 10px;
-    background: #c9c9c9ff url("../images/mindful-writing.webp") no-repeat center center;
+    background: #c9c9c9ff url("../images/morning-pages.webp") no-repeat center center;
     height: 350px;
     background-size: cover;
     border-radius: 15px;
@@ -579,7 +579,7 @@ footer {
     width: 600px;
 
     padding: 30px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 15px;
 }
 
@@ -593,10 +593,9 @@ footer {
     border-radius: 15px;
 }
 
-.morning-text h3, p, ol, ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.about-pages {
     padding-left: 20px;
+    padding-top: 20px;
 }
 
 hr {
