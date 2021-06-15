@@ -549,7 +549,22 @@ footer {
 
 /*2nd page temp*/
 
+.flex-morning {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .morning-pages {
-    height: 80vh;
-    background-color:teal;
+    margin-top: 200px;
+}
+
+.morning-section {
+    background-color: tomato;
+    width: 40%;
+    line-height: 1.5em;
+    padding: 30px;
+    margin: 10px;
 }
