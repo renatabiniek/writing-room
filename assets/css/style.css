@@ -535,7 +535,16 @@ footer {
 }
 
 #newsletter-button:hover {
-    border: 2px solid #186577ff;
+    color: #186577ff;
+    background-color: white;
+}
+
+#footer-button:hover {
+    background-color: white;
+}
+
+#footer-button a:hover {
+    color: #186577ff;
 }
 
 /*2nd page temp*/
