@@ -559,12 +559,23 @@ footer {
 
 .morning-pages {
     margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .morning-section {
-    background-color: tomato;
+    background-color: #c5e0d8ff;
     width: 40%;
+    min-height: 500px;
     line-height: 1.5em;
     padding: 30px;
     margin: 10px;
+    border-radius: 15px;
+}
+
+#morning-background {
+    background-color:#c9c9c9ff;
+    background-image: url(../images/morning-pages.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
