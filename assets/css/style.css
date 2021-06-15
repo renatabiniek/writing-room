@@ -431,11 +431,11 @@ h2 {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
- }
+}
 
- /*style location text and map*/
+/*style location text and map*/
 
-.flex-location > div {
+.flex-location>div {
     text-align: left;
     padding: 10px;
     margin: 10px;
@@ -453,7 +453,7 @@ h2 {
     border-radius: 15px;
 }
 
-#location > h2 {
+#location>h2 {
     padding-top: 20px;
 }
 
@@ -463,7 +463,7 @@ h2 {
     padding-bottom: 50px;
 }
 
-#form-section > h2 {
+#form-section>h2 {
     padding-top: 50px;
 }
 
@@ -473,6 +473,10 @@ h2 {
     margin: auto;
     padding: 30px;
     border-radius: 15px;
+    border: 2px solid rgba(201, 201, 201, 1);
+
+    /*box shadow code from here https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 .text-input {
@@ -486,4 +490,10 @@ h2 {
 #message-field {
     width: 100%;
     border-radius: 5px;
+}
+
+/*style form submit button*/
+
+#form-button {
+    width: 100%;
 }
