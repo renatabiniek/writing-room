@@ -549,6 +549,15 @@ footer {
 
 /*2nd page temp*/
 
+/*position the section in the page*/
+
+.morning-pages {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+/*flex container*/
+
 .flex-morning {
     display: flex;
     flex-flow: row wrap;
@@ -557,25 +566,29 @@ footer {
     margin-bottom: 20px;
 }
 
-.morning-pages {
-    margin-top: 200px;
-    margin-bottom: 100px;
-}
+/*background image*/
 
 .morning-section {
-    background-color: #c5e0d8ff;
-    width: 40%;
-    min-height: 500px;
-    line-height: 1.5em;
+    background-color: #c9c9c9ff;
+    background-image: url(../images/morning-pages.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 350px;
+    width: 600px;
+
     padding: 30px;
     margin: 10px;
     border-radius: 15px;
 }
 
-#morning-background {
-    background-color:#c9c9c9ff;
-    background-image: url(../images/morning-pages.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+/*about morning pages text*/
+
+.morning-text {
+    width: 600px;
+    line-height: 1.5em;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 15px;
 }
