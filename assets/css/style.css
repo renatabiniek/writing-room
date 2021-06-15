@@ -442,12 +442,6 @@ h2 {
     line-height: 1.5em;
 }
 
-#address {
-    background-color: rgba(132, 101, 119, .2);
-    border-radius: 15px;
-    padding: 50px 50px;
-}
-
 #map {
     border: 2px solid rgba(132, 101, 119, .2);
     border-radius: 15px;
@@ -496,4 +490,10 @@ h2 {
 
 #form-button {
     width: 100%;
+}
+
+/*footer*/
+
+.footer {
+    background:#846577ff;
 }
