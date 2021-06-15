@@ -14,11 +14,17 @@ body {
 
 /*headings and logo*/
 
-/*style navbar*/
+/*style fixed navbar*/
 
 nav {
     width: 100%;
-    margin: 20px 0;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    /*add z-index to keep the navbar on the top of other content*/
+    z-index:1000;
 }
 
 /*style logo*/
@@ -92,6 +98,7 @@ h3 {
 /*move hero image below the header*/
 
 #hero-outer {
+    margin-top: 150px;
     height: 95vh;
     width: 100%;
     overflow: hidden;
