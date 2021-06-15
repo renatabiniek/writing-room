@@ -496,6 +496,22 @@ h2 {
 
 .footer {
     background:#846577ff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/*style social icons*/
+.social-links {
+    text-align: center;
+}
+
+.social-links i {
+    font-size: 200%;
+    color: white;
+    padding: 5px;
 }
 
 #newsletter-button {
