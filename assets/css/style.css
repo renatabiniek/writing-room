@@ -82,13 +82,18 @@ nav {
     flex-flow: row wrap;
 }
 
-/*style headings throughout the whole site*/
+/*style and position h2 headings throughout the whole site*/
 
-h2 {
+.intro {
     font-family: Courgette, cursive;
     letter-spacing: 4px;
     color: #186577;
+    text-align: center;
+    font-size: 300%;
+    margin: 50px 0;
+    text-transform: capitalize;
 }
+
 
 h3 {
     font-family: Montserrat, sans-serif;
@@ -215,14 +220,7 @@ blockquote {
 
 /*Writing Room group mission*/
 
-/*style and position the group mission heading*/
 
-h2 {
-    text-align: center;
-    font-size: 300%;
-    margin: 50px 0;
-    text-transform: capitalize;
-}
 
 /*flex container for reasons section*/
 .flex-reasons {
