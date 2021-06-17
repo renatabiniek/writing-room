@@ -402,7 +402,6 @@ blockquote {
 /*add images to gallery and masonry styling with 4 columns on desktop*/
 .gallery {
     column-count: 4;
-    line-height: auto;
     column-gap: 5px;
     margin-top: 25px;
 }
