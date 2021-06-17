@@ -212,7 +212,7 @@ blockquote::after {
 }
 
 blockquote {
-    quotes: "“""”""‘""’";
+    quotes: auto;
 }
 
 /*Writing Room group mission*/
@@ -467,6 +467,10 @@ blockquote {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.form-block {
+    margin: 10px 0px 10px 20px;
 }
 
 #message-field {
