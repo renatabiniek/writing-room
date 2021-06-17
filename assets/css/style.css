@@ -105,15 +105,15 @@ nav {
 
 /*hero image and cover text*/
 
-/*move hero image below the header*/
-
 #hero-outer {
+    /*top margin set to match the height of the header and display the heor image below it*/
     margin-top: 150px;
+
     width: 100%;
     overflow: hidden;
 }
 
-/*set size, fall back color, background image and position of the hero image*/
+/*set size, fall-back color, background image and position of the hero image*/
 
 #hero-image {
     height: 95vh;
@@ -122,7 +122,7 @@ nav {
     position: relative;
 }
 
-/*style the hero text and position the hero text in the center of the hero image*/
+/*style the hero text and position it in the center of the hero image*/
 
 #hero-text p {
     text-transform: lowercase;
@@ -137,35 +137,39 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-/*style and position the hero text button*/
+/*style the call to action button throughout the whole site */
 
-#hero-image .button {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.button {
     background-color: #186577ff;
     font-size: 2vh;
     padding: .7em;
+    margin: 20px 0;
     text-align: center;
     border-radius: 15px;
 
     /*add shadow to the button, code taken from https://www.w3schools.com/css/css3_buttons.asp*/
 
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-/*add hover effect to the button*/
-
-#hero-image .button:hover {
-    background-color: #846577ff;
-}
-
-/*remove text decoration and change color of links on buttons*/
-
-.button {
+    /*remove text decoration and change color of links on buttons*/
     text-decoration: none;
     color: white;
+}
+
+
+/*style and position the hero text button specifically in the center of the hero image*/
+
+#hero-image .button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*add hover effect to the buttons by changing its color*/
+
+.button:hover {
+    background-color: #846577ff;
 }
 
 /*overlay cover text*/
@@ -199,7 +203,7 @@ nav {
     text-align: center;
 }
 
-/*specify quotation marks for the quote, taken from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/*/
+/*specify style of quotation marks for the quote, taken from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/*/
 
 blockquote::before {
     content: open-quote;
@@ -214,8 +218,6 @@ blockquote {
 }
 
 /*Writing Room group mission*/
-
-
 
 /*flex container for reasons section*/
 .flex-reasons {
@@ -253,7 +255,6 @@ blockquote {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 #about-writingroom {
@@ -278,27 +279,6 @@ blockquote {
     border-radius: 15px;
 }
 
-/*style and center the buttons for the remainder of the page*/
-
-.flex-button {
-    margin: 10px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button {
-    background-color: #186577ff;
-    font-size: 2vh;
-    padding: .7em;
-    margin: 20px 0;
-    text-align: center;
-    border-radius: 15px;
-}
-
-.button:hover {
-    background-color: #846577ff;
-}
 
 /*mindful writing section*/
 
@@ -371,6 +351,14 @@ blockquote {
     text-align: center;
     line-height: 75px;
     border-radius: 15px;
+}
+
+/*style and center the buttons for the remainder of the page*/
+
+.flex-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*style paragraph text in the events section*/
@@ -540,7 +528,7 @@ footer {
     background-color: white;
 }
 
-#footer-button a:hover {
+#footer-button p:hover {
     color: #186577ff;
 }
 
