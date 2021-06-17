@@ -122,22 +122,17 @@ nav {
     position: relative;
 }
 
-/*style the hero text*/
+/*style the hero text and position the hero text in the center of the hero image*/
 
 #hero-text p {
+    text-transform: lowercase;
     color: #2a2d32;
     font-size: 6.5vh;
     font-family: Courgette, cursive;
     letter-spacing: 4px;
-    border-radius: 15px;
-}
-
-/*position the hero text in the center of the hero image */
-
-#hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
