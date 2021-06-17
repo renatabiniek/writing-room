@@ -7,6 +7,8 @@
     border: none;
 }
 
+/*set font family and color for the body*/
+
 body {
     font-family: Montserrat, sans-serif;
     color: #3a3a3a;
@@ -29,10 +31,13 @@ nav {
 
 /*style logo*/
 
-#logo {
+.logo {
     display: inline-block;
     font-size: 250%;
     margin-left: 20px;
+    font-family: Courgette, cursive;
+    letter-spacing: 4px;
+    color: #186577;
 }
 
 /*remove list style from the menu links*/
@@ -79,7 +84,6 @@ nav {
 
 /*style headings throughout the whole site*/
 
-h1,
 h2 {
     font-family: Courgette, cursive;
     letter-spacing: 4px;
@@ -159,7 +163,7 @@ h3 {
 
 /*remove text decoration and change color of links on buttons*/
 
-.button a {
+.button {
     text-decoration: none;
     color: white;
 }
