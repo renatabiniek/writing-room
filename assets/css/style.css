@@ -16,7 +16,7 @@ body {
 
 /*headings and logo*/
 
-/*style and position h2 headings throughout the whole site*/
+/*style and position h2 headings throughout the site*/
 
 .intro {
     font-family: Courgette, cursive;
@@ -28,7 +28,7 @@ body {
     text-transform: capitalize;
 }
 
-/*style h3 headings throughout the whole site*/
+/*style h3 headings throughout the site*/
 
 .category {
     font-family: Montserrat, sans-serif;
@@ -57,14 +57,9 @@ nav {
     top: 0;
     overflow: hidden;
     background-color: white;
+    
     /*add z-index to keep the navbar on the top of other content*/
     z-index: 1000;
-}
-
-/*remove list style from the menu links*/
-
-.flex-links {
-    list-style: none;
 }
 
 /*style the links inside the navbar*/
@@ -89,7 +84,7 @@ nav {
     border-bottom: 2px solid #846577ff;
 }
 
-/*flex containers for responsive header*/
+/*responsive header with flex container for logo and navigation menu*/
 
 .flex-container {
     display: flex;
@@ -98,9 +93,12 @@ nav {
     align-items: center;
 }
 
-.flex-links {
+.nav-links {
     display: flex;
     flex-flow: row wrap;
+
+/*remove list style from the menu links*/
+    list-style: none;
 }
 
 /*hero image and cover text*/
@@ -124,10 +122,10 @@ nav {
 
 /*style the hero text and position it in the center of the hero image*/
 
-#hero-text p {
+#hero-text h2 {
     text-transform: lowercase;
     color: #2a2d32;
-    font-size: 6.5vh;
+    font-size: 300%;
     font-family: Courgette, cursive;
     letter-spacing: 4px;
     text-align: center;
