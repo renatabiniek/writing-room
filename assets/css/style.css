@@ -503,7 +503,7 @@ h2 {
 
 footer {
     background: #846577ff;
-    height: 150px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
