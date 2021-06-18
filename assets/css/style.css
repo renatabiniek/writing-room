@@ -16,6 +16,16 @@ body {
 
 /*headings and logo*/
 
+/*style h1 and logo*/
+
+.logo {
+    display: inline-block;
+    font-size: 250%;
+    margin-left: 20px;
+    font-family: Courgette, cursive;
+    letter-spacing: 4px;
+    color: #186577;
+}
 /*style and position h2 headings throughout the site*/
 
 .intro {
@@ -35,17 +45,6 @@ body {
     color: #3a3a3a;
     text-transform: capitalize;
     letter-spacing: 4px;
-}
-
-/*style logo*/
-
-.logo {
-    display: inline-block;
-    font-size: 250%;
-    margin-left: 20px;
-    font-family: Courgette, cursive;
-    letter-spacing: 4px;
-    color: #186577;
 }
 
 /*style fixed navbar*/
@@ -73,7 +72,7 @@ nav {
     font-size: 1.5em;
 }
 
-/*style links on hover and when active*/
+/*style navbar links on hover and when active*/
 
 .nav-item a:hover {
     color: #846577ff;
@@ -84,7 +83,7 @@ nav {
     border-bottom: 2px solid #846577ff;
 }
 
-/*responsive header with flex container for logo and navigation menu*/
+/*specify flex container for logo and navigation menu for responsiveness*/
 
 .flex-container {
     display: flex;
@@ -101,10 +100,10 @@ nav {
     list-style: none;
 }
 
-/*hero image and cover text*/
+/*hero image with a slogan, overlay text and call to action button*/
 
 #hero-outer {
-    /*top margin set to match the height of the header and display the heor image below it*/
+    /*top margin set to match the height of the header and display the hero image underneath it*/
     margin-top: 150px;
 
     width: 100%;
@@ -115,12 +114,12 @@ nav {
 
 #hero-image {
     height: 95vh;
-    background: #c9c9c9ff url(..//images/hero-image.jpg) no-repeat center center;
+    background: #c9c9c9ff url("..//images/hero-image.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
 }
 
-/*style the hero text and position it in the center of the hero image*/
+/*style the hero text slogan and position it in the center of the hero image*/
 
 #hero-text h2 {
     text-transform: lowercase;
@@ -135,7 +134,7 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-/*style the call to action button throughout the whole site */
+/*style the call to action button, same throughout the whole site */
 
 .button {
     background-color: #186577ff;
@@ -154,6 +153,12 @@ nav {
     color: white;
 }
 
+/*add hover effect to the buttons by changing its color*/
+
+.button:hover {
+    background-color: #846577ff;
+}
+
 /*style and position the hero text button specifically in the center of the hero image*/
 
 #hero-image .button {
@@ -163,13 +168,7 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-/*add hover effect to the buttons by changing its color*/
-
-.button:hover {
-    background-color: #846577ff;
-}
-
-/*overlay cover text*/
+/*style and position overlay cover text*/
 
 #cover-text {
     /*add oppacity to the background for better contrast between text and background*/
@@ -211,12 +210,12 @@ blockquote::after {
 }
 
 blockquote {
-    quotes: auto;
+    quotes: "“" "”" "‘" "’";
 }
 
-/*Writing Room group mission*/
+/*Writing Room group background and mission section*/
 
-/*flex container for reasons section*/
+/*specify responsive flex container for reasons to join the group grouped in 4 divs*/
 .flex-reasons {
     display: flex;
     flex-direction: row;
@@ -235,9 +234,7 @@ blockquote {
     line-height: 30px;
 }
 
-/*style group about-writingroom section*/
-
-/*flex about writing room section*/
+/*specify responsive flex container for writing room background text*/
 
 .flex-writingroom {
     display: flex;
@@ -257,7 +254,7 @@ blockquote {
     border-radius: 15px;
 }
 
-/*style and position the photo*/
+/*style and position the background image*/
 
 #mission-photo {
     width: 500px;
@@ -268,7 +265,7 @@ blockquote {
     border-radius: 15px;
 }
 
-/*target the buttons for the remainder of the page, outside of hero image*/
+/*position the buttons for the remainder of the page, outside of hero image*/
 
 .page-button {
     display: flex;
@@ -278,16 +275,20 @@ blockquote {
 
 /*mindful writing section*/
 
+/*style section background*/
+
 #mindful-writing {
     background-color: rgba(132, 101, 119, .2);
     padding-bottom: 75px;
 }
 
+/*add padding to the top of the heading for breathing space*/
+
 #mindful-writing h2 {
     padding-top: 30px;
 }
 
-/*flex container for mindful writing section*/
+/*specify flex container for mindful writing text block and decorative background image*/
 
 .flex-mindfulness {
     display: flex;
@@ -295,7 +296,7 @@ blockquote {
     justify-content: center;
 }
 
-/*style flex items of mindful writing section*/
+/*style divs of the mindful writing section*/
 
 .flex-mindfulness > div {
     text-align: left;
@@ -332,7 +333,7 @@ blockquote {
 
 /*schedule of events section*/
 
-/*flex container for the events blocks*/
+/*specify flex container for the events text blocks and button*/
 
 .flex-events {
     display: flex;
@@ -357,7 +358,7 @@ blockquote {
     text-align: center;
 }
 
-/*style event column boxes*/
+/*style event boxes*/
 
 .paragraph-box {
     width: 80%;
@@ -367,24 +368,27 @@ blockquote {
     border-radius: 15px;
 }
 
+/*add background color to event box 1 and 3*/
 #morning-pages,
 #critique-workshop {
     background-color: rgba(197, 224, 216, .8)
 }
 
+/*add background color to event box 2 and 4*/
 #writing-cafe,
 #mindful-reader {
     background-color: rgba(132, 101, 119, .6);
 }
 
-/*style paragraph text within the event columns*/
+/*style paragraph text within the event boxes*/
 
 .paragraph-box p {
     padding-top: 20px;
 }
 
-/*past events gallery*/
+/*gallery section*/
 
+/*style text for the whole section*/
 #past-events {
     text-align: center;
     padding: 5px 0;
@@ -403,7 +407,7 @@ blockquote {
 
 /*location section*/
 
-/*flex container for location*/
+/*specify flex container for location text and map*/
 
 .flex-location {
     display: flex;
@@ -421,16 +425,22 @@ blockquote {
     line-height: 1.5em;
 }
 
+/*style map iframe*/
+
 #map {
     border: 2px solid rgba(132, 101, 119, .2);
     border-radius: 15px;
 }
 
+/*add padding at the top of the heading for breathing space*/
+
 #location > h2 {
     padding-top: 20px;
 }
 
-/*contact and signup form*/
+/*contact and signup form section*/
+
+/*add padding to the section and section heading for breathing space*/
 
 #form-section {
     padding-bottom: 50px;
@@ -439,6 +449,8 @@ blockquote {
 #form-section > h2 {
     padding-top: 50px;
 }
+
+/*style contact form*/
 
 .signup-form {
     background-color: rgba(201, 201, 201, .5);
@@ -460,23 +472,26 @@ blockquote {
     border-radius: 5px;
 }
 
+/*add margin to radio input to spread them apart from each other*/
 .form-block {
     margin: 10px 0px 10px 20px;
 }
 
+/*style main message field*/
 #message-field {
     width: 100%;
     border-radius: 5px;
 }
 
 /*style form submit button*/
-
 #signup-button {
     width: 100%;
     color: white;
 }
 
-/*footer with flexbox*/
+/*footer section*/
+
+/*set and style flex container for footer with social links, newsletter signup form and back to top button*/
 
 footer {
     background: #846577ff;
@@ -488,7 +503,7 @@ footer {
     align-items: center;
 }
 
-/*style social icons in the footer*/
+/*style social links and icons in the footer*/
 
 .flex-social-links > li {
     display: inline-block;
@@ -499,6 +514,8 @@ footer {
     color: white;
     padding: 5px;
 }
+
+/*style newsletter signup form in the footer*/
 
 #newsletter-email {
     width: 200px;
@@ -515,6 +532,8 @@ footer {
     color: #186577ff;
     background-color: white;
 }
+
+/*style back to top button in the footer on hover*/
 
 #footer-button:hover {
     background-color: white;
@@ -533,7 +552,7 @@ footer {
     margin-bottom: 100px;
 }
 
-/*flex container*/
+/*set responsive flex container for text block and background image*/
 
 .flex-morning {
     display: flex;
@@ -543,11 +562,34 @@ footer {
     margin-bottom: 20px;
 }
 
-/*background image set as a decoration to the text block*/
+/*style morning pages text block*/
+
+.morning-text {
+    width: 600px;
+    line-height: 1.5em;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/*add padding to headings and paragraphs*/
+
+.about-pages {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/*style hr line*/
+
+hr {
+    border: 2px solid #846577ff;
+}
+
+/*style background image to compliment the text block*/
 
 .morning-section {
     background-color: #c9c9c9ff;
-    background-image: url(../images/morning-pages2.webp);
+    background-image: url("../images/morning-pages2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -558,23 +600,4 @@ footer {
     padding: 30px;
     margin: 20px;
     border-radius: 15px;
-}
-
-/*about morning pages text*/
-
-.morning-text {
-    width: 600px;
-    line-height: 1.5em;
-    padding: 30px;
-    margin: 10px;
-    border-radius: 15px;
-}
-
-.about-pages {
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-hr {
-    border: 2px solid #846577ff;
 }
