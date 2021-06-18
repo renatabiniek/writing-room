@@ -18,14 +18,14 @@
         <!--navigation bar with logo, 2 links to sections on th home page and 1 link to 2nd page-->
 
         <nav class="flex-container">
-            <a href="index.html">
+            <a href="index.html" aria-label="Go to top of the home page">
                 <h1 class="logo">Writing Room</h1>
             </a>
             <ul class="nav-links">
-                <li class="nav-item"><a href="index.html" class="active">Home</a></li>
-                <li class="nav-item"><a href="morning-pages.html">Morning Pages</a></li>
-                <li class="nav-item"><a href="#events-schedule">Events</a></li>
-                <li class="nav-item"><a href="#form-section">Contact</a></li>
+                <li class="nav-item"><a href="index.html" class="active" aria-label="Go to top of the home page">Home</a></li>
+                <li class="nav-item"><a href="morning-pages.html" aria-label="Go to second page with further reading on morning pages">Morning Pages</a></li>
+                <li class="nav-item"><a href="#events-schedule" aria-label="Go to event schedule section">Events</a></li>
+                <li class="nav-item"><a href="#form-section" aria-label="Go to the contact form section">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -45,7 +45,7 @@
                 <p>and North County Dublin</p>
             </div>
             <!--call to action button with link to the next section-->
-            <a class="button" href="#welcome">Join us!</a>
+            <a class="button" href="#welcome" aria-label="Jump to the welcome section with the group purpose">Join us!</a>
         </div>
     </section>
 
@@ -114,7 +114,7 @@
             <div id="mission-photo"></div>
         </div>
         <div class="page-button">
-            <a class="button" href="#events-schedule">See our events!</a>
+            <a class="button" href="#events-schedule" aria-label="Go to the events schedule section">See our events!</a>
         </div>
     </section>
     <section id="mindful-writing">
@@ -145,7 +145,7 @@
                 <p>
                     Our online <strong>Morning Pages sessions</strong> will get you started!
                 </p>
-                <a href="morning-pages.html">Find out more...</a>
+                <a href="morning-pages.html" aria-label="Go to the second page with further reading on morning pages">Find out more...</a>
             </div>
         </div>
     </section>
@@ -154,7 +154,7 @@
         <p>Join one of our free events!</p>
         <br>
         <p>Find time for yourself and your writing, get unblocked and connect with other writers.<br>
-            To sign up, fill out the <a href="#form-section">contact us form</a> and select the event you want to attend.<br>
+            To sign up, fill out the <a href="#form-section" aria-label="Go to the contact form section">contact us form</a> and select the event you want to attend.<br>
             Just bring a pen and notebook with you, we write offline!<br>
             We hope to see you there!</p>
         <div class="flex-events">
@@ -163,7 +163,7 @@
                 <div class="paragraph-box">
                     <p><em>Mon-Sat</em></p>
                     <p>7.00am - 8.00am</p>
-                    <p><a href="morning-pages.html">About Morning Pages</a></p>
+                    <p><a href="morning-pages.html" aria-label="Go to the second page with further reading on morning pages">About Morning Pages</a></p>
                     <p>online (Zoom)</p>
                 </div>
             </div>
@@ -192,14 +192,14 @@
                     <p><em>Bimonthly bookclub</em></p>
                     <p>next date: 3rd July, 4pm</p>
                     <p><a href="docs/reading-list.pdf" target="_blank"
-                            aria-label="Reading list for the bookclub (opens in new window)">Download Reading List in PDF</a>
+                            aria-label="Download reading list in pdf format for the bookclub (opens in a new window)">Download Reading List in PDF</a>
                     </p>
                     <p>The Garden House Cafe</p>
                 </div>
             </div>
         </div>
         <div class="page-button">
-            <a class="button" href="#form-section">Sign up!</a>
+            <a class="button" href="#form-section" aria-label="Go to contact form section to sign up">Sign up!</a>
         </div>
     </section>
     <section id="past-events">
@@ -224,7 +224,7 @@
         <div class="flex-location">
             <div id="address">
                 <p>We meet, write and chat in the lovely coffee shop in <a href="https://thegardenhouse.ie/pages/cafe"
-                        target="_blank" rel="noopener" aria-label="Homepage of the Garden House cafe {opens in a new window)">The
+                        target="_blank" rel="noopener" aria-label="Go to homepage of the Garden House cafe {opens in a new window)">The
                         Garden House Cafe, Malahide.</a></p>
                 <br>
                 <p><strong>Address:</strong></p>
@@ -233,7 +233,7 @@
                     Co Dublin K36 PD77</p>
                 <br>
                 <p>After the critique workshops, we often head to the <a href="http://gibneys.com/" target="_blank" rel="noopener"
-                        aria-label="Homepage of Gibney's pub (opens in a new window)">Gibney's Of Malahide</a> pub<br>to
+                        aria-label="Go to homepage of Gibney's pub (opens in a new window)">Gibney's Of Malahide</a> pub<br>to
                     chat and celebrate a job well done over a drink.</p>
             </div>
             <!--embedded google maps showing the location-->
@@ -275,7 +275,7 @@
             <textarea id="message-field" name="message" cols="50" rows="5"
                 placeholder="Sign up by selecting one of the events above or send me a message if you have any questions"></textarea>
 
-            <input id="signup-button" class="button" type="submit" value="Send">
+            <input id="signup-button" class="button" type="submit" value="Send" aria-label="Submit your contact form message">
         </form>
     </section>
     <footer>
@@ -286,9 +286,9 @@
         </ul>
         <form class="flex-newsletter">
             <input class="text-input" id="newsletter-email" type="email" placeholder="Sign up for a newsletter" required>
-            <input id="newsletter-button" class="button" type="submit" value="Sign me up!">
+            <input id="newsletter-button" class="button" type="submit" value="Sign me up!" aria-label="Sign up for a newsletter">
         </form>
-        <a href="index.html" id="footer-button" class="button"><p>Top <i class="fas fa-angle-double-up"></i></p></a>
+        <a href="index.html" id="footer-button" class="button" aria-label="Jump back to the top of the home page"><p>Top <i class="fas fa-angle-double-up"></i></p></a>
         </footer>
 
     <!--font awesome script-->
