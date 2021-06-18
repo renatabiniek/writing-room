@@ -17,7 +17,7 @@
 
         <!--navigation bar with logo, 2 links to sections located on the home page and another link to 2nd page-->
         
-        <!--container for navbar-->
+        <!--flex container for responsive logo and navigation links-->
         <nav class="flex-container">
             <a href="index.html" aria-label="Click logo to go to the top of the home page">
                 <h1 class="logo">Writing Room</h1>
@@ -31,6 +31,8 @@
         </nav>
     </header>
 
+    <!--hero image section-->
+
     <!--container for hero image-->
     <section id="hero-outer">
 
@@ -39,18 +41,21 @@
             <div id="hero-text">
                 <h2 class="intro">slow down. write.</h2>
             </div>
-            <!--text on hero image-->
+
+            <!--overlay text on hero image-->
             <div id="cover-text">
                 <p>Mindful writing group</p>
                 <p>in Malahide</p>
                 <p>and North County Dublin</p>
             </div>
+
             <!--call to action button with link to the next section-->
             <a class="button" href="#welcome" aria-label="Jump to the welcome section with the group purpose">Join us!</a>
         </div>
     </section>
 
     <!--quote set on a new line to create separate block of text-->
+
     <figure class="quote" id="welcome">
         <blockquote>
             Handwriting is more connected to the movement of the heart.
@@ -60,9 +65,14 @@
         </figcaption>
     </figure>
 
-    <!--about writing room section and group mission-->
+    <!--about writing room section with flex container for responsiveness-->
+    
     <section id="writing-room">
+
+        <!--section header-->
         <h2 class="intro">Why write with us?</h2>
+
+        <!--reasons to join writing room-->
         <div class="flex-reasons">
             <div id="reason-one">
                 <div>
@@ -85,6 +95,8 @@
                 <p>Connect with creative locals</p>
             </div>
         </div>
+
+        <!--flex container for writing room background and purpose-->
         <div class="flex-writingroom">
             <div id="about-writingroom">
                 <p>
@@ -109,17 +121,29 @@
                     writing or mindfulness experience is necessary!
                 </p>
             </div>
+
+            <!--background image as decorative addition to the text block-->
             <div id="mission-photo"></div>
         </div>
+
+        <!--call to action button linked to the events section-->
         <div class="page-button">
             <a class="button" href="#events-schedule" aria-label="Go to the events schedule section">See our events!</a>
         </div>
     </section>
+
+    <!--mindful writing section-->
+
     <section id="mindful-writing">
+
+        <!--section header-->
         <h2 class="intro">Mindful writing</h2>
+
+        <!--flex container for mindfulness intro text and decorative background image accompanying the text block-->
         <div class="flex-mindfulness">
             <div id="mindful-photo">
             </div>
+
             <div id="mindful-text">
                 <p><q>Mindfulness is the basic human ability to be fully present, aware of where we are and what we’re
                         doing, and not overly reactive or overwhelmed by what’s going on around us</q>, says Jon
@@ -143,18 +167,29 @@
                 <p>
                     Our online <strong>Morning Pages sessions</strong> will get you started!
                 </p>
+
+                <!--link to second page with further reading on morning pages-->
                 <a href="morning-pages.html" aria-label="Go to the second page with further reading on morning pages">Find out more...</a>
             </div>
         </div>
     </section>
+
+    <!--events schedule section-->
+
     <section id="events-schedule">
+
+        <!--section header-->
         <h2 class="intro">Writing & Mindfulness Events</h2>
+
+        <!--intro text-->
         <p>Join one of our free events!</p>
         <br>
         <p>Find time for yourself and your writing, get unblocked and connect with other writers.<br>
             To sign up, fill out the <a href="#form-section" aria-label="Go to the contact form section">contact us form</a> and select the event you want to attend.<br>
             Just bring a pen and notebook with you, we write offline!<br>
             We hope to see you there!</p>
+
+        <!--flex container for 4 reposive blocks with event types-->
         <div class="flex-events">
             <div id="morning-pages">
                 <h3 class="category">Morning Pages</h3>
@@ -196,16 +231,25 @@
                 </div>
             </div>
         </div>
+
+        <!--call to action button linked to contact form-->
         <div class="page-button">
             <a class="button" href="#form-section" aria-label="Go to contact form section to sign up">Sign up!</a>
         </div>
     </section>
+
+    <!--gallery section-->
+
     <section id="past-events">
+
+        <!--section header and intro text-->
         <h2 class="intro">Past Events</h2>
         <p>We are a friendly bunch of writers!<br>
             You don't need to be an experienced writer or know anything about mindfulness to join us. Everyone is
             welcome.<br>
             Here are some moments captured during our writing cafe events.</p>
+
+        <!--masonry style gallery of images-->    
         <div class="gallery">
             <img src="/assets/images/writer-2.webp" alt="A girl writing in her notebook at a desk">
             <img src="/assets/images/coffee-with-writers.webp" alt="A close-up of three cups with hot and cold drinks">
@@ -217,7 +261,12 @@
             <img src="assets/images/writing-workshop.webp" alt="Two young people reading and writing together at a table">
         </div>
     </section>
+
+    <!--location section-->
+    
     <section id="location">
+
+        <!--section header and location text-->
         <h2 class="intro">Where we write</h2>
         <div class="flex-location">
             <div id="address">
@@ -234,17 +283,25 @@
                         aria-label="Go to homepage of Gibney's pub (opens in a new window)">Gibney's Of Malahide</a> pub<br>to
                     chat and celebrate a job well done over a drink.</p>
             </div>
+
             <!--embedded google maps showing the location-->
             <div id="map">
                 <iframe title="Embedded google maps"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9993.802077096936!2d-6.163521235800249!3d53.44552818382106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671a84939189fd%3A0xb652de11ac2f212!2sThe%20Garden%20House!5e0!3m2!1sen!2suk!4v1623697335355!5m2!1sen!2suk"
                     width="400" height="300" loading="lazy"></iframe>
-
             </div>
         </div>
     </section>
+
+    <!--contact form section-->
+
     <section id="form-section">
+
+        <!--section header with a decorative font awesome icon-->
         <h2 class="intro">Sign up and write <i class="fas fa-feather-alt"></i></h2>
+
+        <!--contact form-->
+
         <form class="signup-form" action="https://formdump.codeinstitute.net" method="POST">
             <label for="name-field"><strong>Name:</strong></label>
             <input class="text-input" id="name-field" type="text" name="first_name" required>
@@ -276,6 +333,9 @@
             <input id="signup-button" class="button" type="submit" value="Send" aria-label="Submit your contact form message">
         </form>
     </section>
+
+    <!--footer section with flex container for social links, signup to newsletter form and back to top button-->
+
     <footer>
         <ul class="flex-social-links">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new window)"><i class="fab fa-facebook-square"></i></a></li>
