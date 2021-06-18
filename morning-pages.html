@@ -17,13 +17,13 @@
         <!--Flex container for responsive header with responsive menu links-->
         <nav class="flex-container">
             <a href="index.html">
-                <h1 class="logo">Writing Room</h1>
+                <h1 class="logo" aria-label="Click logo to go to the top of the home page">Writing Room</h1>
             </a>
             <ul class="nav-links">
-                <li class="nav-item"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="morning-pages.html" class="active">Morning Pages</a></li>
-                <li class="nav-item"><a href="index.html#events-schedule">Events</a></li>
-                <li class="nav-item"><a href="index.html#form-section">Contact</a></li>
+                <li class="nav-item"><a href="index.html" aria-label="Go back to the home page">Home </a></li>
+                <li class="nav-item"><a href="morning-pages.html" class="active" aria-label="Go to the top of the Morning Pages page">Morning Pages</a></li>
+                <li class="nav-item"><a href="index.html#events-schedule" aria-label="Go to event schedule section on home page">Events</a></li>
+                <li class="nav-item"><a href="index.html#form-section" aria-label="Go to the contact form section the home page">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -63,7 +63,7 @@
 
         </div>
         <div class="page-button">
-            <a class="button" href="index.html#events-schedule">See our events!</a>
+            <a class="button" href="index.html#events-schedule" aria-label="Go to the events schedule section">See our events!</a>
         </div>
     </section>
 
@@ -82,9 +82,9 @@
         <form class="flex-newsletter">
             <input class="text-input" id="newsletter-email" type="email" placeholder="Sign up for a newsletter"
                 required>
-            <input id="newsletter-button" class="button" type="submit" value="Sign me up!">
+            <input id="newsletter-button" class="button" type="submit" value="Sign me up!" aria-label="Sign up for a newsletter">
         </form>
-        <a href="index.html" id="footer-button" class="button"><p>Top <i class="fas fa-angle-double-up"></i></p></a>
+        <a href="index.html" id="footer-button" class="button" aria-label="Jump back to the top of the home page"><p>Top <i class="fas fa-angle-double-up"></i></p></a>
     </footer>
 
     <!--font awesome script-->
