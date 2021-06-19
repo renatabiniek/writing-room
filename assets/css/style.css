@@ -605,7 +605,7 @@ hr {
 
 /*media queries*/
 
-/*on screens smaller than 900px, reduce the font size to keep the logo and link on the same line*/
+/*on screens smaller than 900px, reduce the font size to keep the logo and links on the same line*/
 
 @media screen and (max-width: 900px) {
     .logo {
@@ -613,7 +613,21 @@ hr {
     }
 
     .nav-item a{
-        font-size: 1.2em;
+        font-size: 1.5em;
+    }
+} 
+
+/*on screens smaller than 550px, reduce the font size to keep logo and links on the same line*/
+
+@media screen and (max-width: 550px) {
+
+    .logo {
+        font-size: 2em;
+        /*add margin to create space between the logo and the top of the screen*/
+        margin-top: 10px;
     }
 
+    .nav-item a{
+        font-size: 1em;
+    }
 } 
