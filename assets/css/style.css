@@ -20,7 +20,7 @@ body {
 
 .logo {
     display: inline-block;
-    font-size: 250%;
+    font-size: 2.5em;
     margin-left: 20px;
     font-family: Courgette, cursive;
     letter-spacing: 4px;
@@ -601,3 +601,18 @@ hr {
     margin: 20px;
     border-radius: 15px;
 }
+
+/*media queries*/
+
+/*on screens smaller than 900px, reduce the font size to keep the logo and link on the same line*/
+
+@media screen and (max-width: 900px) {
+    .logo {
+        font-size: 2em;
+    }
+
+    .nav-item a{
+        font-size: 1.2em;
+    }
+    
+} 
