@@ -475,7 +475,7 @@ blockquote {
 
 /*add margin to radio input to spread them apart from each other*/
 .form-block {
-    margin: 10px 0px 10px 20px;
+    margin: 0 0 20px 10px;
 }
 
 /*style main message field*/
