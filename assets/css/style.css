@@ -572,6 +572,7 @@ footer {
     padding: 30px;
     margin: 10px;
     border-radius: 15px;
+    list-style-position: inside;
 }
 
 /*add padding to headings and paragraphs*/
