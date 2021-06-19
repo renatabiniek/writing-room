@@ -22,7 +22,8 @@ body {
 .logo {
     display: inline-block;
     font-size: 2.5em;
-    margin-left: 20px;
+    padding: 10px;
+    margin: 10px 0 0 20px;
     font-family: Courgette, cursive;
     letter-spacing: 4px;
     color: #186577;
@@ -94,8 +95,10 @@ nav {
 }
 
 .nav-links {
+    margin-left: 20px;
     display: flex;
     flex-flow: row wrap;
+}
 
 /*remove list style from the menu links*/
     list-style: none;
@@ -673,11 +676,6 @@ hr {
     .nav-item a{
         font-size: 0.8em;
         padding: 0;
-    }
-
-    /*add margin to align with logo*/
-    .nav-links {
-        margin-left: 10px;
     }
 
     /*center content in the flex container*/
