@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    overflow-x:hidden;
 }
 
 /*set font family and color for the body*/
@@ -614,5 +615,5 @@ hr {
     .nav-item a{
         font-size: 1.2em;
     }
-    
+
 } 
