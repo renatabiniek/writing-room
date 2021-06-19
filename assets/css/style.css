@@ -34,7 +34,7 @@ body {
     letter-spacing: 4px;
     color: #186577;
     text-align: center;
-    font-size: 300%;
+    font-size: 3em;
     margin: 50px 0;
     text-transform: capitalize;
 }
@@ -125,7 +125,7 @@ nav {
 #hero-text h2 {
     text-transform: lowercase;
     color: #2a2d32;
-    font-size: 300%;
+    font-size: 3em;
     font-family: Courgette, cursive;
     letter-spacing: 4px;
     text-align: center;
@@ -613,7 +613,7 @@ hr {
     }
 
     .nav-item a{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 } 
 
@@ -629,6 +629,10 @@ hr {
 
     .nav-item a{
         font-size: 1em;
+    }
+
+    #hero-text h2 {
+        font-size: 2em;
     }
 } 
 
@@ -653,5 +657,10 @@ hr {
     /*center content in the flex container*/
     .flex-container {
         align-content: center;
+    }
+
+    /*reduce size of hero image slogan to display it in max. 2 lines on mobile screen*/
+    #hero-text h2 {
+        font-size: 1.5em;
     }
 } 
