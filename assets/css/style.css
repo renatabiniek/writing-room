@@ -631,3 +631,27 @@ hr {
         font-size: 1em;
     }
 } 
+
+/*on screens 414px or smaller, reduce the font size to keep logo and links on the same line, add margin to logo to create space between elements*/
+
+@media screen and (max-width: 414px) {
+    .logo {
+        font-size: 2em;
+        margin: 10px 0 20px 10px;
+    }
+
+    .nav-item a{
+        font-size: 0.8em;
+        padding: 0;
+    }
+
+    /*add margin to align with logo*/
+    .nav-links {
+        margin-left: 10px;
+    }
+
+    /*center content in the flex container*/
+    .flex-container {
+        align-content: center;
+    }
+} 
