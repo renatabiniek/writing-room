@@ -674,4 +674,12 @@ hr {
     #hero-text h2 {
         font-size: 1.5em;
     }
+
+    .intro {
+        font-size: 2em;
+    }
+
+    .signup-form > label{
+        font-size: 0.9em;
+    }
 } 
