@@ -351,12 +351,15 @@ blockquote {
     border-radius: 15px;
 }
 
-
 /*style paragraph text in the events section*/
 
 #events-schedule p {
     line-height: 1.5em;
     text-align: center;
+}
+
+#events-schedule > p {
+    margin: 0 10px 0;
 }
 
 /*style event boxes*/
@@ -393,6 +396,11 @@ blockquote {
 #past-events {
     text-align: center;
     padding: 5px 0;
+}
+
+#past-events p {
+    margin: 0 10px;
+    line-height: 1.5em;
 }
 
 /*add images to gallery and masonry styling with 4 columns on desktop*/
