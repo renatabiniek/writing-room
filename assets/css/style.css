@@ -615,6 +615,11 @@ hr {
     .nav-item a{
         font-size: 1.3em;
     }
+
+    /*reduce number of columns to be displayed to 3*/
+    .gallery {
+        column-count: 3;
+    }
 } 
 
 /*on screens smaller than 550px, reduce the font size to keep logo and links on the same line*/
@@ -633,6 +638,11 @@ hr {
 
     #hero-text h2 {
         font-size: 2em;
+    }
+    
+     /*reduce number of columns to be displayed to 3*/
+    .gallery {
+        column-count: 2;
     }
 } 
 
