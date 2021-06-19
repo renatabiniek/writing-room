@@ -502,6 +502,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-top: 20px;
 }
 
 /*style social links and icons in the footer*/
