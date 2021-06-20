@@ -517,6 +517,10 @@ footer {
 
 /*style social links and icons in the footer*/
 
+.flex-social-links {
+    margin-bottom: 10px;
+}
+
 .flex-social-links > li {
     display: inline-block;
 }
@@ -531,7 +535,7 @@ footer {
 
 #newsletter-email {
     width: 200px;
-    padding: 5px;
+    padding: .7rem;
     font-size: 1rem;
 }
 
