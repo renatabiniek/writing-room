@@ -1,3 +1,5 @@
+/*import selected fonts for the site from Google Fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap');
 
 /*remove default margin, padding and border*/
@@ -5,6 +7,8 @@
     margin: 0;
     padding: 0;
     border: none;
+
+/*keep any horizontally overflowing content in the bounds of the parent container*/  
     overflow-x:hidden;
 }
 
@@ -15,9 +19,9 @@ body {
     color: #3a3a3a;
 }
 
-/*headings and logo*/
+/*HEADINGS AND LOGO*/
 
-/*style h1 and logo*/
+/*style h1 as logo*/
 
 .logo {
     display: inline-block;
@@ -28,7 +32,7 @@ body {
     letter-spacing: 4px;
     color: #186577;
 }
-/*style and position h2 headings throughout the site*/
+/*style and position h2 intro headings throughout the site*/
 
 .intro {
     font-family: Courgette, cursive;
@@ -49,21 +53,42 @@ body {
     letter-spacing: 4px;
 }
 
+/*NAVIGATION*/
+
 /*style fixed navbar*/
 
-nav {
+.flex-container {
     width: 100%;
     height: 150px;
+    
     position: fixed;
     top: 0;
     overflow: hidden;
     background-color: white;
     
     /*add z-index to keep the navbar on the top of other content*/
+
     z-index: 1000;
+
+    /*specify flex container for logo and navigation menu for responsiveness*/
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
-/*style the links inside the navbar*/
+/*style the menu links inside the navbar*/
+
+/*style flex container for menu links*/
+
+.nav-links {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: row wrap;
+
+    /*remove list style from the menu links*/
+    list-style: none;
+}
 
 .nav-item a {
     display: inline-block;
@@ -74,7 +99,7 @@ nav {
     font-size: 1.5em;
 }
 
-/*style navbar links on hover and when active*/
+/*style menu links on hover and when active*/
 
 .nav-item a:hover {
     color: #846577ff;
@@ -85,23 +110,7 @@ nav {
     border-bottom: 2px solid #846577ff;
 }
 
-/*specify flex container for logo and navigation menu for responsiveness*/
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-.nav-links {
-    margin-left: 20px;
-    display: flex;
-    flex-flow: row wrap;
-
-/*remove list style from the menu links*/
-    list-style: none;
-}
+/*HERO IMAGE*/
 
 /*hero image with a slogan, overlay text and call to action button*/
 
