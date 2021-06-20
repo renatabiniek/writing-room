@@ -653,14 +653,6 @@ hr {
         font-size: 1em;
     }
 
-    #hero-text h2 {
-        font-size: 2em;
-    }
-    
-    .intro {
-        font-size: 2em;
-    }
-
      /*reduce number of columns to be displayed to 3*/
     .gallery {
         column-count: 2;
@@ -686,9 +678,9 @@ hr {
         align-content: center;
     }
 
-    /*reduce size of hero image slogan to display it in max. 2 lines on mobile screen*/
+   /* reduce size of hero image slogan for smaller mobile screen*/
     #hero-text h2 {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 
     .signup-form > label{
