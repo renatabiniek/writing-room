@@ -616,11 +616,9 @@ hr {
     background-size: cover;
     background-position: center;
 
-    height: 650px;
-    width: 600px;
-
-    padding: 30px;
-    margin: 20px;
+    height: 700px;
+    width: 500px;
+    margin: 0 20px;
     border-radius: 15px;
 }
 
