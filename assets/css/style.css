@@ -77,7 +77,6 @@ body {
     align-items: center;
 }
 
-/*style the menu links inside the navbar*/
 
 /*style flex container for menu links*/
 
@@ -89,6 +88,8 @@ body {
     /*remove list style from the menu links*/
     list-style: none;
 }
+
+/*style the menu links inside the navbar*/
 
 .nav-item a {
     display: inline-block;
@@ -112,7 +113,7 @@ body {
 
 /*HERO IMAGE*/
 
-/*hero image with a slogan, overlay text and call to action button*/
+/*hero image with a h2 slogan, overlay text and call to action button*/
 
 #hero-outer {
     /*top margin set to match the height of the header and display the hero image underneath it*/
@@ -136,10 +137,6 @@ body {
 #hero-text h2 {
     text-transform: lowercase;
     color: #2a2d32;
-    font-size: 3em;
-    font-family: Courgette, cursive;
-    letter-spacing: 4px;
-    text-align: center;
     position: absolute;
     top: 45%;
     left: 50%;
