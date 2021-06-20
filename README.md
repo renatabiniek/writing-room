@@ -1,3 +1,31 @@
+# Table of Contents 
+
+1. [Introduction](#Introduction&Purposeofthissite)   
+
+2. [User Experience (UX)](#UserExperience(UX))
+   * [Project goals](#Projectgoals)
+   * [User Goals](#UserGoals)
+   * [Site Owner’s Goals](#SiteOwner’sGoals)
+   * [Target audience](#Targetaudience)
+   * [Research](#Research) 
+   * [Business goals](#Businessgoals)
+   * [User stories](#Userstories)
+   * [Structure](#Structure)
+
+3. [Design](#Design)
+
+4. [Wireframes](#Wireframes)
+
+5. [Credits](#Credits)
+   * [Code](#Code)
+   * [Images](#Images)
+   * [Content](#Content)
+   
+6. [Acknowledgements](#Acknowledgements)
+
+7. [Disclaimer](#Disclaimer)
+
+
 # Writing Room
 
 [Visit live page here](https://renatabiniek.github.io/writing-room/)
@@ -96,9 +124,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
 #### Code
 
-
 #### Images 
-
 
 #### Content
 
@@ -106,6 +132,6 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
 ### Disclaimer
 
-Writing Room is an imaginary group and the content of this website is for educational purposes only. 
+*Writing Room is an imaginary group and the content of this website is for educational purposes only. 
 It was created for the Code Institute’s HTML and CSS Essentials Portfolio Project, as part of their Diploma in Full Stack Software Development.
-The requirements are to make a static front-end website, using HTML and CSS.
+The requirements are to make a static front-end website, using HTML and CSS.*
