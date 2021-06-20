@@ -551,12 +551,16 @@ footer {
 
 /*style back to top button in the footer on hover*/
 
-#footer-button:hover {
-    background-color: white;
+#footer-button {
+    background: #186577ff url("../images/background-btn.webp"); 
+    background-size: cover;
+    color:#2a2d32ff;
+    font-size: 1em;
+    font-weight: 800;
 }
 
 #footer-button p:hover {
-    color: #186577ff;
+    font-size: larger;
 }
 
 /*2nd page - Morning Pages*/
