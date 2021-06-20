@@ -98,7 +98,6 @@ nav {
     margin-left: 20px;
     display: flex;
     flex-flow: row wrap;
-}
 
 /*remove list style from the menu links*/
     list-style: none;
@@ -523,7 +522,7 @@ footer {
 }
 
 .flex-social-links i {
-    font-size: 200%;
+    font-size: 3em;
     color: white;
     padding: 5px;
 }
