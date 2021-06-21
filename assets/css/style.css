@@ -432,7 +432,7 @@ blockquote {
     align-items: center;
 }
 
-/*style location text and map*/
+/*style divs with the location text and map*/
 
 .flex-location > div {
     text-align: left;
@@ -448,7 +448,7 @@ blockquote {
     border-radius: 15px;
 }
 
-/*add padding at the top of the heading for breathing space*/
+/*add padding at the top of the heading to create more breathing space*/
 
 #location > h2 {
     padding-top: 20px;
@@ -456,7 +456,7 @@ blockquote {
 
 /*CONTACT FORM SECTION*/
 
-/*add padding to the section and section heading for breathing space*/
+/*add padding to the section and section heading to create more breathing space*/
 
 #form-section {
     padding-bottom: 50px;
@@ -480,6 +480,8 @@ blockquote {
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
+/*style text in the text input fields*/
+
 .text-input {
     width: 100%;
     height: 25px;
@@ -488,18 +490,21 @@ blockquote {
     border-radius: 5px;
 }
 
-/*add margin to radio input to spread them apart from each other*/
+/*add margin to radio inputs to spread them apart from each other*/
+
 .form-block {
     margin: 0 0 20px 10px;
 }
 
 /*style main message field*/
+
 #message-field {
     width: 100%;
     border-radius: 5px;
 }
 
 /*style form submit button*/
+
 #signup-button {
     width: 100%;
     color: white;
@@ -687,7 +692,7 @@ hr {
 
    /* reduce size of hero image slogan for smaller mobile screen*/
     #hero-text h2 {
-        font-size: 1.2em;
+        font-size: 1.7em;
     }
 
     .signup-form > label{
