@@ -128,6 +128,20 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
 * Colour scheme
 
+![Colours](docs/colour-scheme.jpg)
+
+opal: #c5e0d8ff
+
+blue-sapphire: #186577ff 
+
+silver: #c9c9c9ff 
+
+old-lavender: #846577ff 
+
+gunmetal: #2a2d32ff 
+
+Apart from the above, white was used for text on buttons for best contrast.
+
 * Typography
 
 * Imagery
