@@ -120,6 +120,9 @@ As a site owner, I want to be able to be contacted from the users via a contact 
 
 Low fidelity mock-ups were made using Balsamiq to help plan and visualise the navigation design, placement of information, features, relationship between the content and usefulness. They were created for 3 main screen sizes: mobile, tablet and desktop.
 
+* [Wireframes - Home Page](docs/home-page.pdf)
+* [Wireframes - Morning Pages](docs/morning-pages.pdf)
+
 ### Credits
 
 #### Code
