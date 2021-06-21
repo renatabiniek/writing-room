@@ -3,38 +3,41 @@
 1. [Introduction](#Introduction&Purposeofthissite)   
 
 2. [User Experience (UX)](#UserExperience(UX))
-   * [Project goals](#Projectgoals)
-   * [User Goals](#UserGoals)
-   * [Site Owner’s Goals](#SiteOwner’sGoals)
-   * [Target audience](#Targetaudience)
-   * [Research](#Research) 
-   * [Business goals](#Businessgoals)
-   * [User stories](#Userstories)
-   * [Structure](#Structure)
+* [Project goals](#Projectgoals)
+* [User Goals](#UserGoals)
+* [Site Owner’s Goals](#SiteOwner’sGoals)
+* [Target audience](#Targetaudience)
+* [Research](#Research) 
+* [Business goals](#Businessgoals)
+* [User stories](#Userstories)
+* [Structure](#Structure)
+* [Wireframes](#Wireframes)
+* [Design](#Design) 
 
-3. [Design](#Design)
+3. [Features](#Features)
+4. [Technologies used](#Technologiesused)
+5. [Deployment](#Deployment)
+6. [Testing](#Testing)
 
-4. [Wireframes](#Wireframes)
-
-5. [Credits](#Credits)
+7. [Credits](#Credits)
    * [Code](#Code)
    * [Images](#Images)
    * [Content](#Content)
    
-6. [Acknowledgements](#Acknowledgements)
+8. [Acknowledgements](#Acknowledgements)
 
-7. [Disclaimer](#Disclaimer)
+9. [Disclaimer](#Disclaimer)
 
 
 # Writing Room
 
 [Visit live page here](https://renatabiniek.github.io/writing-room/)
 
-## Introduction & Purpose of this site
-
+## Introduction & Site Purpose
+---
 ### Welcome to the Writing Room!
 
-As a writer, an expat and a gay women relocating from hectic East London to suburban Dublin on a quest for a slower, more mindful life, I have a first-hand understanding of the importance of a welcoming community who share the same interests. 
+As a writer, an expat and a gay woman relocating from hectic East London to suburban Dublin on a quest for a slower, more mindful life, I have a first-hand understanding of the importance of a welcoming community who share the same interests. 
  
 [Writing Room](https://renatabiniek.github.io/writing-room/) is a website for a creative writing and mindfulness group in Malahide and other towns in North County Dublin, Ireland. Its main purpose is to create an inclusive, safe and meaningful space (physical and online) for writers to write, develop and connect by sharing their stories. It hopes to promote creativity and mindfulness by organising regular topic specific events, workshops and meetups. 
 
@@ -45,7 +48,7 @@ Writing Room site will be useful for local creatives as a platform to connect wi
 [images of website being responsive on all devices go here]
 
 ## User Experience (UX)
-
+---
 ### Project goals
 
 * to provide a platform for creative adult community living in North County Dublin to connect and participate in a variety of events
@@ -114,17 +117,46 @@ As a site owner, I want to be able to be contacted from the users via a contact 
 
 ### Structure:
 
-### Design: 
-
-#### Wireframes
+### Wireframes:
 
 Low fidelity mock-ups were made using Balsamiq to help plan and visualise the navigation design, placement of information, features, relationship between the content and usefulness. They were created for 3 main screen sizes: mobile, tablet and desktop.
 
 * [Wireframes - Home Page](docs/home-page.pdf)
 * [Wireframes - Morning Pages](docs/morning-pages.pdf)
 
-### Credits
+### Design: 
 
+* Colour scheme
+
+* Typography
+
+* Imagery
+
+## Features
+---
+
+### Existing Features
+
+### Features to be implemented in the future
+
+## Technologies used
+---
+
+### Languages
+
+### Frameworks, libraries and programs
+
+## Deployment
+---
+### Deploy to GitHub
+### Forking to GitHub Repository
+### Making a local clone
+
+## Testing
+---
+
+### Credits
+---
 #### Code
 
 #### Images 
@@ -132,9 +164,9 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 #### Content
 
 ### Acknowledgements
-
+---
 ### Disclaimer
-
+---
 *Writing Room is an imaginary group and the content of this website is for educational purposes only. 
 It was created for the Code Institute’s HTML and CSS Essentials Portfolio Project, as part of their Diploma in Full Stack Software Development.
 The requirements are to make a static front-end website, using HTML and CSS.*
