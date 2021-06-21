@@ -626,11 +626,8 @@ hr {
 /*style background image to compliment the text block*/
 
 .morning-section {
-    background-color: #c9c9c9ff;
-    background-image: url("../images/morning-pages2.webp");
-    background-repeat: no-repeat;
+    background: #c9c9c9ff url("../images/morning-pages2.webp") no-repeat center;
     background-size: cover;
-    background-position: center;
 
     height: 700px;
     width: 500px;
@@ -671,16 +668,16 @@ hr {
         font-size: 1em;
     }
 
-     /*reduce number of columns to be displayed to 3*/
+     /*reduce number of columns to be displayed to 2*/
     .gallery {
         column-count: 2;
     }
       
 } 
 
-/*on screens 414px or smaller, reduce the font size to keep logo and links on the same line, add margin to logo to create space between elements*/
+/*on screens 425px or smaller, reduce the font size to keep logo and links on the same line, add margin to logo to create space between elements*/
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 425px) {
     .logo {
         font-size: 2em;
     /*set bigger margin on top and remove bottom for more balanced text alignment*/
