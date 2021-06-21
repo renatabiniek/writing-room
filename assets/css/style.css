@@ -339,13 +339,15 @@ blockquote {
 
 /*SCHEDULE OF EVENTS SECTION*/
 
-/*specify flex container for the events text blocks and button*/
+/*specify flex container for events text blocks in 4 divs*/
 
 .flex-events {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
+
+/*style all event divs*/
 
 .flex-events > div {
     width: 350px;
@@ -356,18 +358,19 @@ blockquote {
     border-radius: 15px;
 }
 
-/*style paragraph text in the events section*/
+/*style all descendant paragraphs of events schedule section*/
 
 #events-schedule p {
     line-height: 1.5em;
     text-align: center;
 }
 
+/*style only the direct child paragraph of events schedule section*/
 #events-schedule > p {
     margin: 0 10px 0;
 }
 
-/*style event boxes*/
+/*style inner text boxes within event blocks*/
 
 .paragraph-box {
     width: 80%;
@@ -378,18 +381,16 @@ blockquote {
 }
 
 /*add background color to event box 1 and 3*/
-#morning-pages,
-#critique-workshop {
+.opal-events {
     background-color: rgba(197, 224, 216, .8)
 }
 
 /*add background color to event box 2 and 4*/
-#writing-cafe,
-#mindful-reader {
+.lavender-events {
     background-color: rgba(132, 101, 119, .6);
 }
 
-/*style paragraph text within the event boxes*/
+/*add extra top padding to paragraph text within the event boxes*/
 
 .paragraph-box p {
     padding-top: 20px;
