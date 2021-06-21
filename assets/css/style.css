@@ -480,7 +480,7 @@ blockquote {
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
-/*style text in the text input fields*/
+/*style text input fields*/
 
 .text-input {
     width: 100%;
@@ -541,13 +541,15 @@ footer {
     padding: 5px;
 }
 
-/*style newsletter signup form in the footer*/
+/*style email input field in the newsletter signup form*/
 
 #newsletter-email {
     width: 200px;
     padding: .7rem;
     font-size: 1rem;
 }
+
+/*style newsletter signup button*/
 
 #newsletter-button {
     color: white;
@@ -559,7 +561,7 @@ footer {
     background-color: white;
 }
 
-/*style back to top button in the footer on hover*/
+/*style back to top button in the footer*/
 
 #footer-button {
     background: #186577ff url("../images/background-btn.webp"); 
@@ -568,6 +570,8 @@ footer {
     font-size: 1em;
     font-weight: 800;
 }
+
+/*style back to top button on hover*/
 
 #footer-button p:hover {
     font-size: larger;
@@ -600,10 +604,12 @@ footer {
     padding: 30px;
     margin: 10px;
     border-radius: 15px;
+
+    /*move the list marker items inside the list so that they becomes part of text and don't get cut off by hidden overflow-x*/
     list-style-position: inside;
 }
 
-/*add padding to headings and paragraphs*/
+/*add padding to headings and paragraphs in morning pages text block*/
 
 .about-pages {
     padding-left: 20px;
@@ -677,6 +683,7 @@ hr {
 @media screen and (max-width: 414px) {
     .logo {
         font-size: 2em;
+    /*set bigger margin on top and remove bottom for more balanced text alignment*/
         margin: 20px 0 0 10px;
     }
 
@@ -701,11 +708,15 @@ hr {
         height: 100px;
     }
 
-    /*reduce the top margin on hero outer container to match new height of the nav bar*/
+    /*reduce the top margin on hero outer container and morning pages section on 2nd page to match new height of the nav bar*/
 
     #hero-outer {
         margin-top: 120px;
     }
+
+   .morning-pages {
+       margin-top: 120px;
+   }
 
     .signup-form > label{
         font-size: 0.9em;
