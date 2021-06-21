@@ -337,7 +337,7 @@ blockquote {
     color: #846577ff;
 }
 
-/*schedule of events section*/
+/*SCHEDULE OF EVENTS SECTION*/
 
 /*specify flex container for the events text blocks and button*/
 
@@ -395,7 +395,7 @@ blockquote {
     padding-top: 20px;
 }
 
-/*gallery section*/
+/*GALLERY SECTION*/
 
 /*style text for the whole section*/
 #past-events {
@@ -419,7 +419,7 @@ blockquote {
     width: 100%;
 }
 
-/*location section*/
+/*LOCATION SECTION*/
 
 /*specify flex container for location text and map*/
 
@@ -452,7 +452,7 @@ blockquote {
     padding-top: 20px;
 }
 
-/*contact and signup form section*/
+/*CONTACT FORM SECTION*/
 
 /*add padding to the section and section heading for breathing space*/
 
@@ -503,7 +503,7 @@ blockquote {
     color: white;
 }
 
-/*footer section*/
+/*FOOTER SECTION*/
 
 /*set and style flex container for footer with social links, newsletter signup form and back to top button*/
 
@@ -566,7 +566,7 @@ footer {
     font-size: larger;
 }
 
-/*2nd page - Morning Pages*/
+/*2ND PAGE - MORNING PAGES*/
 
 /*position the section in the page*/
 
@@ -625,7 +625,7 @@ hr {
     border-radius: 15px;
 }
 
-/*media queries*/
+/*MEDIA QUERIES*/
 
 /*on screens smaller than 900px, reduce the font size to keep the logo and links on the same line*/
 
