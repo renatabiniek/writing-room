@@ -158,7 +158,23 @@ Apart from the above, white was used for text on buttons for best contrast.
 
 ### Languages
 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
 ### Frameworks, libraries and programs
+
+* [Balsamiq](https://balsamiq.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Coolors](https://coolors.co/ )
+* [Eye Dropper](https://eyedropper.org/)
+* [Pixlr](https://pixlr.com/)
+* [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
+
+* [GitHub](https://github.com/)
+* [Git](https://git-scm.com/)
+* [Word Counter](https://wordcounter.net/character-count)
+
 
 ## Deployment
 ---
