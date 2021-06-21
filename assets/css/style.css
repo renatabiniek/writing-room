@@ -693,6 +693,7 @@ hr {
    /* reduce size of hero image slogan for smaller mobile screen*/
     #hero-text h2 {
         font-size: 1.7em;
+        margin-bottom: 0;
     }
 
     /*reduce height of navbar*/
