@@ -142,7 +142,6 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
 
 ### Design:  
-
 <br>
 
 * **Colour scheme**
@@ -164,7 +163,6 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
     gunmetal: #2a2d32ff 
 
     Apart from the above, white was used for text on buttons for best contrast.  
-
     <br>
 
 * **Typography**
@@ -178,7 +176,6 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
     **Montserrat, sans-serif**
     Main font for the body. This is a clean, popular and very readable font that I chose to contrast with the more decorative style of the logo and headings.
     Sans-serif is the fallback option.  
-
 <br> 
 
 * **Imagery**
@@ -188,7 +185,6 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
     Large minimalistic image of a desk with typewriter and notebook was chosen for the hero image to serve as an illustration to the group purpose and serve as a clean background forthe slogan and location information.
 
     Other images are used either as a decoration accompanying larger blocks of text to provide a balanced content and ensure user is not overloaded with text, or as the actual site content (gallery).
-
 <br>
 
 ## Features
@@ -310,7 +306,19 @@ CSS Validator
 ---
 
 #### Code
-[to add]
+
+The Code Institute materials with the support of tutorial materials on [w3schools](https://www.w3schools.com/) were used to create this site. 
+All code seen in use there has been heavily modified to suit the needs of this site, except for the specific cases referenced below.
+
+Reference materials from [w3schools](https://www.w3schools.com/css/css3_flexbox.asp) and [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) were used to implement flexbox.
+
+Blockquote code to separate a quote from other text and specify style of quotation marks was taken from [css-tricks](https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/)
+
+Box shadow code was taken from [this MDN Web Docs post](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow/)
+
+Button shadow code was taken from [this w3schools post](https://www.w3schools.com/css/css3_buttons.asp/)
+
+
 #### Images 
 [to add]
 #### Content
