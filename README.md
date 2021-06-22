@@ -274,7 +274,13 @@ Some features around interactivity and personalisation of the site are left to b
 ---
 
 **Testing Approach**  
-[to add, devtools used constantly during developement, and planned manual testing of the final page]
+
+I tested the site regularly during the developement process, by regularly previewing it in the live server window and inspecting with Google Chrome DevTools at various breakpoints. Simultaneously, I was checking any new additons and changes on several different devices available in my household. 
+Any issues found, were addressed at that stage and double checked before moving on with the rest of the project.  
+
+Only later in the project, I started using the element.style box in Google Chrome DevTools to play around with styling changes before implementing them into my actual code which could have saved me time and multiple commits for the same element. 
+
+In the final stage of the project, I have tested the site thouroughly with automatic validators and manually on different devices and in several browsers, taking into account user stories from the UX section, as per below.
 
 **User stories testing from the UX section**
 
@@ -295,13 +301,12 @@ I ran the code through the HTML and CSS validators, and fixed the following init
 
    **Error:** Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. 
 
-  **Fixed:** Changed the value from % to digitis on iframe.
+   **Fixed:** Changed the value from % to digitis on iframe.
 <br>
 
   **Error:** Duplicate ID writing-cafe. & **Error:** Duplicate ID morning-pages.
 
   **Fixed both:** Change the IDs in the contact form to writing-session and morning-session.
-
 <br>
 
 * **CSS Validator Errors & Warnings:**
