@@ -254,6 +254,7 @@ Some features around interactivity and personalisation of the site are left to b
 * [GitHub](https://github.com/)
 * [Gitpod](https://gitpod.io/)
 * [Word Counter](https://wordcounter.net/character-count)
+* [Online-Spellcheck](https://www.online-spellcheck.com/)
 * [Unsplash](https://unsplash.com/)
 * [Pexels](https://www.pexels.com/)
 * [Pixabay](https://pixabay.com/)

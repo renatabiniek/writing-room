@@ -702,7 +702,7 @@ hr {
 
     /*reduce height of navbar*/
     .flex-container {
-        height: 100px;
+        height: 120px;
     }
 
     /*reduce the top margin on hero outer container and morning pages section on 2nd page to match new height of the nav bar*/
