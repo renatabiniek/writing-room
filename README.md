@@ -24,7 +24,7 @@
    * [Images](#Images)
    * [Content](#Content)
    
-8. [Acknowledgements](#Acknowledgements)
+8. [Acknowledgments](#Acknowledgments)
 
 9. [Disclaimer](#Disclaimer)
 
@@ -145,9 +145,9 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
 * **Colour scheme**
     
-    The colour pallete consists of calm, subdued colors that compliment each other and evoke mindful mood throught the site. 
+    The colour palette consists of calm, subdued colors that compliment each other and evoke mindful mood throughout the site. 
     
-    Majority of them was derived from the hero image colours using [Eye Dropper](https://eyedropper.org/) and the remaing colours were added to the scheme using the colour scheme generator [Coolors](https://coolors.co/). White was used for text on buttons, for best contrast.  
+    Majority of them was derived from the hero image colours using [Eye Dropper](https://eyedropper.org/) and the remaining colours were added to the scheme using the colour scheme generator [Coolors](https://coolors.co/). White was used for text on buttons, for best contrast.  
 
     ![Colours](docs/colour-scheme.jpg)
 
@@ -181,7 +181,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
     All images were sourced from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/).
     
-    Large minimalistic image of a desk with typewriter and notebook was chosen for the hero image to serve as an illustration to the group purpose and serve as a clean background forthe slogan and location information.
+    Large image of a desk with typewriter and notebook was chosen for the hero image to serve as an illustration to the group purpose and serve as a clean background for the slogan and location information.
 
     Other images are used either as a decoration accompanying larger blocks of text to provide a balanced content and ensure user is not overloaded with text, or as the actual site content (gallery).
 <br>
@@ -219,8 +219,8 @@ Some features around interactivity and personalisation of the site are left to b
 
 * add an online booking option to allow the users book events directly via the site
 * expand the events schedule section so that each event has its own description
-* add a new page where best stories written by Writing Room members are published
-* add a new page with reading list for Mindful Reader Booklub including blurbs
+* add a new page where the best stories written by Writing Room members are published
+* add a new page with reading list for Mindful Reader Bookclub including blurbs
 * hamburger menu which collapses navigation menu links on smaller screen sizes
 * create a custom logo for the site and add it to the navbar
 * add JavaScript to highlight Contact and Events menu links once the relevant section is active on the scrolling home page
@@ -248,7 +248,7 @@ Some features around interactivity and personalisation of the site are left to b
 * [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 * [Am I Responsive](http://ami.responsivedesign.is/)
-* [W3C HTML validator](https://validator.w3.org/)
+* [W3C HTML Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
 * [GitHub](https://github.com/)
@@ -275,12 +275,12 @@ Some features around interactivity and personalisation of the site are left to b
 
 **Testing Approach**  
 
-I tested the site regularly during the developement process, by regularly previewing it in the live server window and inspecting with Google Chrome DevTools at various breakpoints. Simultaneously, I was checking any new additons and changes on several different devices available in my household. 
+I tested the site regularly during the development process, by regularly previewing it in the live server window and inspecting with Google Chrome DevTools at various breakpoints. Simultaneously, I was checking any new additions and changes on several devices available in my household. 
 Any issues found, were addressed at that stage and double checked before moving on with the rest of the project.  
 
 Only later in the project, I started using the element.style box in Google Chrome DevTools to play around with styling changes before implementing them into my actual code which could have saved me time and multiple commits for the same element. 
 
-In the final stage of the project, I have tested the site thouroughly with automatic validators and manually on different devices and in several browsers, taking into account user stories from the UX section, as per below.
+In the final stage of the project, I have tested the site thoroughly with automatic validators and manually on different devices and in several browsers, taking into account user stories from the UX section, as per below.
 
 **User stories testing from the UX section**
 
@@ -361,7 +361,7 @@ I ran the code through the HTML and CSS validators, and fixed the following init
 
   * **Error:** Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. 
 
-    **Fixed:** Changed the value from % to digitis on iframe.
+    **Fixed:** Changed the value from % to digits on iframe.
 
   * **Error:** Duplicate ID writing-cafe. & **Error:** Duplicate ID morning-pages.
 
@@ -399,7 +399,7 @@ I re-ran the deployed site in the final stages of the project and no warnings or
 
 **Lighthouse Testing**
 
-I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to review performace, SEO, best practices and accesibilty of the site.  
+I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to review performance, SEO, best practices and accessibility of the site.  
 
   **Desktop**
   <br>
@@ -418,7 +418,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
 [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
 
-Inititally, there was a contrast issue found between font colour on footer button and the fall back background colour of the button. 
+Initially, there was a contrast issue found between font colour on footer button and the fall back background colour of the button. 
 I've changed the background to white, and the final result is:
 
 *No automated color contrast issues found on the webpage tested*
@@ -451,6 +451,8 @@ Box shadow code was taken from [this MDN Web Docs post](https://developer.mozill
 Button shadow code was taken from [this w3schools post](https://www.w3schools.com/css/css3_buttons.asp/)
 
 [This blog post](https://chris.beams.io/posts/git-commit/) was used for recommendation on best format of git commit messages
+
+Icons taken from [Font Awesome](https://fontawesome.com/)
 
 <br>
 
@@ -501,7 +503,7 @@ All other content was written by the developer.
 
 <br>
 
-### Acknowledgements
+### Acknowledgments
 ---
 
 [to add]
