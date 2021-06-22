@@ -284,7 +284,68 @@ In the final stage of the project, I have tested the site thouroughly with autom
 
 **User stories testing from the UX section**
 
-[to add]
+[to complete test results]
+
+* **First Time Visitor Goals:**
+
+  * As a new visitor to the website, I want to immediately understand what the site’s purpose is so that I can decide if it’s what I’m looking for
+    
+    **Test result:**  
+ 
+  * As a visitor, I want to easily navigate the site so that I can find what I need efficiently
+
+    **Test result:**
+ 
+  * As a visitor, I want to immediately understand where the group is based so that I can decide if it’s relevant to me
+
+    **Test result:**  
+
+* **Interested Visitor Goals:**
+
+  * As a interested user, I want to see the schedule of current events so that I can decide if I want to attend
+  
+    **Test result:**  
+
+  * As an interested visitor, I want to know what the past events looked like so that I can decide if I’m interested in joining the group
+
+    **Test result:**  
+
+  * As an interested visitor, I want to understand the signing up process so that I know how to join the selected event
+ 
+    **Test result:**  
+
+  * As an interested visitor, I want to be able to download the mindfulness techniques guide so that I can access it anytime to practice
+ 
+    **Test result:**  
+  
+  * As an interested visitor, I want to be able to easily contact the site owner so that I can ask questions or share ideas
+ 
+    **Test result:** 
+
+  * As an interested visitor, I want to be able to sign up for a newsletter so that I don’t miss any updates or events
+    
+    **Test result:**  
+
+  * As an interested visitor, I want to be able to easily find the social media pages of the group so that I can follow them for any updates
+
+    **Test result:**  
+
+* **Frequent Visitor Goals:**
+
+  * As a frequent user, I want to be able to access the site easily on my chosen device so that I can check the schedule on the go
+
+    **Test result:**  
+
+* **Site Owner Goals:**
+
+  * As a site owner, I want to create a site with great UX so that the users are inclined to return to it
+
+    **Test result:**
+
+  * As a site owner, I want to be able to be contacted from the users via a contact form and social media, so that I can communicate with them and answer any questions
+
+    **Test result:**   
+  <br>
 
 **Validator Testing**
 
@@ -294,33 +355,33 @@ I ran the code through the HTML and CSS validators, and fixed the following init
 
 * **HTML Validator Errors & Warnings**
 
-   **Warning:** Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+  * **Warning:** Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
 
-  **Fixed:** Changed p to h2 on the site slogan.
-<br>
+    **Fixed:** Changed p to h2 on the site slogan.
 
-   **Error:** Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. 
+  * **Error:** Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. 
 
-   **Fixed:** Changed the value from % to digitis on iframe.
-<br>
+    **Fixed:** Changed the value from % to digitis on iframe.
 
-  **Error:** Duplicate ID writing-cafe. & **Error:** Duplicate ID morning-pages.
+  * **Error:** Duplicate ID writing-cafe. & **Error:** Duplicate ID morning-pages.
 
-  **Fixed both:** Change the IDs in the contact form to writing-session and morning-session.
-<br>
+    **Fixed both:** Change the IDs in the contact form to writing-session and morning-session.
+    
+    <br> 
 
 * **CSS Validator Errors & Warnings:**
 
-  **Error:** line-height: auto is not a line-height value. 
+  * **Error:** line-height: auto is not a line-height value. 
   
-  **Fixed:** corrected the line-height value with relative value.
+    **Fixed:** corrected the line-height value with relative value.
 
 <br>
 
 I re-ran the deployed site in the final stages of the project and no warnings or error were found.
+
 <br>
 
-  * **HTML Validator - Results**
+* **HTML Validator - Results**
 
     No warnings or errors to show for the deployed site.
 
@@ -332,9 +393,9 @@ I re-ran the deployed site in the final stages of the project and no warnings or
 
     No errors found for the deployed site.
 
-  ![CSS Validator](docs/css-validator.png)
+    ![CSS Validator](docs/css-validator.png)
 
-  <br>
+<br> 
 
 **Lighthouse Testing**
 
