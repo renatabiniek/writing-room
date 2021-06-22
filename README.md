@@ -47,8 +47,6 @@ The target audience are new and established writers of all backgrounds and natio
 
 Writing Room site will be useful for local creatives as a platform to connect with like-minded people. Interested writers will be able to easily learn what local writing and mindfulness events are coming up and how they can join them. Geographical proximity of the event locations eliminates the long commute to Dublin city centre which might motivate any hesitant writers to meet and write regularly which will help them to achieve their creative goals.
 
-
-
 ## User Experience (UX)
 ---
 ### Project goals
@@ -85,39 +83,45 @@ While researching writing and creative groups in the area, I found that the majo
 
 This site is based on the B2C model although the visit doesn’t finish with an actual purchase as all the events are free to join. It satisfies emotional triggers of the visitors to this site, provides them with clear and easily accessible information on the subject, and guides them to join the group by submitting the sign up form. It stands out as other writing groups have either no online presence or their websites have poor UX, or overcomplicated design and content overload.
 
-### User stories:
+### **User stories:**
 
-As a new visitor to the website, I want to immediately understand what the site’s purpose is so that I can decide if it’s what I’m looking for
+* **First Time Visitor Goals:**
 
-As a visitor, I want to easily navigate the site so that I can find what I need efficiently
+  * As a new visitor to the website, I want to immediately understand what the site’s purpose is so that I can decide if it’s what I’m looking for
+ 
+  * As a visitor, I want to easily navigate the site so that I can find what I need efficiently
+ 
+  * As a visitor, I want to immediately understand where the group is based so that I can decide if it’s relevant to me
 
-As a visitor, I want to immediately understand where the group is based so that I can decide if it’s relevant to me
+* **Interested Visitor Goals:**
 
-As a interested user, I want to see the schedule of current events so that I can decide if I want to attend
+  * As a interested user, I want to see the schedule of current events so that I can decide if I want to attend
+ 
+  * As an interested visitor, I want to know what the past events looked like so that I can decide if I’m interested in joining the group
 
-As an interested visitor, I want to know what the past events looked like so that I can decide if I’m interested in joining the group
+  * As an interested visitor, I want to understand the signing up process so that I know how to join the selected event
+ 
+  * As an interested visitor, I want to be able to download the mindfulness techniques guide so that I can access it anytime to practice
+ 
+  * As an interested visitor, I want to be able to easily contact the site owner so that I can ask questions or share ideas
+ 
+  * As an interested visitor, I want to be able to sign up for a newsletter so that I don’t miss any updates or events
+ 
+  * As an interested visitor, I want to be able to easily find the social media pages of the group so that I can follow them for any updates
 
-As an interested visitor, I want to understand the signing up process so that I know how to join the selected event
+* **Frequent Visitor Goals:**
 
-As a beginner or non-native English writer, I want to immediately see the information on skills required, so that I feel assured to join the group
+  * As a frequent user, I want to be able to access the site easily on my chosen device so that I can check the schedule on the go
 
-As a writer, I want to find out what benefits mindfulness brings to creative writing without getting overwhelmed with the information so that I can start using it in my writing
+* **Site Owner Goals:**
 
-As an interested visitor, I want to be able to download the mindfulness techniques guide so that I can access it anytime to practice
+  * As a site owner, I want to create a site with great UX so that the users are inclined to return to it
 
-As an interested visitor, I want to be able to easily contact the site owner so that I can ask questions or share ideas
-
-As an interested visitor, I want to be able to sign up for a newsletter so that I don’t miss any updates or events
-
-As an interested visitor, I want to be able to easily find the social media pages of the group so that I can follow them for any updates
-
-As a user, I want to be able to access the site easily on my chosen device so that I can check the schedule on the go
-
-As a site owner, I want to create a site with great UX so that the users are inclined to return to it
-
-As a site owner, I want to be able to be contacted from the users via a contact form and social media, so that I can communicate with them and answer any questions
+  * As a site owner, I want to be able to be contacted from the users via a contact form and social media, so that I can communicate with them and answer any questions
 
 ### Structure:
+[to add]
+
 
 ### Wireframes:
 
@@ -146,14 +150,21 @@ Apart from the above, white was used for text on buttons for best contrast.
 
 * Typography
 
+[to add]
+
 * Imagery
+
+[to add]
 
 ## Features
 ---
 
 ### Existing Features
+[to add]
 
 ### Features to be implemented in the future
+[to add]
+
 
 ## Technologies used
 ---
@@ -188,8 +199,13 @@ Apart from the above, white was used for text on buttons for best contrast.
 ## Deployment
 ---
 ### Deploy to GitHub
+[to add]
+
 ### Forking to GitHub Repository
+[to add]
+
 ### Making a local clone
+[to add]
 
 ## Testing
 ---
@@ -204,6 +220,9 @@ Apart from the above, white was used for text on buttons for best contrast.
 
 ### Acknowledgements
 ---
+
+[to add]
+
 ### Disclaimer
 ---
 *Writing Room is an imaginary group and the content of this website is for educational purposes only. 
