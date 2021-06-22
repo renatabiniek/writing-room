@@ -282,11 +282,13 @@ Some features around interactivity and personalisation of the site are left to b
 
 **Validator Testing**
 
-HTML Validator
-[to add]
+  **HTML Validator - Results**
 
-CSS Validator
-[to add]
+  ![HTML Validator](docs/html-validator.png)
+
+
+  **CSS Validator - Results**
+  ![CSS Validator](docs/css-validator.png)
 
 **Lighthouse Testing**
 
@@ -300,7 +302,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
   **Mobile**
   <br>
-  
+
   ![Mobile](docs/lighthouse-mobile.png)
 
 **Manual Testing**
