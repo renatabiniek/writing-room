@@ -454,8 +454,27 @@ Button shadow code was taken from [this w3schools post](https://www.w3schools.co
 
 #### Images 
 [to add]
+
 #### Content
-[to add]
+
+Text content for Mindful Writing section and Morning Pages page has been taken and adapted to suit the purpose of this project from the following sites:
+
+[www.mindful.org](https://www.mindful.org/everyday-mindfulness-with-jon-kabat-zinn/)
+
+[www.londonmindful.com](https://www.londonmindful.com/mindful-writing-workshop.html)
+
+[https://shawnradcliffe.com](https://shawnradcliffe.com/mindfulness-writing-creative-thinking-meditation/)
+
+[https://research.gold.ac.uk](https://research.gold.ac.uk/id/eprint/26035/3/FGilbert_NAWE_magazine_Jan_2019%20%20%282%29.pdf)
+
+[https://juliacameronlive.com](https://juliacameronlive.com/basic-tools/morning-pages/)
+
+[www.masterclass.com](https://www.masterclass.com/articles/tips-for-writing-morning-journal-pages#4-benefits-of-writing-morning-pages)
+
+All other content was written by the developer.
+
+<br>
+
 ### Acknowledgements
 ---
 
