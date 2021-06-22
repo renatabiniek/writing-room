@@ -120,8 +120,18 @@ This site is based on the B2C model although the visit doesn’t finish with an 
   * As a site owner, I want to be able to be contacted from the users via a contact form and social media, so that I can communicate with them and answer any questions
 
 ### Structure:
-[to add]
 
+The site has a simple layout of 2 pages with the home page containing the highest priority information, and the second page providing an option of further reading on mindful writing for interested visitors, without distracting them from the main content on the home page. 
+
+Navigation elements are conventionally placed in a horizontal fashion at the top of the browser window. On their visit, the user lands on a page with an eye-catching hero image which includes a compelling slogan and a call to action button that encourages them to join the group. From here, the user can immediately tell if the group is of interest to them, as it conveys the purpose of the meetups and their location.
+
+Further information is progressively disclosed as the user scrolls down through the page. The group ethos section allows the user to learn more about the group’s setup and benefits. Next, they are introduced to a short text on mindful writing with an option to read more by clicking on a hyperlink to the second page. They can either click it and once done, come back to the home page  or continue scrolling through the main page and visit the second page later by clicking the Mindful Pages section in the navbar. Next on the homepage, the user is taken to the events schedule where they can view all scheduled events at one glance. A join us button allows them to skip the rest of the content and go to the signup form immediately. Otherwise, the user continues to scroll down through the page to find a gallery to see what past events looked like and get reassured in joining the community. 
+
+This is followed by a location page with a map,  a contact form and a footer with social media links and an option to sign up for a newsletter. From there, the user also can return to the top of the page by clicking the back-to-top button.
+ 
+Links to events and contact pages are also presented in the navbar, to allow returning visitors to quickly access the information that will be of most relevance to them. 
+
+For consistency of user experience, the site logo, navigation links and footer are repeated on the 2nd page. The second page contains a larger block of text accompanied by a decorative image and an option to go to events schedule. The user has an option to navigate back to the home page or go to the contact form as well via navbar links.
 
 ### Wireframes:
 
@@ -176,6 +186,8 @@ Apart from the above, white was used for text on buttons for best contrast.
 
 ### Frameworks, libraries and programs
 
+[descriptions of use add]
+
 * [Balsamiq](https://balsamiq.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/)
@@ -209,15 +221,16 @@ Apart from the above, white was used for text on buttons for best contrast.
 
 ## Testing
 ---
-
+[to add]
 ### Credits
 ---
+
 #### Code
-
+[to add]
 #### Images 
-
+[to add]
 #### Content
-
+[to add]
 ### Acknowledgements
 ---
 
