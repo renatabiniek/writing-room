@@ -140,7 +140,6 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 * [Wireframes - Home Page](docs/home-page.pdf)
 * [Wireframes - Morning Pages](docs/morning-pages.pdf)
 
-<br>
 
 ### Design:  
 
@@ -198,9 +197,39 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 ### Existing Features
 [to add]
 
-### Features to be implemented in the future
+* Navigation Bar
+[to add]
+* Hero Image
+[to add]
+* Intro Section
+[to add]
+* Mindful Reding Section
+[to add]
+* Events Schedule
+[to add]
+* Gallery
+[to add]
+* Location
+[to add]
+* Contact Form
+[to add]
+* Footer
+[to add]
+* Morning Pages page
 [to add]
 
+### Features to be implemented in the future
+
+Some features around interactivity and personalisation of the site are left to be implemented in the future due to wither the limited expertise of the developer at this stage or lack of content.
+
+* add an online booking option to allow the users book events directly via the site
+* expand the events schedule section so that each event has its own description
+* add a new page where best stories written by Writing Room members are published
+* add a new page with reading list for Mindful Reader Booklub including blurbs
+* hamburger menu which collapses navigation menu links on smaller screen sizes
+* create a custom logo for the site and add it to the navbar
+* add JavaScript to highlight Contact and Events menu links once the relevant section is active on the scrolling home page
+* smooth scrolling with JavaScript for better UX
 
 ## Technologies used
 ---
