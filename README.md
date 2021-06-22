@@ -140,24 +140,33 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 * [Wireframes - Home Page](docs/home-page.pdf)
 * [Wireframes - Morning Pages](docs/morning-pages.pdf)
 
-### Design: 
+<br>
+
+### Design:  
+
+<br>
 
 * **Colour scheme**
-[explain why chosen]
+    
+    The colour pallete consists of calm, subdued colors that compliment each other and evoke mindful mood throught the site. 
+    
+    Majority of them was derived from the hero image colours using [Eye Dropper](https://eyedropper.org/) and the remaing colours were added to the scheme using the colour scheme generator [Coolors](https://coolors.co/). White was used for text on buttons, for best contrast.  
 
-![Colours](docs/colour-scheme.jpg)
+    ![Colours](docs/colour-scheme.jpg)
 
-opal: #c5e0d8ff
+    opal: #c5e0d8ff
 
-blue-sapphire: #186577ff 
+    blue-sapphire: #186577ff 
 
-silver: #c9c9c9ff 
+    silver: #c9c9c9ff 
 
-old-lavender: #846577ff 
+    old-lavender: #846577ff 
 
-gunmetal: #2a2d32ff 
+    gunmetal: #2a2d32ff 
 
-Apart from the above, white was used for text on buttons for best contrast.
+    Apart from the above, white was used for text on buttons for best contrast.  
+
+    <br>
 
 * **Typography**
 
@@ -169,11 +178,19 @@ Apart from the above, white was used for text on buttons for best contrast.
 
     **Montserrat, sans-serif**
     Main font for the body. This is a clean, popular and very readable font that I chose to contrast with the more decorative style of the logo and headings.
-    Sans-serif is the fallback option.
+    Sans-serif is the fallback option.  
+
+<br> 
 
 * **Imagery**
 
-[to add]
+    All images were sourced from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/).
+    
+    Large minimalistic image of a desk with typewriter and notebook was chosen for the hero image to serve as an illustration to the group purpose and serve as a clean background forthe slogan and location information.
+
+    Other images are used either as a decoration accompanying larger blocks of text to provide a balanced content and ensure user is not overloaded with text, or as the actual site content (gallery).
+
+<br>
 
 ## Features
 ---
