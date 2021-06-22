@@ -203,7 +203,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 [to add]
 * Intro Section
 [to add]
-* Mindful Reding Section
+* Mindful Reading Section
 [to add]
 * Events Schedule
 [to add]
@@ -277,6 +277,35 @@ Some features around interactivity and personalisation of the site are left to b
 ## Testing
 ---
 [to add]
+
+**Testing Approach**
+[to add, during developement and planned manual testing]
+
+**User stories testing from the UX section**
+[to add]
+
+**Validator Testing**
+
+HTML Validator
+[to add]
+
+CSS Validator
+[to add]
+
+**Lighthouse Testing**
+
+[to add]
+
+**Manual Testing**
+[to add]
+
+**Devices and browsers tested**
+[to add]
+
+**Issues and Bugs**
+  * Fixed:
+  * Known:
+
 ### Credits
 ---
 
