@@ -250,6 +250,7 @@ Some features around interactivity and personalisation of the site are left to b
 * [Am I Responsive](http://ami.responsivedesign.is/)
 * [W3C HTML validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
 * [GitHub](https://github.com/)
 * [Gitpod](https://gitpod.io/)
 * [Word Counter](https://wordcounter.net/character-count)
@@ -345,9 +346,19 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
   ![Mobile](docs/lighthouse-mobile.png)
 
-**Manual Testing**
+**Further Testing**
+
+  * Color Contrast
+
+[Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
+
+Inititally, there was a contrast issue found between font colour on footer button and the fall back background colour of the button. 
+I've changed the background to white, and the final result is:
+
+*No automated color contrast issues found on the webpage tested*
 
 [to add]
+
 
 **Devices and browsers tested**
 
