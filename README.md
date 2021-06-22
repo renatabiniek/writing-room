@@ -274,21 +274,63 @@ Some features around interactivity and personalisation of the site are left to b
 ---
 [to add]
 
-**Testing Approach**
+**Testing Approach**  
 [to add, during developement and planned manual testing]
 
 **User stories testing from the UX section**
+
 [to add]
 
 **Validator Testing**
 
-  **HTML Validator - Results**
+I ran the code through the HTML and CSS validators, and fixed the following initial warnings and issues:
+
+* **HTML Validator Errors & Warnings**
+<br>
+
+   **Warning:** Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+
+  **Fixed:** Changed p to h2 on the site slogan.
+<br>
+
+   **Error:** Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. 
+
+  **Fixed:** Changed the value from % to digitis on iframe.
+<br>
+
+  **Error:** Duplicate ID writing-cafe. & **Error:** Duplicate ID morning-pages.
+
+  **Fixed both:** Change the IDs in the contact form to writing-session and morning-session.
+
+<br>
+
+* **CSS Validator Errors & Warnings:**
+
+  **Error:** line-height: auto is not a line-height value. 
+  
+  **Fixed:** corrected the line-height value with relative value.
+
+<br>
+
+I re-ran the deployed site in the final stages of the project and no warnings or error were found.
+
+<br>
+
+  * **HTML Validator - Results**
+
+    No warnings or errors to show for the deployed site.
 
   ![HTML Validator](docs/html-validator.png)
 
+<br>
 
-  **CSS Validator - Results**
+  * **CSS Validator - Results**
+
+    No errors found for the deployed site.
+
   ![CSS Validator](docs/css-validator.png)
+
+  <br>
 
 **Lighthouse Testing**
 
