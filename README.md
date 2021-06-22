@@ -143,6 +143,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 ### Design: 
 
 * Colour scheme
+[explain why chosen]
 
 ![Colours](docs/colour-scheme.jpg)
 
@@ -160,7 +161,15 @@ Apart from the above, white was used for text on buttons for best contrast.
 
 * Typography
 
-[to add]
+The fonts were sources from [Google Fonts](https://fonts.google.com/)
+
+ * Courgette, cursive:
+   for logo and headings, with cursive as a fallback font in case the original font family isn't imported correctly for some reason.
+   I chose this font as it's imitating handwriting which supports the goal of the Writing Room group, focusing on creative writing and writing by hand. 
+
+ * Montserrat, sans-serif:
+   main font for the body. This is a clean, popular and very readable font that I chose to contrast with the more decorative style of the logo and headings.
+   Sans-serif is the fallback option.
 
 * Imagery
 
