@@ -452,8 +452,34 @@ Button shadow code was taken from [this w3schools post](https://www.w3schools.co
 
 [This blog post](https://chris.beams.io/posts/git-commit/) was used for recommendation on best format of git commit messages
 
+<br>
+
 #### Images 
-[to add]
+
+Images were sourced from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/). Thank you to all the photographers!
+
+**Hero Image** by Annie Spratt on [Unsplash](https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+**Intro Section Photo** by Sixteen Miles Out on [Unsplash](https://unsplash.com/photos/0I75875sRVU)
+
+**Mindful Writing Photo** by Carli Jeen on [Unsplash](https://unsplash.com/photos/15YDf39RIVc)
+
+**Gallery Images** by 
+
+* Pexels on [Pixabay](https://pixabay.com/photos/adult-diary-journal-notebook-book-1850177/)
+* StockSnap on [Pixabay](https://pixabay.com/photos/people-women-talking-laugh-happy-2567915/)
+* Anthony Shkraba on [Pexels](https://www.pexels.com/photo/photo-of-woman-sitting-by-the-table-while-writing-4348078/)
+* Alina Vilchenko on [Pexels](https://www.pexels.com/photo/photo-of-person-holding-cup-3363111/)
+* furkanfdemir on [Pexels](https://www.pexels.com/photo/elderly-ethnic-stylish-man-taking-notes-in-planner-and-drinking-coffee-in-street-cafe-6309768/)
+* Valeria Boltneva on [Pexels](https://www.pexels.com/photo/woman-in-white-and-blue-floral-crew-neck-short-sleeve-shirt-holding-a-teal-notebook-leaning-in-brown-tree-trunks-92333/)
+* Keira Burton on [Pexels](https://www.pexels.com/photo/cheerful-multiethnic-students-with-notebooks-studying-at-table-6146997/)
+* Nathan Dumlao on [Unsplash](https://unsplash.com/photos/6VhPY27jdps)
+
+**Morning Pages Photo** by Kinga Cichewicz on [Unsplash](https://unsplash.com/photos/HYcXUU-mLwE)
+
+**Rainbow Flag** used as background for footer button from [Pixabay](https://pixabay.com/users/katlove-636853/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1792757)
+
+<br>
 
 #### Content
 
