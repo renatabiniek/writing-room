@@ -564,7 +564,7 @@ footer {
 /*style back to top button in the footer*/
 
 #footer-button {
-    background: #186577ff url("../images/background-btn.webp"); 
+    background: white url("../images/background-btn.webp"); 
     background-size: cover;
     color:#2a2d32ff;
     font-size: 1em;

@@ -142,7 +142,6 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
 
 ### Design:  
-<br>
 
 * **Colour scheme**
     
@@ -216,7 +215,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
 ### Features to be implemented in the future
 
-Some features around interactivity and personalisation of the site are left to be implemented in the future due to wither the limited expertise of the developer at this stage or lack of content.
+Some features around interactivity and personalisation of the site are left to be implemented in the future due to either the limited expertise of the developer at this stage or lack of content.
 
 * add an online booking option to allow the users book events directly via the site
 * expand the events schedule section so that each event has its own description
@@ -272,10 +271,9 @@ Some features around interactivity and personalisation of the site are left to b
 
 ## Testing
 ---
-[to add]
 
 **Testing Approach**  
-[to add, during developement and planned manual testing]
+[to add, devtools used constantly during developement, and planned manual testing of the final page]
 
 **User stories testing from the UX section**
 
@@ -285,8 +283,9 @@ Some features around interactivity and personalisation of the site are left to b
 
 I ran the code through the HTML and CSS validators, and fixed the following initial warnings and issues:
 
-* **HTML Validator Errors & Warnings**
 <br>
+
+* **HTML Validator Errors & Warnings**
 
    **Warning:** Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
 
@@ -313,7 +312,6 @@ I ran the code through the HTML and CSS validators, and fixed the following init
 <br>
 
 I re-ran the deployed site in the final stages of the project and no warnings or error were found.
-
 <br>
 
   * **HTML Validator - Results**
@@ -348,9 +346,11 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
   ![Mobile](docs/lighthouse-mobile.png)
 
 **Manual Testing**
+
 [to add]
 
 **Devices and browsers tested**
+
 [to add]
 
 **Issues and Bugs**
@@ -373,6 +373,7 @@ Box shadow code was taken from [this MDN Web Docs post](https://developer.mozill
 
 Button shadow code was taken from [this w3schools post](https://www.w3schools.com/css/css3_buttons.asp/)
 
+[This blog post](https://chris.beams.io/posts/git-commit/) was used for recommendation on best format of git commit messages
 
 #### Images 
 [to add]
