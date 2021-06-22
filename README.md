@@ -290,7 +290,18 @@ CSS Validator
 
 **Lighthouse Testing**
 
-[to add]
+I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to review performace, SEO, best practices and accesibilty of the site.  
+
+  **Desktop**
+  <br>
+
+  ![Desktop](docs/lighthouse-desktop.png)
+  <br>
+
+  **Mobile**
+  <br>
+  
+  ![Mobile](docs/lighthouse-mobile.png)
 
 **Manual Testing**
 [to add]
