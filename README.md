@@ -171,11 +171,18 @@ Apart from the above, white was used for text on buttons for best contrast.
 * [Coolors](https://coolors.co/ )
 * [Eye Dropper](https://eyedropper.org/)
 * [Pixlr](https://pixlr.com/)
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 * [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
-
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+* [Am I Responsive](http://ami.responsivedesign.is/)
+* [W3C HTML validator](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * [GitHub](https://github.com/)
-* [Git](https://git-scm.com/)
+* [Gitpod](https://gitpod.io/)
 * [Word Counter](https://wordcounter.net/character-count)
+* [Unsplash](https://unsplash.com/)
+* [Pexels](https://www.pexels.com/)
+* [Pixabay](https://pixabay.com/)
 
 
 ## Deployment
