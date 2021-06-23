@@ -251,6 +251,7 @@ Some features around interactivity and personalisation of the site are left to b
 * [W3C HTML Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
+* [Autoprefixer](https://autoprefixer.github.io/)
 * [GitHub](https://github.com/)
 * [Gitpod](https://gitpod.io/)
 * [Word Counter](https://wordcounter.net/character-count)
@@ -453,6 +454,8 @@ I've changed the background to white, and the final result is:
   * all screen sizes in Google Chrome DevTools
 
   Browsers tested:
+
+  CSS has been prefixed with https://autoprefixer.github.io/ to generate cross-browser compatibility code and ensure the site renders correctly on each browser. 
 
   * Google Chrome
   * FireFox
