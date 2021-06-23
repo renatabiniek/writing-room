@@ -1,57 +1,62 @@
 # Table of Contents 
 
-1. [Introduction](#Introduction&SitePurpose)   
+1. [**Introduction**](#Introduction-&-Site-Purpose)   
 
-2. [User Experience (UX)](#UserExperience(UX))
-* [Project goals](#Projectgoals)
-* [User Goals](#UserGoals)
-* [Site Owner’s Goals](#SiteOwner’sGoals)
-* [Target audience](#Targetaudience)
+2. [**User Experience (UX)**](#User-Experience-(UX))
+* [Project goals](#Project-goals)
+* [User Goals](#User-Goals)
+* [Site Owner’s Goals](#Site-Owner’s-Goals)
+* [Target audience](#Target-audience)
 * [Research](#Research) 
-* [Business goals](#Businessgoals)
-* [User stories](#Userstories)
+* [Business goals](#Business-goals)
+* [User stories](#User-stories)
 * [Structure](#Structure)
 * [Wireframes](#Wireframes)
 * [Design](#Design) 
 
-3. [Features](#Features)
-* [Existing Features](#ExistingFeatures)
-* [Features to be implemented in the future](#Featurestobeimplementedinthefuture)
+3. [**Features**](#Features)
+* [Existing Features](#Existing-Features)
+* [Features to be implemented in the future](#Features-to-be-implemented-in-the-future)
 
-4. [Technologies used](#Technologiesused)
+4. [**Technologies used**](#Technologies-used)
 * [Languages](#Languages)
-* [Frameworks, libraries and programs used](#Frameworks,librariesandprogramsused)
+* [Frameworks, libraries and programs used](#Frameworks,-libraries-and-programs-used)
 
-5. [Deployment](#Deployment)
-* [Deploying to GitHub Pages](#DeployingtoGitHubPages)
-* [Forking to GitHub Repository](#ForkingtoGitHubRepository)
-* [Making a local clone](#Makingalocalclone)
+5. [**Deployment**](#Deployment)
+* [Deploying to GitHub Pages](#Deploying-to-GitHub-Pages)
+* [Forking to GitHub Repository](#Forking-to-GitHub-Repository)
+* [Making a local clone](#Making-a-local-clone)
 
-6. [Testing](#Testing)
-* [Testing Approach](#TestingApproach)
-* [User stories testing from the UX section](#UserstoriestestingfromtheUXsection)
-* [Validator Testing](#ValidatorTesting)
-* [Lighthouse Testing](#LighthouseTesting)
-* [Further Testing](#FurtherTesting)
-* [Issues and Bugs](#IssuesandBugs)
+6. [**Testing**](#Testing)
+* [Testing Approach](#Testing-Approach)
+* [User stories testing from the UX section](#User-stories-testing-from-the-UX-section)
+* [Validator Testing](#Validator-Testing)
+* [Lighthouse Testing](#Lighthouse-Testing)
+* [Further Testing](#Further-Testing)
+* [Issues and Bugs](#Issues-and-Bugs)
 
-7. [Credits](#Credits)
-   * [Code](#Code)
-   * [Images](#Images)
-   * [Content](#Content)
+7. [**Credits**](#Credits)
+* [Code](#Code)
+* [Images](#Images)
+* [Content](#Content)
    
-8. [Acknowledgments](#Acknowledgments)
+8. [**Acknowledgments**](#Acknowledgments)
 
-9. [Disclaimer](#Disclaimer)
+9. [**Disclaimer**](#Disclaimer)
 
+<br>
 
 # Writing Room
 
 [Visit live page here](https://renatabiniek.github.io/writing-room/)
 
+<br>
+
 ## Introduction & Site Purpose
 ---
+
 ### Welcome to the Writing Room!
+<br>
 
 ![Responsive Writing Room Site](docs/screenshots/responsive-site.webp)
 
@@ -117,7 +122,7 @@ This site is based on the B2C model although the visit doesn’t finish with an 
 
   * As an interested visitor, I want to understand the signing up process so that I know how to join the selected event
  
-  * As an interested visitor, I want to be able to download the mindfulness techniques guide so that I can access it anytime to practice
+  * As an interested visitor, I want to be able to download the reading list so that I can get ready to join the next bookclub
  
   * As an interested visitor, I want to be able to easily contact the site owner so that I can ask questions or share ideas
  
@@ -206,12 +211,21 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 ---
 
 ### Existing Features
-[to add]
 
-* Navigation Bar
-[to add]
-* Hero Image
-[to add]
+* **Navigation**
+
+Conventional horizontally aligned navigation bar with 4 navigation links exists on both pages.
+
+The site logo is clickable and allows the user to return to the top of the homepage from any location on the site.
+
+![Navbar](docs/features/navbar.png)
+
+* **Landing Page with Hero Image**
+
+Large hero image 
+
+![Hero Image](docs/features/hero-image.png)
+
 * Intro Section
 [to add]
 * Mindful Reading Section
@@ -337,68 +351,104 @@ Only later in the project, I started using the element.style box in Google Chrom
 In the final stage of the project, I have tested the site thoroughly with automatic validators and manually on different devices and in several browsers, taking into account user stories from the UX section, as per below.
 
 ### **User stories testing from the UX section**
-
-[to complete test results]
+<br>
 
 * **First Time Visitor Goals:**
 
   * As a new visitor to the website, I want to immediately understand what the site’s purpose is so that I can decide if it’s what I’m looking for
     
-    **Test result:**  
+    **Test result:**  PASS
+
+    ![Slogan](docs/features/slogan.webp)   
  
   * As a visitor, I want to easily navigate the site so that I can find what I need efficiently
 
-    **Test result:**
- 
+    **Test result:** PASS
+
+    ![Navbar](docs/features/navbar.webp)
+    ![Events](docs/features/see-our-events.webp)
+    ![Sign Up](docs/features/sign-up.webp)
+    ![Back to top](docs/features/back-to-top.png)
+    
   * As a visitor, I want to immediately understand where the group is based so that I can decide if it’s relevant to me
 
-    **Test result:**  
+    **Test result:**  PASS
+
+    ![Overlay Text](docs/features/overlay-text.png)
 
 * **Interested Visitor Goals:**
 
   * As a interested user, I want to see the schedule of current events so that I can decide if I want to attend
   
-    **Test result:**  
+    **Test result:**  PASS
+
+    ![Schedule of Events](docs/features/schedule.webp)
 
   * As an interested visitor, I want to know what the past events looked like so that I can decide if I’m interested in joining the group
 
-    **Test result:**  
+    **Test result:**  PASS
+
+    ![Past Events](docs/features/past-events.webp)
+
+    Gallery 
+    ![Gallery](docs/features/gallery.webp)
 
   * As an interested visitor, I want to understand the signing up process so that I know how to join the selected event
  
-    **Test result:**  
+    **Test result:**  PASS
 
-  * As an interested visitor, I want to be able to download the mindfulness techniques guide so that I can access it anytime to practice
+    ![How to join](docs/features/how-to-join.webp)
+    ![Form](docs/features/form.webp)
+    ![Form Message](docs/features/form-message.webp)
+
+  * As an interested visitor, I want to be able to download the reading list so that I can get ready to join the next bookclub
  
-    **Test result:**  
+    **Test result:**  PASS
+
+    ![Bookclub](docs/features/bookclub.webp)
+    ![Reading list](docs/features/reading-list.webp)
   
   * As an interested visitor, I want to be able to easily contact the site owner so that I can ask questions or share ideas
  
-    **Test result:** 
+    **Test result:** PASS
+
+    ![Contact](docs/features/contact.png)
+    ![Form Message](docs/features/form-message.webp)
 
   * As an interested visitor, I want to be able to sign up for a newsletter so that I don’t miss any updates or events
     
-    **Test result:**  
+    **Test result:**  PASS
+
+    ![Newsletter](docs/features/newsletter.webp)
 
   * As an interested visitor, I want to be able to easily find the social media pages of the group so that I can follow them for any updates
 
-    **Test result:**  
+    **Test result:**  PASS
+
+    ![Social media](docs/features/social-media.webp)
 
 * **Frequent Visitor Goals:**
 
   * As a frequent user, I want to be able to access the site easily on my chosen device so that I can check the schedule on the go
 
-    **Test result:**  
+    **Test result:**  PASS
+
+    The site is fully responsive and easy to navigate on desktop, tablet and phone.
 
 * **Site Owner Goals:**
 
   * As a site owner, I want to create a site with great UX so that the users are inclined to return to it
 
-    **Test result:**
+    **Test result:** PASS
+
+    The site has a simple layout, with minimalistic design. It is easy to navigate, provides all the information a user might be interested in and allows to contact the site owner with any questions.
 
   * As a site owner, I want to be able to be contacted from the users via a contact form and social media, so that I can communicate with them and answer any questions
 
-    **Test result:**   
+    **Test result:** PASS
+
+    The site users can reach out to the site owner via a simple form. The form has validation in place that ensures name and email in correct format are provided so that the site owner can respond to the question or confirm the receipt of the sign up request. Social media links are displayed in the footer and open in a new window when clicked, so that the user doesn't exit the site.
+
   <br>
 
 ### **Validator Testing**
