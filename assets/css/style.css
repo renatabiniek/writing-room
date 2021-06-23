@@ -828,3 +828,11 @@ hr {
         margin-bottom: 0;
     }
 } 
+
+/*on screens 295px or smaller, reduce the font size of navigation links*/
+
+@media screen and (max-width: 295px) {
+    .nav-item a{
+        font-size: 0.7em;
+    }
+}

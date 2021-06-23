@@ -451,6 +451,7 @@ I've changed the background to white, and the final result is:
   * Google Pixel 4a phone
   * Samsung Galaxy A80 phone
   * iPad 5th generation
+  * iPhone
   * all screen sizes in Google Chrome DevTools
 
   Browsers tested:
@@ -459,8 +460,9 @@ I've changed the background to white, and the final result is:
 
   * Google Chrome
   * FireFox
-  * Edge
+  * Microsoft Edge
 
+  Internet Explorer is no longer supported so my testing didn't focus on IE.
 
 **Issues and Bugs**
   
@@ -476,7 +478,7 @@ I've changed the background to white, and the final result is:
     * There were a couple of duplicated ids caught as well and they were replaced with unique ones
     * Once the page was deployed initially, the images from gallery didn't load. I found that the file path had for them had an extra "/" in the address and removed it which fixed the issue
     * When testing different browsers, I found text-overflow on .flex-reasons > divs in Microsoft Edge - it was resolved by removing fixed height of the divs
-    
+
       ![Text Overflow](docs/screenshots/text-overflow.webp)
 
 
