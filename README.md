@@ -366,8 +366,11 @@ In the final stage of the project, I have tested the site thoroughly with automa
     **Test result:** PASS
 
     ![Navbar](docs/features/navbar.webp)
+    
     ![Events](docs/features/see-our-events.webp)
+    
     ![Sign Up](docs/features/sign-up.webp)
+    
     ![Back to top](docs/features/back-to-top.png)
     
   * As a visitor, I want to immediately understand where the group is based so that I can decide if it’s relevant to me
@@ -527,7 +530,19 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
     If the user tries to submit the form without the required information or with an invalid format of the email, error messages will pop up:
 
     ![Missing name](docs/features/missing-name.webp)
-    ![Invalid email name](docs/features/invalid-email.webp)
+    ![Invalid email](docs/features/invalid-email.webp)
+
+    Once submitted, the information doesn't go anywhere as this is not in the scope of this project. Feedback site of https://formdump.codeinstitute.net has been used as a placeholder for action.
+
+  * **Newsletter**:
+
+    Email field is required and only accepts input in the correct email address format.
+    Error messages will pop up if the user tries to submit the sign-up request without the email or with invalid email:
+
+    ![Missing name](docs/features/missing-newsletter.webp)
+    ![Invalid email](docs/features/invalid-newsletter.webp)
+
+    The Sign-me-up button doesn't actually send the information anywhere as this is not in the scope of this project. 
 
   * **Color Contrast**
 
