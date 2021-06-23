@@ -562,8 +562,11 @@ All other content was written by the developer.
 
 ### Acknowledgments
 ---
+Massive thank you to:
 
-[to add]
+* The wonderfully helpful and friendly Slack community where I often looked for help
+* My mentor, Gerard McBride, for his guidance and helpful feedback
+* Tutors at Code Institute for their support 
 
 ### Disclaimer
 ---
