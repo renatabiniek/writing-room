@@ -475,6 +475,9 @@ I've changed the background to white, and the final result is:
     * Thanks to the same validation, invalid auto value for line-height was noticed and replaced with correct value in the gallery section
     * There were a couple of duplicated ids caught as well and they were replaced with unique ones
     * Once the page was deployed initially, the images from gallery didn't load. I found that the file path had for them had an extra "/" in the address and removed it which fixed the issue
+    * When testing different browsers, I found text-overflow on .flex-reasons > divs in Microsoft Edge - it was resolved by removing fixed height of the divs
+    
+      ![Text Overflow](docs/screenshots/text-overflow.webp)
 
 
   * **Known**:
