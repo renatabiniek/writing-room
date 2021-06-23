@@ -514,6 +514,21 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
 ### **Further Testing**
 
+  * **Links and buttons**
+
+    All links and buttons have been repeatedly tested.
+    Internal links and buttons take the user to the relevant section of the site.
+    External links (social media, cafe and pub links) open in a new tab, leaving the site open.
+    Link to the reading list in pdf opens the file in a new tab, leaving the current site open as well.
+
+  * **Sign-up/ Contact form:**
+
+    The contact form has validation in place for the required fields (name and email). Email field requires email address in the correct format.
+    If the user tries to submit the form without the required information or with an invalid format of the email, error messages will pop up:
+
+    ![Missing name](docs/features/missing-name.webp)
+    ![Invalid email name](docs/features/invalid-email.webp)
+
   * **Color Contrast**
 
     [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
