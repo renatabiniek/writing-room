@@ -415,7 +415,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
 **Further Testing**
 
-  * Color Contrast
+  * **Color Contrast**
 
 [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
 
@@ -426,6 +426,21 @@ I've changed the background to white, and the final result is:
 
 [to add]
 
+  * **CI Peer Review**  
+
+    I've asked fellow CI students to review the site and following points were raised:
+
+    * *On Chrome the cover-text div is right to the edge of the screen, aligning this under the Title would keep a constant spacing throughout the site for you.*
+     
+      This was addressed by changing the padding value on the cover-text div.
+
+    * *On PC and mobile when you select Events or Contact, Home is being set as the Active item*
+      
+      This is a known issue as Events and Contact are sections of the scrollable Home page and not separate pages. I will be able to fix once I progress trough the course with JavaScript.
+
+  * **Family and friends**
+
+    I've asked family and friends to test the site and no new issues were raised.
 
 **Devices and browsers tested**
 
@@ -433,7 +448,7 @@ I've changed the background to white, and the final result is:
 
 **Issues and Bugs**
   
-  * Fixed:
+  * **Fixed**:
   
     * I had issues with making the navbar and some sections of the site highly responsive, which I eventually solved after learning about flexbox and adding media queries
     * A white space appeared on the right hand side of the screen on smaller screens which was coming from the specific width of the navbar - this was changed to 100% and overflow-x:hidden was used for the site based [on this post](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend)
@@ -446,7 +461,7 @@ I've changed the background to white, and the final result is:
     * Once the page was deployed initially, the images from gallery didn't load. I found that the file path had for them had an extra "/" in the address and removed it which fixed the issue
 
 
-  * Known:
+  * **Known**:
 
     * When Events and Contact navigation links ara avtive, Home link is hihglighted. This is because both Events and Contact refer to relevant sections on the same scrolling Home page. In my investigation, I found that should be able to highlight them as active on a scrolling page with JavaScript 
     * On some smaller screens, when a user scrolls down to the bottom of the form and tries to submit it without entering their name or email, the position of the validation error message displays on top of the current view elements. The view needs to scroll back up to the field the error message relates to. Based on my research and converation with tutor support team, this will need to be addressed with JavaScript
