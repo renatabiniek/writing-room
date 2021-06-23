@@ -9,6 +9,7 @@
     border: none;
 
 /*keep any horizontally overflowing content in the bounds of the parent container*/  
+/*taken from this post: https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend*/
     overflow-x:hidden;
 }
 
@@ -605,7 +606,7 @@ footer {
     margin: 10px;
     border-radius: 15px;
 
-    /*move the list marker items inside the list so that they becomes part of text and don't get cut off by hidden overflow-x*/
+    /*move the list marker items inside the list so that they becomes part of text and don't get cut off by hidden overflow*/
     list-style-position: inside;
 }
 

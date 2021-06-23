@@ -436,11 +436,16 @@ I've changed the background to white, and the final result is:
   * Fixed:
   
     * I had issues with making the navbar and some sections of the site highly responsive, which I eventually solved after learning about flexbox and adding media queries
+    * A white space appeared on the right hand side of the screen on smaller screens which was coming from the specific width of the navbar - this was changed to 100% and overflow-x:hidden was used for the site based [on this post](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend)
+    * Hero image was showing on top of the navbar on scrolling. This was fixed by adding z-index: 1000 to the navbar to keep it on top of the other content
+    * List marker items on the Morning Pages page disappeared from view - this was fixed by moving them inside list item with list-style-position. They became part of text and were not affected anymore by any overflow: hidden setting
     * In Code Institute peer review, it was pointed out to me that text alignment of overlay cover text on here image and site logo was inconsistent on different devices. This was fixed by increasing left padding on overlay text on desktop and setting it smaller again in media query for smaller screens
-    * In auotmatic code validation, invalid percentage value on width attribute for iframe was detected - I replaced it with digits
+    * In automatic code validation, invalid percentage value on width attribute for iframe was detected - I replaced it with digits
     * Thanks to the same validation, invalid auto value for line-height was noticed and replaced with correct value in the gallery section
     * There were a couple of duplicated ids caught as well and they were replaced with unique ones
-  
+    * Once the page was deployed initially, the images from gallery didn't load. I found that the file path had for them had an extra "/" in the address and removed it which fixed the issue
+
+
   * Known:
 
     * When Events and Contact navigation links ara avtive, Home link is hihglighted. This is because both Events and Contact refer to relevant sections on the same scrolling Home page. In my investigation, I found that should be able to highlight them as active on a scrolling page with JavaScript 
@@ -455,7 +460,7 @@ I've changed the background to white, and the final result is:
 
 #### Code
 
-The Code Institute materials with the support of tutorial materials on [w3schools](https://www.w3schools.com/) were used to create this site. 
+The Code Institute materials with the support of tutorial materials on [w3schools](https://www.w3schools.com/), [MDN Web Docs](https://developer.mozilla.org/en-US/) and posts on [stackoverflow](https://stackoverflow.com/)were used to create this site. 
 All code seen in use there has been heavily modified to suit the needs of this site, except for the specific cases referenced below.
 
 Reference materials from [w3schools](https://www.w3schools.com/css/css3_flexbox.asp) and [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) were used to implement flexbox.
@@ -469,6 +474,8 @@ Button shadow code was taken from [this w3schools post](https://www.w3schools.co
 [This blog post](https://chris.beams.io/posts/git-commit/) was used for recommendation on best format of git commit messages
 
 Icons taken from [Font Awesome](https://fontawesome.com/)
+
+Overflow-x: hidden solution taked from [this Stackoverflow post](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend)
 
 <br>
 
