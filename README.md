@@ -137,8 +137,8 @@ For consistency of user experience, the site logo, navigation links and footer a
 
 Low fidelity mock-ups were made using Balsamiq to help plan and visualise the navigation design, placement of information, features, relationship between the content and usefulness. They were created for 3 main screen sizes: mobile, tablet and desktop.
 
-* [Wireframes - Home Page](docs/screenshots/home-page.pdf)
-* [Wireframes - Morning Pages](docs/screenshots/morning-pages.pdf)
+* [Wireframes - Home Page](docs/wireframes/home-page.pdf)
+* [Wireframes - Morning Pages](docs/wireframes/morning-pages.pdf)
 
 
 ### Design:  
