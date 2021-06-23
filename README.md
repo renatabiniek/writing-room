@@ -234,31 +234,30 @@ Some features around interactivity and personalisation of the site are left to b
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-### Frameworks, libraries and programs
+### Frameworks, libraries and programs used
 
-[descriptions of use add]
-
-* [Balsamiq](https://balsamiq.com/)
-* [Google Fonts](https://fonts.google.com/)
-* [Font Awesome](https://fontawesome.com/)
-* [Coolors](https://coolors.co/ )
-* [Eye Dropper](https://eyedropper.org/)
-* [Pixlr](https://pixlr.com/)
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-* [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
-* [Am I Responsive](http://ami.responsivedesign.is/)
-* [W3C HTML Validator](https://validator.w3.org/)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-* [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
-* [Autoprefixer](https://autoprefixer.github.io/)
-* [GitHub](https://github.com/)
-* [Gitpod](https://gitpod.io/)
-* [Word Counter](https://wordcounter.net/character-count)
-* [Online-Spellcheck](https://www.online-spellcheck.com/)
-* [Unsplash](https://unsplash.com/)
-* [Pexels](https://www.pexels.com/)
-* [Pixabay](https://pixabay.com/)
+* [Balsamiq](https://balsamiq.com/) - to create wireframes for the site as part of the preparation work for the project
+* [Google Fonts](https://fonts.google.com/) - to import Courgette and Montserrat fonts into the HTML file which were then used throughout the site
+* [Font Awesome](https://fontawesome.com/) - to source icons which were added to headings for the purpose of aesthetics
+* [Coolors](https://coolors.co/ ) - to create cohesive colour scheme for the site
+* [Eye Dropper](https://eyedropper.org/) - to pick specific colours from images 
+* [Pixlr](https://pixlr.com/) - to edit and resize photos
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - to inspect and debug the code through all stages of the development
+* [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) - to inspect the site for overflow 
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to audit the site for performance, accessibility, SEO and best practices
+* [Am I Responsive](http://ami.responsivedesign.is/) - to produce a preview of the site on different devices
+* [W3C HTML Validator](https://validator.w3.org/) - to validate HTML code
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS code
+* [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) - to test the contrast and readibility of colours used 
+* [Autoprefixer](https://autoprefixer.github.io/) - to add vendor prefixes to CSS, for compatibility with different browsers
+* [GitHub](https://github.com/) - for hosting the project code and version control 
+* [Gitpod](https://gitpod.io/) - to write the code and push it to GitHub
+* [GitHub Pages](https://pages.github.com/) - to deploy the site 
+* [Word Counter](https://wordcounter.net/character-count) - to limit number of characters used for commit messages to 50, max 72 characters
+* [Online-Spellcheck](https://www.online-spellcheck.com/) - to spellcheck the content
+* [Unsplash](https://unsplash.com/) - for images
+* [Pexels](https://www.pexels.com/) - for images
+* [Pixabay](https://pixabay.com/) - for images
 
 
 ## Deployment
@@ -418,14 +417,12 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
   * **Color Contrast**
 
-[Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
+    [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
 
-Initially, there was a contrast issue found between font colour on footer button and the fall back background colour of the button. 
-I've changed the background to white, and the final result is:
+    Initially, there was a contrast issue found between font colour on footer button and the fall back background colour of the button. 
+    I've changed the background to white, and the final result is:
 
-*No automated color contrast issues found on the webpage tested*
-
-[to add]
+    *No automated color contrast issues found on the webpage tested*
 
   * **CI Peer Review**  
 
@@ -456,7 +453,8 @@ I've changed the background to white, and the final result is:
 
   Browsers tested:
 
-  CSS has been prefixed with https://autoprefixer.github.io/ to generate cross-browser compatibility code and ensure the site renders correctly on each browser. 
+  At the final stages of the development, CSS has been prefixed with CSS vendor prefixes using https://autoprefixer.github.io/, to generate cross-browser compatibility code and ensure the site renders correctly on each browser. 
+  Then the site was previewed in:
 
   * Google Chrome
   * FireFox
@@ -484,7 +482,7 @@ I've changed the background to white, and the final result is:
 
   * **Known**:
 
-    * When Events and Contact navigation links ara avtive, Home link is hihglighted. This is because both Events and Contact refer to relevant sections on the same scrolling Home page. In my investigation, I found that should be able to highlight them as active on a scrolling page with JavaScript 
+    * When Events and Contact navigation links ara active, Home link is highlighted. This is because both Events and Contact refer to relevant sections on the same scrolling Home page. In my investigation, I found that should be able to highlight them as active on a scrolling page with JavaScript 
     * On some smaller screens, when a user scrolls down to the bottom of the form and tries to submit it without entering their name or email, the position of the validation error message displays on top of the current view elements. The view needs to scroll back up to the field the error message relates to. Based on my research and converation with tutor support team, this will need to be addressed with JavaScript
     
       ![Validation Message](docs/screenshots/message-position.webp)
