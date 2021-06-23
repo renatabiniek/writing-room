@@ -1,6 +1,6 @@
 # Table of Contents 
 
-1. [Introduction](#Introduction&Purposeofthissite)   
+1. [Introduction](#Introduction&SitePurpose)   
 
 2. [User Experience (UX)](#UserExperience(UX))
 * [Project goals](#Projectgoals)
@@ -15,9 +15,25 @@
 * [Design](#Design) 
 
 3. [Features](#Features)
+* [Existing Features](#ExistingFeatures)
+* [Features to be implemented in the future](#Featurestobeimplementedinthefuture)
+
 4. [Technologies used](#Technologiesused)
+* [Languages](#Languages)
+* [Frameworks, libraries and programs used](#Frameworks,librariesandprogramsused)
+
 5. [Deployment](#Deployment)
+* [Deploying to GitHub Pages](#DeployingtoGitHubPages)
+* [Forking to GitHub Repository](#ForkingtoGitHubRepository)
+* [Making a local clone](#Makingalocalclone)
+
 6. [Testing](#Testing)
+* [Testing Approach](#TestingApproach)
+* [User stories testing from the UX section](#UserstoriestestingfromtheUXsection)
+* [Validator Testing](#ValidatorTesting)
+* [Lighthouse Testing](#LighthouseTesting)
+* [Further Testing](#FurtherTesting)
+* [Issues and Bugs](#IssuesandBugs)
 
 7. [Credits](#Credits)
    * [Code](#Code)
@@ -262,7 +278,7 @@ Some features around interactivity and personalisation of the site are left to b
 
 ## Deployment
 ---
-### Deploy to GitHub
+### Deploying to GitHub Pages
 
 The project was developed in GitPod, commited to Git and pushed to GitHub. 
 The site was deployed to GitHub Pages with the following steps:
@@ -307,10 +323,11 @@ You can clone your repository to create a local copy on your computer. Any chang
 7. Press **Enter** to create your local clone.
 
 You can also refer to this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) for detailed intructions. 
+
 ## Testing
 ---
 
-**Testing Approach**  
+### **Testing Approach**  
 
 I tested the site regularly during the development process, by regularly previewing it in the live server window and inspecting with Google Chrome DevTools at various breakpoints. Simultaneously, I was checking any new additions and changes on several devices available in my household. 
 Any issues found, were addressed at that stage and double checked before moving on with the rest of the project.  
@@ -319,7 +336,7 @@ Only later in the project, I started using the element.style box in Google Chrom
 
 In the final stage of the project, I have tested the site thoroughly with automatic validators and manually on different devices and in several browsers, taking into account user stories from the UX section, as per below.
 
-**User stories testing from the UX section**
+### **User stories testing from the UX section**
 
 [to complete test results]
 
@@ -384,10 +401,9 @@ In the final stage of the project, I have tested the site thoroughly with automa
     **Test result:**   
   <br>
 
-**Validator Testing**
+### **Validator Testing**
 
 I ran the code through the HTML and CSS validators, and fixed the following initial warnings and issues:
-
 <br>
 
 * **HTML Validator Errors & Warnings**
@@ -403,8 +419,7 @@ I ran the code through the HTML and CSS validators, and fixed the following init
   * **Error:** Duplicate ID writing-cafe. & **Error:** Duplicate ID morning-pages.
 
     **Fixed both:** Change the IDs in the contact form to writing-session and morning-session.
-    
-    <br> 
+  <br> 
 
 * **CSS Validator Errors & Warnings:**
 
@@ -415,7 +430,6 @@ I ran the code through the HTML and CSS validators, and fixed the following init
 <br>
 
 I re-ran the deployed site in the final stages of the project and no warnings or error were found.
-
 <br>
 
 * **HTML Validator - Results**
@@ -423,10 +437,9 @@ I re-ran the deployed site in the final stages of the project and no warnings or
     No warnings or errors to show for the deployed site.
 
   ![HTML Validator](docs/screenshots/html-validator.png)
-
 <br>
 
-  * **CSS Validator - Results**
+* **CSS Validator - Results**
 
     No errors found for the deployed site.
 
@@ -434,7 +447,7 @@ I re-ran the deployed site in the final stages of the project and no warnings or
 
 <br> 
 
-**Lighthouse Testing**
+### **Lighthouse Testing**
 
 I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to review performance, SEO, best practices and accessibility of the site.  
 
@@ -449,7 +462,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
   ![Mobile](docs/screenshots/lighthouse-mobile.png)
 
-**Further Testing**
+### **Further Testing**
 
   * **Color Contrast**
 
@@ -476,7 +489,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
     I've asked family and friends to test the site and no new issues were raised.
 
-**Devices and browsers tested**
+### **Devices and browsers tested**
 
   * Google Pixelbook Go Chromebook
   * HP EliteBook laptop 820 G4
@@ -498,7 +511,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
   Internet Explorer is no longer supported so my testing didn't focus on IE.
 
-**Issues and Bugs**
+### **Issues and Bugs**
   
   * **Fixed**:
   
