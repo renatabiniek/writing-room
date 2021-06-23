@@ -263,14 +263,50 @@ Some features around interactivity and personalisation of the site are left to b
 ## Deployment
 ---
 ### Deploy to GitHub
-[to add]
+
+The project was developed in GitPod, commited to Git and pushed to GitHub. 
+The site was deployed to GitHub Pages with the following steps:
+
+1. Login to GitHub
+2. Navigate to your site's repository, which for this project is renatabiniek/writing-room
+3. At the top of the repository, locate and click **Settings** 
+4. In the left-hand side panel, click **Pages**
+5. Under **Source**, click the dropdown called *None* and select *Branch: Master* and *Root* folder
+6. Click **Save**
+7. A notification message will show up that the page is getting ready to be published
+8. Once refreshed, the message will change to *Your site is published* and a link to the deplyed site will be provided: 
+
+    The live link can be found here: https://renatabiniek.github.io/writing-room/
+
+    ![Published Site](docs/screenshots/published-site.webp)
+
+The process can also be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).  
 
 ### Forking to GitHub Repository
-[to add]
+
+You can create a fork (copy) of the repository. This allows you to experiment with the code without affecting the orignal project.
+
+To fork the repository:
+
+1. Log in to your [GitHub](https://github.com/) account 
+2. On GitHub, navigate to the repository you want to fork
+3. In the top right corner of the page, underneath your profile avatar, click **Fork**
+4. You should now have a copy of the original repository in your GitHub account
 
 ### Making a local clone
-[to add]
 
+You can clone your repository to create a local copy on your computer. Any changes made to the local copy will not affect the orignal project. To clone the **Writing Room** project, follow the steps below:
+
+1. Log in to your [GitHub](https://github.com/) account and locate the [Writing Room repository](https://github.com/renatabiniek/writing-room)
+2. In the repository, click on **Code** button located above all the project files
+3. Under HTTPS, copy the link generated (https://github.com/renatabiniek/writing-room.git)
+4. Open the terminal you're using, eg. Gitpod
+5. Change the current working directory to the location where you want the cloned directory created
+6. Type ```git clone``` and then paste the URL you copied earlier:  
+```git clone https://github.com/renatabiniek/writing-room.git``` 
+7. Press **Enter** to create your local clone.
+
+You can also refer to this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) for detailed intructions. 
 ## Testing
 ---
 
