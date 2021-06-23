@@ -359,17 +359,29 @@ In the final stage of the project, I have tested the site thoroughly with automa
     
     **Test result:**  PASS
 
+    The hero image with a typewriter and a notebook literally sets the user at a writing desk, and the slogan *slow down. write.* reinforces the idea of creativity and mindfulness promoted by the site
+
     ![Slogan](docs/features/slogan.webp)   
  
   * As a visitor, I want to easily navigate the site so that I can find what I need efficiently
 
     **Test result:** PASS
 
+    The highest priority sections are presented as menu link in the navbar allowing the user to get to the relevant sections of the site easily.
+
     ![Navbar](docs/features/navbar.webp)
+
+    Call to action button are placed strategicallty throughout the page, to allow the user to jump to relevant section without having to scroll through the remainder of the page.
+
+    Button taking the user to events schedule:
     
-    ![Events](docs/features/see-our-events.webp)
+    ![Events](docs/features/see-events.webp)
+
+    Button taking the user to the sign up form:
     
-    ![Sign Up](docs/features/sign-up.webp)
+    ![Sign Up](docs/features/signup.webp)
+
+    Button taking the user back to the top of the page:
     
     ![Back to top](docs/features/back-to-top.png)
     
@@ -377,7 +389,13 @@ In the final stage of the project, I have tested the site thoroughly with automa
 
     **Test result:**  PASS
 
+    The overlay text immedaitely informs the user about the location of the group. 
+
     ![Overlay Text](docs/features/overlay-text.png)
+
+    Further down on the page, exact address and Google map location are provided.
+
+    ![Location](docs/features/location.webp)
 
 * **Interested Visitor Goals:**
 
@@ -385,28 +403,39 @@ In the final stage of the project, I have tested the site thoroughly with automa
   
     **Test result:**  PASS
 
+    Events are displayed by type, including days, times and any further details relevant to each event.
+
     ![Schedule of Events](docs/features/schedule.webp)
 
   * As an interested visitor, I want to know what the past events looked like so that I can decide if I’m interested in joining the group
 
     **Test result:**  PASS
 
-    ![Past Events](docs/features/past-events.webp)
+    Simple, visually pleasing gallery of photos from past events is displayed in a masonry style, allowing the user to understand better who attends the events and what might be happening during them.
 
-    Gallery 
     ![Gallery](docs/features/gallery.webp)
 
   * As an interested visitor, I want to understand the signing up process so that I know how to join the selected event
  
     **Test result:**  PASS
 
+    Signing up process is explained in the events schedule section and users are directed to the sign up form:
+
     ![How to join](docs/features/how-to-join.webp)
+
+    The form is minimalistic and gives the user an option to select event with radio buttons:
+
     ![Form](docs/features/form.webp)
+
+    The placeholder text in the message field reassures the user how to sign up:
+
     ![Form Message](docs/features/form-message.webp)
 
   * As an interested visitor, I want to be able to download the reading list so that I can get ready to join the next bookclub
  
     **Test result:**  PASS
+
+    The link to the reading list is provided within the bookclub event section and it opens as pdf in a new tab:
 
     ![Bookclub](docs/features/bookclub.webp)
     ![Reading list](docs/features/reading-list.webp)
@@ -415,18 +444,27 @@ In the final stage of the project, I have tested the site thoroughly with automa
  
     **Test result:** PASS
 
+    The users can navigate quickly to the contact form from the navigation bar:
+
     ![Contact](docs/features/contact.png)
+    
+    Or scroll down on the home page to the same form that allows them to send a message to the site owner:
+
     ![Form Message](docs/features/form-message.webp)
 
   * As an interested visitor, I want to be able to sign up for a newsletter so that I don’t miss any updates or events
     
     **Test result:**  PASS
 
+    A quick sign up option is available in the footer:
+
     ![Newsletter](docs/features/newsletter.webp)
 
   * As an interested visitor, I want to be able to easily find the social media pages of the group so that I can follow them for any updates
 
     **Test result:**  PASS
+
+    Social media links are placed in the footer and open in a new tab when clicked:
 
     ![Social media](docs/features/social-media.webp)
 
