@@ -444,7 +444,20 @@ I've changed the background to white, and the final result is:
 
 **Devices and browsers tested**
 
-[to add]
+  * Google Pixelbook Go Chromebook
+  * HP EliteBook laptop 820 G4
+  * 24inch ViewSonic LED monitor 
+  * Google Pixel 4a phone
+  * Samsung Galaxy A80 phone
+  * iPad 5th generation
+  * all screen sizes in Google Chrome DevTools
+
+  Browsers tested:
+
+  * Google Chrome
+  * FireFox
+  * Edge
+
 
 **Issues and Bugs**
   
@@ -475,7 +488,7 @@ I've changed the background to white, and the final result is:
 
 #### Code
 
-The Code Institute materials with the support of tutorial materials on [w3schools](https://www.w3schools.com/), [MDN Web Docs](https://developer.mozilla.org/en-US/) and posts on [stackoverflow](https://stackoverflow.com/)were used to create this site. 
+The Code Institute materials with the support of tutorial materials on [w3schools](https://www.w3schools.com/), [MDN Web Docs](https://developer.mozilla.org/en-US/) and posts on [stackoverflow](https://stackoverflow.com/) were used to create this site. 
 All code seen in use there has been heavily modified to suit the needs of this site, except for the specific cases referenced below.
 
 Reference materials from [w3schools](https://www.w3schools.com/css/css3_flexbox.asp) and [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) were used to implement flexbox.
@@ -490,7 +503,7 @@ Button shadow code was taken from [this w3schools post](https://www.w3schools.co
 
 Icons taken from [Font Awesome](https://fontawesome.com/)
 
-Overflow-x: hidden solution taked from [this Stackoverflow post](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend)
+Overflow-x: hidden solution taken from [this Stackoverflow post](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend)
 
 <br>
 

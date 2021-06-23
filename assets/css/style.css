@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*import selected fonts for the site from Google Fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap');
@@ -72,10 +79,19 @@ body {
     z-index: 1000;
 
     /*specify flex container for logo and navigation menu for responsiveness*/
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 
@@ -83,8 +99,13 @@ body {
 
 .nav-links {
     margin-left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
 
     /*remove list style from the menu links*/
     list-style: none;
@@ -141,7 +162,9 @@ body {
     position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 /*style the call to action button, same throughout the whole site */
@@ -175,7 +198,9 @@ body {
     position: absolute;
     top: 75%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 /*style and position overlay cover text*/
@@ -226,10 +251,18 @@ blockquote {
 /*specify responsive flex container for reasons to join the group grouped in 4 divs*/
 
 .flex-reasons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 /*style and position individual divs*/
@@ -239,17 +272,27 @@ blockquote {
     height: 10vh;
     margin: 50px 10px;
     text-align: center;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     line-height: 30px;
 }
 
 /*specify responsive flex container for about writing room mission text and background image*/
 
 .flex-writingroom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 30px;
 }
 
@@ -280,9 +323,15 @@ blockquote {
 /*position the buttons for the remainder of the page, outside of hero image and footer*/
 
 .page-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 /*MINDFUL WRITING SECTION*/
@@ -303,9 +352,16 @@ blockquote {
 /*specify flex container for mindful writing text block and decorative background image*/
 
 .flex-mindfulness {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 /*style and position the mindful-photo background*/
@@ -344,9 +400,16 @@ blockquote {
 /*specify flex container for events text blocks in 4 divs*/
 
 .flex-events {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 /*style all event divs*/
@@ -413,8 +476,12 @@ blockquote {
 
 /*add images to gallery and masonry styling with 4 columns on desktop*/
 .gallery {
-    column-count: 4;
-    column-gap: 5px;
+    -webkit-column-count: 4;
+       -moz-column-count: 4;
+            column-count: 4;
+    -webkit-column-gap: 5px;
+       -moz-column-gap: 5px;
+            column-gap: 5px;
     margin-top: 25px;
 }
 
@@ -427,10 +494,19 @@ blockquote {
 /*specify flex container for location text and map*/
 
 .flex-location {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 /*style divs with the location text and map*/
@@ -478,7 +554,8 @@ blockquote {
     border: 2px solid rgba(201, 201, 201, 1);
 
     /*box shadow code from here https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 /*style text input fields*/
@@ -519,10 +596,16 @@ footer {
     background: #846577ff;
     height: auto;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 20px;
 }
 
@@ -590,10 +673,19 @@ footer {
 /*set responsive flex container for text block and background image*/
 
 .flex-morning {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 20px;
 }
 
@@ -651,7 +743,9 @@ hr {
 
     /*reduce number of columns to be displayed to 3*/
     .gallery {
-        column-count: 3;
+        -webkit-column-count: 3;
+           -moz-column-count: 3;
+                column-count: 3;
     }
 } 
 
@@ -671,9 +765,10 @@ hr {
 
      /*reduce number of columns to be displayed to 2*/
     .gallery {
-        column-count: 2;
+        -webkit-column-count: 2;
+           -moz-column-count: 2;
+                column-count: 2;
     }
-      
 } 
 
 /*on screens 425px or smaller, reduce the font size to keep logo and links on the same line, add margin to logo to create space between elements*/
@@ -692,7 +787,8 @@ hr {
 
     /*center content in the flex container*/
     .flex-container {
-        align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
     }
 
    /* reduce size of hero image slogan for smaller mobile screen*/
