@@ -37,7 +37,7 @@
 ---
 ### Welcome to the Writing Room!
 
-![Responsive Writing Room Site](docs/responsive-site.webp)
+![Responsive Writing Room Site](docs/screenshots/responsive-site.webp)
 
 As a writer, an expat and a gay woman relocating from hectic East London to suburban Dublin on a quest for a slower, more mindful life, I have a first-hand understanding of the importance of a welcoming community who share the same interests. 
  
@@ -137,8 +137,8 @@ For consistency of user experience, the site logo, navigation links and footer a
 
 Low fidelity mock-ups were made using Balsamiq to help plan and visualise the navigation design, placement of information, features, relationship between the content and usefulness. They were created for 3 main screen sizes: mobile, tablet and desktop.
 
-* [Wireframes - Home Page](docs/home-page.pdf)
-* [Wireframes - Morning Pages](docs/morning-pages.pdf)
+* [Wireframes - Home Page](docs/screenshots/home-page.pdf)
+* [Wireframes - Morning Pages](docs/screenshots/morning-pages.pdf)
 
 
 ### Design:  
@@ -149,7 +149,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
     
     Majority of them was derived from the hero image colours using [Eye Dropper](https://eyedropper.org/) and the remaining colours were added to the scheme using the colour scheme generator [Coolors](https://coolors.co/). White was used for text on buttons, for best contrast.  
 
-    ![Colours](docs/colour-scheme.jpg)
+    ![Colours](docs/screenshots/colour-scheme.jpg)
 
     opal: #c5e0d8ff
 
@@ -386,7 +386,7 @@ I re-ran the deployed site in the final stages of the project and no warnings or
 
     No warnings or errors to show for the deployed site.
 
-  ![HTML Validator](docs/html-validator.png)
+  ![HTML Validator](docs/screenshots/html-validator.png)
 
 <br>
 
@@ -394,7 +394,7 @@ I re-ran the deployed site in the final stages of the project and no warnings or
 
     No errors found for the deployed site.
 
-    ![CSS Validator](docs/css-validator.png)
+    ![CSS Validator](docs/screenshots/css-validator.png)
 
 <br> 
 
@@ -405,13 +405,13 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
   **Desktop**
   <br>
 
-  ![Desktop](docs/lighthouse-desktop.png)
+  ![Desktop](docs/screenshots/lighthouse-desktop.png)
   <br>
 
   **Mobile**
   <br>
 
-  ![Mobile](docs/lighthouse-mobile.png)
+  ![Mobile](docs/screenshots/lighthouse-mobile.png)
 
 **Further Testing**
 
@@ -442,10 +442,14 @@ I've changed the background to white, and the final result is:
     * There were a couple of duplicated ids caught as well and they were replaced with unique ones
   
   * Known:
-  
-    * On some smaller screens, when a user scrolls down to the bottom of the form and tries to submit it without entering their name or email, the position of the validation error message displays on top of the current view elements. The view needs to scroll back up to the field the error message relates to. Based on my research and converation with tutor support team, this will need to be addressed with JavaScript
-    * When Events and Contact navigation links ara avtive, Home link is hihglighted. This is because both Events and Contact refer to relevant sections on the same scrolling Home page. In my investigation, I found that should be able to highlight them as active on a scrolling page with JavaScript 
 
+    * When Events and Contact navigation links ara avtive, Home link is hihglighted. This is because both Events and Contact refer to relevant sections on the same scrolling Home page. In my investigation, I found that should be able to highlight them as active on a scrolling page with JavaScript 
+    * On some smaller screens, when a user scrolls down to the bottom of the form and tries to submit it without entering their name or email, the position of the validation error message displays on top of the current view elements. The view needs to scroll back up to the field the error message relates to. Based on my research and converation with tutor support team, this will need to be addressed with JavaScript
+    
+      ![Validation Message](docs/screenshots/message-position.webp)
+
+<br>
+    
 ### Credits
 ---
 
