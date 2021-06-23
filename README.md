@@ -432,8 +432,19 @@ I've changed the background to white, and the final result is:
 [to add]
 
 **Issues and Bugs**
+  
   * Fixed:
+  
+    * I had issues with making the navbar and some sections of the site highly responsive, which I eventually solved after learning about flexbox and adding media queries
+    * In Code Institute peer review, it was pointed out to me that text alignment of overlay cover text on here image and site logo was inconsistent on different devices. This was fixed by increasing left padding on overlay text on desktop and setting it smaller again in media query for smaller screens
+    * In auotmatic code validation, invalid percentage value on width attribute for iframe was detected - I replaced it with digits
+    * Thanks to the same validation, invalid auto value for line-height was noticed and replaced with correct value in the gallery section
+    * There were a couple of duplicated ids caught as well and they were replaced with unique ones
+  
   * Known:
+  
+    * On some smaller screens, when a user scrolls down to the bottom of the form and tries to submit it without entering their name or email, the position of the validation error message displays on top of the current view elements. The view needs to scroll back up to the field the error message relates to. Based on my research and converation with tutor support team, this will need to be addressed with JavaScript
+    * When Events and Contact navigation links ara avtive, Home link is hihglighted. This is because both Events and Contact refer to relevant sections on the same scrolling Home page. In my investigation, I found that should be able to highlight them as active on a scrolling page with JavaScript 
 
 ### Credits
 ---
