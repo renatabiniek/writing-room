@@ -705,6 +705,11 @@ hr {
         height: 120px;
     }
 
+    /*decrease padding to align with the new position of logo*/
+    #cover-text {
+        padding-left: 20px;
+    }
+
     /*reduce the top margin on hero outer container and morning pages section on 2nd page to match new height of the nav bar*/
 
     #hero-outer {
