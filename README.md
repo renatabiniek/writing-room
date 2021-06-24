@@ -284,7 +284,7 @@ Some features around interactivity and personalisation of the site are left to b
 * [Gitpod](https://gitpod.io/) - to write the code and push it to GitHub
 * [GitHub Pages](https://pages.github.com/) - to deploy the site 
 * [Word Counter](https://wordcounter.net/character-count) - to limit number of characters used for commit messages to 50, max 72 characters
-* [Online-Spellcheck](https://www.online-spellcheck.com/) - to spellcheck the content
+* [Online-Spellcheck](https://www.online-spellcheck.com/) - to spellcheck the content of the site and README
 * [Unsplash](https://unsplash.com/) - for images
 * [Pexels](https://www.pexels.com/) - for images
 * [Pixabay](https://pixabay.com/) - for images
@@ -555,32 +555,42 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
 ### **Further Testing**
 
+  * **Navigation bar**
+
+    * Navigation bar stays fixed on top of the page
+    * Logo and menu links are responsive and remain legible on all screen sizes
+    * Logo can be clicked on both pages to bring the user back to the top of the home page
+
   * **Links and buttons**
 
-    All links and buttons have been repeatedly tested.
-    Internal links and buttons take the user to the relevant section of the site.
-    External links (social media, cafe and pub links) open in a new tab, leaving the site open.
-    Link to the reading list in pdf opens the file in a new tab, leaving the current site open as well.
+    * All links and buttons have been repeatedly tested
+    * Internal links and buttons take the user to the relevant section of the site
+    * External links (social media, cafe and pub links) open in a new tab, leaving the current site open
+    * Link to the reading list in pdf opens the file in a new tab, leaving the current site open as well
+    * On hover, navigation menu links and buttons change color to assure the user that they're active 
+    * On the rainbow button in the footer, the font size increases on hover instead
 
   * **Sign-up/ Contact form:**
 
-    The contact form has validation in place for the required fields (name and email). Email field requires email address in the correct format.
-    If the user tries to submit the form without the required information or with an invalid format of the email, error messages will pop up:
+    * The contact form has validation in place for the required fields (name and email). 
+    * Email field requires email address in the correct format.
+    * If the user tries to submit the form without the required information or with an invalid format of the email, error messages will pop up:
 
-    ![Missing name](docs/features/missing-name.webp)
-    ![Invalid email](docs/features/invalid-email.webp)
+     ![Missing name](docs/features/missing-name.webp)
 
-    Once submitted, the information doesn't go anywhere as this is not in the scope of this project. Feedback site of https://formdump.codeinstitute.net has been used as a placeholder for action.
+     ![Invalid email](docs/features/invalid-email.webp)
 
-  * **Newsletter**:
+     *Note:* Once submitted, the information doesn't go anywhere as this is not in the scope of this project. Feedback site of https://formdump.codeinstitute.net has been used as a placeholder for action.
 
-    Email field is required and only accepts input in the correct email address format.
-    Error messages will pop up if the user tries to submit the sign-up request without the email or with invalid email:
+  * **Newsletter sign up form**:
 
-    ![Missing name](docs/features/missing-newsletter.webp)
-    ![Invalid email](docs/features/invalid-newsletter.webp)
+    * Email field is required and only accepts input in the correct email address format.
+    * Error messages will pop up if the user tries to submit the sign-up request without the email or with invalid email:
 
-    The Sign-me-up button doesn't actually send the information anywhere as this is not in the scope of this project. 
+     ![Missing name](docs/features/missing-newsletter.webp)
+     ![Invalid email](docs/features/invalid-newsletter.webp)
+
+     *Note:* The Sign-me-up button doesn't actually send the information anywhere as this is not in the scope of this project. 
 
   * **Color Contrast**
 
@@ -590,6 +600,11 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
     I've changed the background to white, and the final result is:
 
     *No automated color contrast issues found on the webpage tested*
+
+  * **Content**
+
+    Content is legible on all screensizes.
+    It has been proof-read by the developer for logical and gramatical errors, and spell-checked with [Online-Spellcheck](https://www.online-spellcheck.com/).  
 
   * **CI Peer Review**  
 
@@ -616,7 +631,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
   * Samsung Galaxy A80 phone
   * iPad 5th generation
   * iPhone
-  * all screen sizes in Google Chrome DevTools
+  * various screen sizes in Google Chrome DevTools simulator
 
   Browsers tested:
 
@@ -626,6 +641,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
   * Google Chrome
   * FireFox
   * Microsoft Edge
+  * Safari
 
   Internet Explorer is no longer supported so my testing didn't focus on IE.
 
