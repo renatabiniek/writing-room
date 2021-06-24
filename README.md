@@ -219,52 +219,147 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
 * **Navigation**
 
-Conventional horizontally aligned navigation bar with 4 navigation links exists on both pages.
+  * Conventional horizontally aligned navigation bar with 4 navigation links exists on both pages
 
-The site logo is clickable and allows the user to return to the top of the homepage from any location on the site.
+  * Navigation bar is always at the top of the page
 
-![Navbar](docs/features/navbar.webp)
+  * The site logo is clickable and allows the user to return to the top of the homepage from any location on the site
 
-* **Landing Page with Hero Image**
+  * The menu links are hihglighted in a different colour on hover 
 
-Large hero image 
+  * On mobile screen, navigation menu links are displayed underneath the logo
 
-![Hero Image](docs/features/hero-image.png)
+  Desktop:
+
+  ![Navbar](docs/features/navbar.webp)
+
+  Mobile: 
+
+  ![Navbar](docs/features/mobile/navigation-mobile.png)
+
+* **Landing Page with a hero image**
+
+  * Large hero image covers the viewport to grab attention and focus the user on the group purpose
+  * Overlay cover text provides information on group location
+  * Slogan reitarates the group ethos
+  * Call to action button that changes colour on hover invites the visitor to explore the page further and eventually sign up for an event
+
+  Desktop:
+  ![Hero Image](docs/features/hero-image.png)
+
+  Mobile:
+  
+  ![Hero Image](docs/features/mobile/hero-mobile.png)
 
 * Intro Section with a Quote
 
-![Quote](docs/features/quote.png)
-![Writing Room Intro](docs/features/why-write-with-us.png)
+  * Blockquote is used to further highlight the creative and mindful philosophy of the group
+
+  ![Quote](docs/features/quote.png)
+
+  * Intro to Writing Room consists of 4 stand-alone text blocks with reasons to join the Writing Room. 
+  * The icons have been added to headings to visually separate the text and to add a more attractive look to the section
+  * large block of text with a decorative image to the right provides the group background and conveys its mission 
+  * the elements stack on top of each other on smaller screens
+
+ Desktop:
+  ![Writing Room Intro](docs/features/why-write-with-us.png)
+
+  Mobile: 
+
+  ![Why Write with Us](docs/features/mobile/why-write-with-us-mobile.png)
+
+  ![Writing Room Intro](docs/features/mobile/about-writing-room-mobile.png))
 
 * Mindful Writing Section
+
+  * This section provides introduction to mindful writing and large block of text is accompanied with a decorative image on the left to prevent content overload
+  * For interested visitor, there is an option to click on *Find out more* and read another related text on the second page, *Morning Pages**
+  * As with all other sections, on smaller screens the individual element get stacked on top of each other
 
 ![Mindful Writing](docs/features/mindful-writing.png)
 
 * Events Schedule
 
+  * Type of events organised by Writing Room are displayed in 4 blocks grouped by the event type
+  * Each block contains event name, day, time and location
+  * Morning Pages block includes a link to further reading on Morning Pages for the users who want to learn more
+  * Mindful Reader Bookclub block presents the user with an option to download the current reading list in PDF so that they are informed about upcoming event topics  
+  * This section will be maintained by the site owner with any uptdates to the events
+  * Blocks have alternating colours to make the page more attractive but still simple
+  * In this section, an interested user has an option to skip the rest of the content and use the sign up link or call to action button to jump to the sign up form
+  * Individual blocks are responsive and get stacked on top of each other on smaller screens
+
+Desktop: 
 ![Events](docs/features/events.png)
+
+Mobile:  
+![Events](docs/features/mobile/events-mobile.png)
 
 * Gallery
 
+  * Masonry style gallery includes photos from previous events to help the user decide if they are interested in joining the group
+  * It is responsive and changes to 2 columns on small screens
+
+Desktop:
 ![Gallery](docs/features/gallery.webp)
+
+Mobile:  
+![Gallery](docs/features/mobile/gallery-mobile.png)
 
 * Location
 
+  * Address and links to the venues are included in this section
+  * Embedded Google map with the main location marked allows the user to check the exact location of the meetup place and plan their route
+  * The external links open in a new tab to allow the user to keep this page open
+  * On smaller screens, the map shows underneath the text block
+
+Desktop: 
 ![Location](docs/features/location.png)
+
+Mobile:  
+![Location](docs/features/mobile/location-mobile.png)
 
 * Contact Form
 
+ * The form allows the user to sign up for a chosen event or ask a question
+ * Name and email fields are required and validation error message comes up if the user tries to submit the form without details in those fields
+ * Email needs to be in a valid format - a validation error message pops up if the format is incorrect
+
+Desktop: 
 ![Sign Up](docs/features/sign-up-form.png)
 
 * Footer
+  * Footer is conventionally placed at the bottom of the site and consistently displayed on both pages
+  * It includes social media links which open in new tabs, option to sign up for a newsletter and back-to-top button
+  * the newsletter form has a mandatory email input which recognises an invalid email format and warns the user to correct it with an error message
+  * On smaller screens, the height increaes and the elements get stacked on top of each other 
 
+Desktop:
 ![Footer](docs/features/footer.png)
+
+  * Footer button is styled with a rainbow background to reassure the interested visitor of the group inclusivity and diversity
+ * On hover, the font size increases to confirm to the user the active status
 
 ![Footer Button](docs/features/back-to-top.png)
 
+Mobile:  
+![Footer](docs/features/mobile/footer-mobile.png)
+
+ 
+
 * Morning Pages page
 
+  * Provides further reading on Morning Pages and mindful writing for interested users
+  * Large block of text is divided into smaller sections with the use of headings and a decorative line to avoid content overload 
+  * Photo is used as a decorative element to the text, to make the page visually more atractive
+  * From here, the user has an option to navigate back to the home page using the navigation bar or click on the *See our events* call to action button and jump to the events schedule
+
+Desktop: 
 ![Morning Pages](docs/features/morning-pages.png)
+
+Bottom of the page with call to action button:  
+![Morning Pages](docs/features/bottom-2page.png)
 
 <br>
 
