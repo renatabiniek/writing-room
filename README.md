@@ -218,7 +218,7 @@ Conventional horizontally aligned navigation bar with 4 navigation links exists 
 
 The site logo is clickable and allows the user to return to the top of the homepage from any location on the site.
 
-![Navbar](docs/features/navbar.png)
+![Navbar](docs/features/navbar.webp)
 
 * **Landing Page with Hero Image**
 
@@ -226,24 +226,42 @@ Large hero image
 
 ![Hero Image](docs/features/hero-image.png)
 
-* Intro Section
-[to add]
-* Mindful Reading Section
-[to add]
-* Events Schedule
-[to add]
-* Gallery
-[to add]
-* Location
-[to add]
-* Contact Form
-[to add]
-* Footer
-[to add]
-* Morning Pages page
-[to add]
+* Intro Section with a Quote
 
-### Features to be implemented in the future
+![Quote](docs/features/quote.png)
+![Writing Room Intro](docs/features/why-write-with-us.png)
+
+* Mindful Writing Section
+
+![Mindful Writing](docs/features/mindful-writing.png)
+
+* Events Schedule
+
+![Events](docs/features/events.png)
+
+* Gallery
+
+![Gallery](docs/features/gallery.webp)
+
+* Location
+
+![Location](docs/features/location.png)
+
+* Contact Form
+
+![Sign Up](docs/features/sign-up-form.png)
+
+* Footer
+
+![Footer](docs/features/footer.png)
+
+* Morning Pages page
+
+![Morning Pages](docs/features/morning-pages.png)
+
+<br>
+
+### **Features to be implemented in the future**
 
 Some features around interactivity and personalisation of the site are left to be implemented in the future due to either the limited expertise of the developer at this stage or lack of content.
 
@@ -256,7 +274,7 @@ Some features around interactivity and personalisation of the site are left to b
 * add JavaScript to highlight Contact and Events menu links once the relevant section is active on the scrolling home page
 * smooth scrolling with JavaScript for better UX
 
-## Technologies used
+## **Technologies used**
 ---
 
 ### Languages
@@ -559,7 +577,13 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
     * Navigation bar stays fixed on top of the page
     * Logo and menu links are responsive and remain legible on all screen sizes
+    * On smaller screens, the menu links are listed underneath the logo instead 
     * Logo can be clicked on both pages to bring the user back to the top of the home page
+  
+  * **Footer**
+
+    * Footer is visible at the bottom of the page on all screensize
+    * The height increases on smaller screens to adapt to the footer elements stacking on top of each other
 
   * **Links and buttons**
 
