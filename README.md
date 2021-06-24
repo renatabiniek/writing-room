@@ -319,7 +319,7 @@ Desktop:
 Mobile:  
 ![Location](docs/features/mobile/location-mobile.png)
 
-* Contact Form
+* **Contact Form**
 
   * The form allows the user to sign up for a chosen event or ask a question
   * Name and email fields are required and a validation error message comes up if the user tries to submit the form without details in those fields
@@ -359,6 +359,7 @@ Desktop:
 <br>
 
 Bottom of the page with call to action button:  
+
 ![Morning Pages](docs/features/bottom-2page.png)
 
 <br>
@@ -558,7 +559,8 @@ In the final stage of the project, I have tested the site thoroughly with automa
 
     ![Bookclub](docs/features/bookclub.webp)
 
-    PDF 
+    PDF
+    
     ![Reading list](docs/features/reading-list.webp)
   
   * As an interested visitor, I want to be able to easily contact the site owner so that I can ask questions or share ideas
