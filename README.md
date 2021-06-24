@@ -14,6 +14,10 @@
 * [Wireframes](#Wireframes)
 * [Design](#Design) 
 
+  * [Colour scheme](#Colour-scheme)
+  * [Typography](#Typography)
+  * [Imagery](#Imagery)
+
 3. [**Features**](#Features)
 * [Existing Features](#Existing-Features)
 * [Features to be implemented in the future](#Features-to-be-implemented-in-the-future)
@@ -33,6 +37,7 @@
 * [Validator Testing](#Validator-Testing)
 * [Lighthouse Testing](#Lighthouse-Testing)
 * [Further Testing](#Further-Testing)
+* [Devices and browsers](#Devices-and-browsers)
 * [Issues and Bugs](#Issues-and-Bugs)
 
 7. [**Credits**](#Credits)
@@ -104,7 +109,7 @@ While researching writing and creative groups in the area, I found that the majo
 
 This site is based on the B2C model although the visit doesn’t finish with an actual purchase as all the events are free to join. It satisfies emotional triggers of the visitors to this site, provides them with clear and easily accessible information on the subject, and guides them to join the group by submitting the sign up form. It stands out as other writing groups have either no online presence or their websites have poor UX, or overcomplicated design and content overload.
 
-### **User stories:**
+### User stories:
 
 * **First Time Visitor Goals:**
 
@@ -263,7 +268,7 @@ Large hero image
 
 <br>
 
-### **Features to be implemented in the future**
+### Features to be implemented in the future
 
 Some features around interactivity and personalisation of the site are left to be implemented in the future due to either the limited expertise of the developer at this stage or lack of content.
 
@@ -276,7 +281,7 @@ Some features around interactivity and personalisation of the site are left to b
 * add JavaScript to highlight Contact and Events menu links once the relevant section is active on the scrolling home page
 * smooth scrolling with JavaScript for better UX
 
-## **Technologies used**
+## Technologies used
 ---
 
 ### Languages
@@ -361,7 +366,7 @@ You can also refer to this [GitHub documentation](https://docs.github.com/en/git
 ## Testing
 ---
 
-### **Testing Approach**  
+### Testing Approach
 
 I tested the site regularly during the development process, by regularly previewing it in the live server window and inspecting with Google Chrome DevTools at various breakpoints. Simultaneously, I was checking any new additions and changes on several devices available in my household. 
 Any issues found, were addressed at that stage and double checked before moving on with the rest of the project.  
@@ -370,7 +375,7 @@ Only later in the project, I started using the element.style box in Google Chrom
 
 In the final stage of the project, I have tested the site thoroughly with automatic validators and manually on different devices and in several browsers, taking into account user stories from the UX section, as per below.
 
-### **User stories testing from the UX section**
+### User stories testing from the UX section
 <br>
 
 * **First Time Visitor Goals:**
@@ -512,7 +517,7 @@ In the final stage of the project, I have tested the site thoroughly with automa
 
   <br>
 
-### **Validator Testing**
+### Validator Testing
 
 I ran the code through the HTML and CSS validators, and fixed the following initial warnings and issues:
 <br>
@@ -558,7 +563,7 @@ I re-ran the deployed site in the final stages of the project and no warnings or
 
 <br> 
 
-### **Lighthouse Testing**
+### Lighthouse Testing
 
 I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to review performance, SEO, best practices and accessibility of the site.  
 
@@ -573,7 +578,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
   ![Mobile](docs/screenshots/lighthouse-mobile.png)
 
-### **Further Testing**
+### Further Testing
 
   * **Navigation bar**
 
@@ -648,7 +653,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
     I've asked family and friends to test the site and no new issues were raised.
 
-### **Devices and browsers tested**
+### Devices and browsers tested
 
   * Google Pixelbook Go Chromebook
   * HP EliteBook laptop 820 G4
@@ -671,7 +676,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
   Internet Explorer is no longer supported so my testing didn't focus on IE.
 
-### **Issues and Bugs**
+### Issues and Bugs
   
   * **Fixed**:
   
@@ -712,7 +717,7 @@ Blockquote code to separate a quote from other text and specify style of quotati
 
 Box shadow code was taken from [this MDN Web Docs post](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow/)
 
-Button shadow code was taken from [this w3schools post](https://www.w3schools.com/css/css3_buttons.asp/)
+Button shadow code was taken from [this w3schools post](https://www.w3schools.com/css/css3_buttons.asp)
 
 [This blog post](https://chris.beams.io/posts/git-commit/) was used for recommendation on best format of git commit messages
 
