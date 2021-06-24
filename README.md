@@ -255,6 +255,8 @@ Large hero image
 
 ![Footer](docs/features/footer.png)
 
+![Footer Button](docs/features/back-to-top.png)
+
 * Morning Pages page
 
 ![Morning Pages](docs/features/morning-pages.png)
@@ -312,7 +314,7 @@ Some features around interactivity and personalisation of the site are left to b
 ---
 ### Deploying to GitHub Pages
 
-The project was developed in GitPod, commited to Git and pushed to GitHub. 
+The project was developed in GitPod, committed to Git and pushed to GitHub. 
 The site was deployed to GitHub Pages with the following steps:
 
 1. Login to GitHub
@@ -322,7 +324,7 @@ The site was deployed to GitHub Pages with the following steps:
 5. Under **Source**, click the dropdown called *None* and select *Branch: Master* and *Root* folder
 6. Click **Save**
 7. A notification message will show up that the page is getting ready to be published
-8. Once refreshed, the message will change to *Your site is published* and a link to the deplyed site will be provided: 
+8. Once refreshed, the message will change to *Your site is published* and a link to the deployed site will be provided: 
 
     The live link can be found here: https://renatabiniek.github.io/writing-room/
 
@@ -332,7 +334,7 @@ The process can also be found [here](https://docs.github.com/en/pages/getting-st
 
 ### Forking to GitHub Repository
 
-You can create a fork (copy) of the repository. This allows you to experiment with the code without affecting the orignal project.
+You can create a fork (copy) of the repository. This allows you to experiment with the code without affecting the original project.
 
 To fork the repository:
 
@@ -343,7 +345,7 @@ To fork the repository:
 
 ### Making a local clone
 
-You can clone your repository to create a local copy on your computer. Any changes made to the local copy will not affect the orignal project. To clone the **Writing Room** project, follow the steps below:
+You can clone your repository to create a local copy on your computer. Any changes made to the local copy will not affect the original project. To clone the **Writing Room** project, follow the steps below:
 
 1. Log in to your [GitHub](https://github.com/) account and locate the [Writing Room repository](https://github.com/renatabiniek/writing-room)
 2. In the repository, click on **Code** button located above all the project files
@@ -354,7 +356,7 @@ You can clone your repository to create a local copy on your computer. Any chang
 ```git clone https://github.com/renatabiniek/writing-room.git``` 
 7. Press **Enter** to create your local clone.
 
-You can also refer to this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) for detailed intructions. 
+You can also refer to this [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) for detailed instructions. 
 
 ## Testing
 ---
@@ -389,7 +391,7 @@ In the final stage of the project, I have tested the site thoroughly with automa
 
     ![Navbar](docs/features/navbar.webp)
 
-    Call to action button are placed strategicallty throughout the page, to allow the user to jump to relevant section without having to scroll through the remainder of the page.
+    Call to action button are placed strategically throughout the page, to allow the user to jump to relevant section without having to scroll through the remainder of the page.
 
     Button taking the user to events schedule:
     
@@ -407,7 +409,7 @@ In the final stage of the project, I have tested the site thoroughly with automa
 
     **Test result:**  PASS
 
-    The overlay text immedaitely informs the user about the location of the group. 
+    The overlay text immediately informs the user about the location of the group. 
 
     ![Overlay Text](docs/features/overlay-text.png)
 
@@ -453,7 +455,7 @@ In the final stage of the project, I have tested the site thoroughly with automa
  
     **Test result:**  PASS
 
-    The link to the reading list is provided within the bookclub event section and it opens as pdf in a new tab:
+    The link to the reading list is provided within the bookclub event section and it opens as PDF in a new tab:
 
     ![Bookclub](docs/features/bookclub.webp)
     ![Reading list](docs/features/reading-list.webp)
@@ -590,7 +592,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
     * All links and buttons have been repeatedly tested
     * Internal links and buttons take the user to the relevant section of the site
     * External links (social media, cafe and pub links) open in a new tab, leaving the current site open
-    * Link to the reading list in pdf opens the file in a new tab, leaving the current site open as well
+    * Link to the reading list in PDF opens the file in a new tab, leaving the current site open as well
     * On hover, navigation menu links and buttons change color to assure the user that they're active 
     * On the rainbow button in the footer, the font size increases on hover instead
 
@@ -628,7 +630,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
   * **Content**
 
     Content is legible on all screensizes.
-    It has been proof-read by the developer for logical and gramatical errors, and spell-checked with [Online-Spellcheck](https://www.online-spellcheck.com/).  
+    It has been proof-read by the developer for logical and grammatical errors, and spell-checked with [Online-Spellcheck](https://www.online-spellcheck.com/).  
 
   * **CI Peer Review**  
 
@@ -689,8 +691,8 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
   * **Known**:
 
-    * When Events and Contact navigation links ara active, Home link is highlighted. This is because both Events and Contact refer to relevant sections on the same scrolling Home page. In my investigation, I found that should be able to highlight them as active on a scrolling page with JavaScript 
-    * On some smaller screens, when a user scrolls down to the bottom of the form and tries to submit it without entering their name or email, the position of the validation error message displays on top of the current view elements. The view needs to scroll back up to the field the error message relates to. Based on my research and converation with tutor support team, this will need to be addressed with JavaScript
+    * When Events and Contact navigation links are active, Home link is highlighted. This is because both Events and Contact refer to relevant sections on the same scrolling Home page. In my investigation, I found that should be able to highlight them as active on a scrolling page with JavaScript 
+    * On some smaller screens, when a user scrolls down to the bottom of the form and tries to submit it without entering their name or email, the position of the validation error message displays on top of the current view elements. The view needs to scroll back up to the field the error message relates to. Based on my research and conversation with tutor support team, this will need to be addressed with JavaScript
     
       ![Validation Message](docs/screenshots/message-position.webp)
 
