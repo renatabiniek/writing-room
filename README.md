@@ -28,7 +28,7 @@
     * [Deploying to GitHub Pages](#Deploying-to-GitHub-Pages)
     * [Forking to GitHub Repository](#Forking-to-GitHub-Repository)
     * [Making a local clone](#Making-a-local-clone)
-    
+
 6. [**Testing**](#Testing)
     * [Testing Approach](#Testing-Approach)
     * [User stories testing from the UX section](#User-stories-testing-from-the-UX-section)
@@ -125,7 +125,7 @@ This site is based on the B2C model although the visit doesn’t finish with an 
 
   * As an interested visitor, I want to understand the signing up process so that I know how to join the selected event
  
-  * As an interested visitor, I want to be able to download the reading list so that I can get ready to join the next bookclub
+  * As an interested visitor, I want to be able to download the reading list so that I can get ready to join the C event
  
   * As an interested visitor, I want to be able to easily contact the site owner so that I can ask questions or share ideas
  
@@ -149,7 +149,7 @@ The site has a simple layout of 2 pages with the home page containing the highes
 
 Navigation elements are conventionally placed in a horizontal fashion at the top of the browser window. On their visit, the user lands on a page with an eye-catching hero image which includes a compelling slogan and a call to action button that encourages them to join the group. From here, the user can immediately tell if the group is of interest to them, as it conveys the purpose of the meetups and their location.
 
-Further information is progressively disclosed as the user scrolls down through the page. The group ethos section allows the user to learn more about the group’s setup and benefits. Next, they are introduced to a short text on mindful writing with an option to read more by clicking on a hyperlink to the second page. They can either click it and once done, come back to the home page  or continue scrolling through the main page and visit the second page later by clicking the Mindful Pages section in the navbar. Next on the homepage, the user is taken to the events schedule where they can view all scheduled events at one glance. A join us button allows them to skip the rest of the content and go to the signup form immediately. Otherwise, the user continues to scroll down through the page to find a gallery to see what past events looked like and get reassured in joining the community. 
+Further information is progressively disclosed as the user scrolls down through the page. The group ethos section allows the user to learn more about the group’s setup and benefits. Next, they are introduced to a short text on mindful writing with an option to read more by clicking on a hyperlink to the second page. They can either click it and once done with reading, come back to the home page  or continue scrolling through the main page and visit the second page later by clicking the Morning Pages section in the navbar. Next on the homepage, the user is taken to the events schedule where they can view all scheduled events at one glance. A join us button allows them to skip the rest of the content and go to the signup form immediately. Otherwise, the user continues to scroll down through the page to find a gallery to see what past events looked like and get reassured in joining the community. 
 
 This is followed by a location page with a map,  a contact form and a footer with social media links and an option to sign up for a newsletter. From there, the user also can return to the top of the page by clicking the back-to-top button.
  
@@ -197,7 +197,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
     I've chosen this font as it's imitating handwriting which supports the goal of the Writing Room group, focusing on creative writing and writing by hand. 
 
     **Montserrat, sans-serif**
-    Main font for the body. This is a clean, popular and very readable font that I chose to contrast with the more decorative style of the logo and headings.
+    Main font for the body. This is a clean, popular and very readable font that I've chosen to contrast with the more decorative style of the logo and headings.
     Sans-serif is the fallback option.  
 <br> 
 
@@ -205,7 +205,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
     All images were sourced from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/).
     
-    Large image of a desk with typewriter and notebook was chosen for the hero image to serve as an illustration to the group purpose and serve as a clean background for the slogan and location information.
+    Large image of a desk with typewriter and notebook was chosen for the hero image to provide an illustration to the group purpose and serve as a clean background for the slogan and location information.
 
     Other images are used either as a decoration accompanying larger blocks of text to provide a balanced content and ensure user is not overloaded with text, or as the actual site content (gallery).
 <br>
@@ -223,7 +223,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
   * The site logo is clickable and allows the user to return to the top of the homepage from any location on the site
 
-  * The menu links are hihglighted in a different colour on hover 
+  * The menu links are highlighted in a different colour on hover 
 
   * On mobile screen, navigation menu links are displayed underneath the logo
 
@@ -239,7 +239,7 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
 
   * Large hero image covers the viewport to grab attention and focus the user on the group purpose
   * Overlay cover text provides information on group location
-  * Slogan reitarates the group ethos
+  * Slogan reiterates the group ethos
   * Call to action button that changes colour on hover invites the visitor to explore the page further and eventually sign up for an event
 
   Desktop:
@@ -249,43 +249,44 @@ Low fidelity mock-ups were made using Balsamiq to help plan and visualise the na
   
   ![Hero Image](docs/features/mobile/hero-mobile.png)
 
-* Intro Section with a Quote
+* **Intro Section with a Quote**
 
   * Blockquote is used to further highlight the creative and mindful philosophy of the group
 
   ![Quote](docs/features/quote.png)
 
-  * Intro to Writing Room consists of 4 stand-alone text blocks with reasons to join the Writing Room. 
+  * Intro to Writing Room consists of 4 decoratively styled text blocks with reasons to join the Writing Room
   * The icons have been added to headings to visually separate the text and to add a more attractive look to the section
-  * large block of text with a decorative image to the right provides the group background and conveys its mission 
-  * the elements stack on top of each other on smaller screens
+  * Large block of text with a decorative image to the right provides the group background and conveys its mission 
+  * The elements stack on top of each other on smaller screens
 
  Desktop:
   ![Writing Room Intro](docs/features/why-write-with-us.png)
 
-  Mobile: 
+  Mobile view 1: 
 
   ![Why Write with Us](docs/features/mobile/why-write-with-us-mobile.png)
 
-  ![Writing Room Intro](docs/features/mobile/about-writing-room-mobile.png))
+  Mobile view 2:  
+  ![Writing Room Intro](docs/features/mobile/about-writing-room-mobile.png)
 
-* Mindful Writing Section
+* **Mindful Writing Section**
 
-  * This section provides introduction to mindful writing and large block of text is accompanied with a decorative image on the left to prevent content overload
-  * For interested visitor, there is an option to click on *Find out more* and read another related text on the second page, *Morning Pages**
+  * This section provides introduction to mindful writing and the large block of text is accompanied by a decorative image on the left to prevent content overload
+  * For interested visitor, there is an option to click on *Find out more* link and read another related text on the second page, *Morning Pages*
   * As with all other sections, on smaller screens the individual element get stacked on top of each other
 
 ![Mindful Writing](docs/features/mindful-writing.png)
 
-* Events Schedule
+* **Events Schedule**
 
-  * Type of events organised by Writing Room are displayed in 4 blocks grouped by the event type
+  * Type of events are displayed in 4 blocks grouped by the event type
   * Each block contains event name, day, time and location
   * Morning Pages block includes a link to further reading on Morning Pages for the users who want to learn more
   * Mindful Reader Bookclub block presents the user with an option to download the current reading list in PDF so that they are informed about upcoming event topics  
-  * This section will be maintained by the site owner with any uptdates to the events
+  * This section will be maintained by the site owner with any updates to the events
   * Blocks have alternating colours to make the page more attractive but still simple
-  * In this section, an interested user has an option to skip the rest of the content and use the sign up link or call to action button to jump to the sign up form
+  * In this section, an interested user has an option to skip the rest of the content and use the link to the contact form or click on the call to action button to jump to the sign up form
   * Individual blocks are responsive and get stacked on top of each other on smaller screens
 
 Desktop: 
@@ -294,7 +295,7 @@ Desktop:
 Mobile:  
 ![Events](docs/features/mobile/events-mobile.png)
 
-* Gallery
+* **Gallery**
 
   * Masonry style gallery includes photos from previous events to help the user decide if they are interested in joining the group
   * It is responsive and changes to 2 columns on small screens
@@ -305,7 +306,7 @@ Desktop:
 Mobile:  
 ![Gallery](docs/features/mobile/gallery-mobile.png)
 
-* Location
+* **Location**
 
   * Address and links to the venues are included in this section
   * Embedded Google map with the main location marked allows the user to check the exact location of the meetup place and plan their route
@@ -320,41 +321,42 @@ Mobile:
 
 * Contact Form
 
- * The form allows the user to sign up for a chosen event or ask a question
- * Name and email fields are required and validation error message comes up if the user tries to submit the form without details in those fields
- * Email needs to be in a valid format - a validation error message pops up if the format is incorrect
+  * The form allows the user to sign up for a chosen event or ask a question
+  * Name and email fields are required and a validation error message comes up if the user tries to submit the form without details in those fields
+  * Email needs to be in a valid format - a validation error message pops up if the format is incorrect
 
 Desktop: 
 ![Sign Up](docs/features/sign-up-form.png)
 
-* Footer
+* **Footer**
+
   * Footer is conventionally placed at the bottom of the site and consistently displayed on both pages
   * It includes social media links which open in new tabs, option to sign up for a newsletter and back-to-top button
-  * the newsletter form has a mandatory email input which recognises an invalid email format and warns the user to correct it with an error message
-  * On smaller screens, the height increaes and the elements get stacked on top of each other 
+  * The newsletter form has a mandatory email input which recognises an invalid email format and warns the user to correct it with an error message
+  
+  * Footer button is styled with a rainbow background to reassure the interested visitor of the group's inclusivity and diversity
+  * On hover, the font size increases to confirm to the user the active status
 
 Desktop:
 ![Footer](docs/features/footer.png)
 
-  * Footer button is styled with a rainbow background to reassure the interested visitor of the group inclusivity and diversity
- * On hover, the font size increases to confirm to the user the active status
-
 ![Footer Button](docs/features/back-to-top.png)
+
+* On smaller screens, the height increases and the elements get stacked on top of each other 
 
 Mobile:  
 ![Footer](docs/features/mobile/footer-mobile.png)
 
- 
-
-* Morning Pages page
+* **Morning Pages page**
 
   * Provides further reading on Morning Pages and mindful writing for interested users
   * Large block of text is divided into smaller sections with the use of headings and a decorative line to avoid content overload 
-  * Photo is used as a decorative element to the text, to make the page visually more atractive
+  * Photo is used as a decorative element to the text, to make the page visually more attractive
   * From here, the user has an option to navigate back to the home page using the navigation bar or click on the *See our events* call to action button and jump to the events schedule
 
 Desktop: 
-![Morning Pages](docs/features/morning-pages.png)
+![Morning Pages](docs/features/morning-pages.png)  
+<br>
 
 Bottom of the page with call to action button:  
 ![Morning Pages](docs/features/bottom-2page.png)
@@ -367,7 +369,7 @@ Some features around interactivity and personalisation of the site are left to b
 
 * add an online booking option to allow the users book events directly via the site
 * expand the events schedule section so that each event has its own description
-* add a new page where the best stories written by Writing Room members are published
+* add a new page where the best stories written by Writing Room members are published and group members can interact with 
 * add a new page with reading list for Mindful Reader Bookclub including blurbs
 * hamburger menu which collapses navigation menu links on smaller screen sizes
 * create a custom logo for the site and add it to the navbar
@@ -386,7 +388,7 @@ Some features around interactivity and personalisation of the site are left to b
 
 * [Balsamiq](https://balsamiq.com/) - to create wireframes for the site as part of the preparation work for the project
 * [Google Fonts](https://fonts.google.com/) - to import Courgette and Montserrat fonts into the HTML file which were then used throughout the site
-* [Font Awesome](https://fontawesome.com/) - to source icons which were added to headings for the purpose of aesthetics
+* [Font Awesome](https://fontawesome.com/) - to source icons which were added to some headings for the purpose of aesthetics
 * [Coolors](https://coolors.co/ ) - to create cohesive colour scheme for the site
 * [Eye Dropper](https://eyedropper.org/) - to pick specific colours from images 
 * [Pixlr](https://pixlr.com/) - to edit and resize photos
@@ -396,7 +398,7 @@ Some features around interactivity and personalisation of the site are left to b
 * [Am I Responsive](http://ami.responsivedesign.is/) - to produce a preview of the site on different devices
 * [W3C HTML Validator](https://validator.w3.org/) - to validate HTML code
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS code
-* [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) - to test the contrast and readibility of colours used 
+* [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) - to test the contrast and readability of colours used 
 * [Autoprefixer](https://autoprefixer.github.io/) - to add vendor prefixes to CSS, for compatibility with different browsers
 * [GitHub](https://github.com/) - for hosting the project code and version control 
 * [Gitpod](https://gitpod.io/) - to write the code and push it to GitHub
@@ -424,7 +426,7 @@ The site was deployed to GitHub Pages with the following steps:
 7. A notification message will show up that the page is getting ready to be published
 8. Once refreshed, the message will change to *Your site is published* and a link to the deployed site will be provided: 
 
-    The live link can be found here: https://renatabiniek.github.io/writing-room/
+    The live site can be found here: https://renatabiniek.github.io/writing-room/
 
     ![Published Site](docs/screenshots/published-site.webp)
 
@@ -448,7 +450,7 @@ You can clone your repository to create a local copy on your computer. Any chang
 1. Log in to your [GitHub](https://github.com/) account and locate the [Writing Room repository](https://github.com/renatabiniek/writing-room)
 2. In the repository, click on **Code** button located above all the project files
 3. Under HTTPS, copy the link generated (https://github.com/renatabiniek/writing-room.git)
-4. Open the terminal you're using, eg. Gitpod
+4. Open the terminal you're using, e.g. Gitpod
 5. Change the current working directory to the location where you want the cloned directory created
 6. Type ```git clone``` and then paste the URL you copied earlier:  
 ```git clone https://github.com/renatabiniek/writing-room.git``` 
@@ -461,15 +463,14 @@ You can also refer to this [GitHub documentation](https://docs.github.com/en/git
 
 ### Testing Approach
 
-I tested the site regularly during the development process, by regularly previewing it in the live server window and inspecting with Google Chrome DevTools at various breakpoints. Simultaneously, I was checking any new additions and changes on several devices available in my household. 
+I tested the site regularly during the development process, by previewing it in the live server window and inspecting with Google Chrome DevTools at various breakpoints. Simultaneously, I was checking any new additions and changes on several devices available in my household. 
 Any issues found, were addressed at that stage and double checked before moving on with the rest of the project.  
 
-Only later in the project, I started using the element.style box in Google Chrome DevTools to play around with styling changes before implementing them into my actual code which could have saved me time and multiple commits for the same element. 
+Only later in the project, I started using the element.style box in Google Chrome DevTools more proactively to play around with styling changes before implementing them into my actual code which could have saved me time and multiple commits for the same element. 
 
 In the final stage of the project, I have tested the site thoroughly with automatic validators and manually on different devices and in several browsers, taking into account user stories from the UX section, as per below.
 
 ### User stories testing from the UX section
-<br>
 
 * **First Time Visitor Goals:**
 
@@ -477,7 +478,7 @@ In the final stage of the project, I have tested the site thoroughly with automa
     
     **Test result:**  PASS
 
-    The hero image with a typewriter and a notebook literally sets the user at a writing desk, and the slogan *slow down. write.* reinforces the idea of creativity and mindfulness promoted by the site
+    The hero image with a typewriter and a notebook literally sets the user at a writing desk, and the slogan *slow down. write.* reinforces the idea of creativity and mindfulness promoted by the site.
 
     ![Slogan](docs/features/slogan.webp)   
  
@@ -485,13 +486,13 @@ In the final stage of the project, I have tested the site thoroughly with automa
 
     **Test result:** PASS
 
-    The highest priority sections are presented as menu link in the navbar allowing the user to get to the relevant sections of the site easily.
+    The highest priority sections are presented as menu links in the navbar allowing the user to get to the relevant sections of the site easily.
 
     ![Navbar](docs/features/navbar.webp)
 
-    Call to action button are placed strategically throughout the page, to allow the user to jump to relevant section without having to scroll through the remainder of the page.
+    Call to action buttons are placed strategically throughout the page, to allow the user to jump to the most relevant section without having to scroll through the remainder of the page.
 
-    Button taking the user to events schedule:
+    Button taking the user to the events schedule:
     
     ![Events](docs/features/see-events.webp)
 
@@ -541,21 +542,23 @@ In the final stage of the project, I have tested the site thoroughly with automa
 
     ![How to join](docs/features/how-to-join.webp)
 
-    The form is minimalistic and gives the user an option to select event with radio buttons:
+    The form is minimalistic and gives the user an option to select an event with radio buttons:
 
     ![Form](docs/features/form.webp)
 
-    The placeholder text in the message field reassures the user how to sign up:
+    The placeholder text in the message field confirms to the user how to sign up:
 
     ![Form Message](docs/features/form-message.webp)
 
-  * As an interested visitor, I want to be able to download the reading list so that I can get ready to join the next bookclub
+  * As an interested visitor, I want to be able to download the reading list so that I can get ready to join the next bookclub event
  
     **Test result:**  PASS
 
     The link to the reading list is provided within the bookclub event section and it opens as PDF in a new tab:
 
     ![Bookclub](docs/features/bookclub.webp)
+
+    PDF 
     ![Reading list](docs/features/reading-list.webp)
   
   * As an interested visitor, I want to be able to easily contact the site owner so that I can ask questions or share ideas
@@ -658,7 +661,7 @@ I re-ran the deployed site in the final stages of the project and no warnings or
 
 ### Lighthouse Testing
 
-I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to review performance, SEO, best practices and accessibility of the site.  
+I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to review performance, SEO, the best practices and accessibility of the site.  They both showed very good results.
 
   **Desktop**
   <br>
@@ -672,6 +675,8 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
   ![Mobile](docs/screenshots/lighthouse-mobile.png)
 
 ### Further Testing
+
+The following was confirmed during manual testing:
 
   * **Navigation bar**
 
@@ -696,8 +701,8 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
   * **Sign-up/ Contact form:**
 
-    * The contact form has validation in place for the required fields (name and email). 
-    * Email field requires email address in the correct format.
+    * The contact form has validation in place for the required fields (name and email)
+    * Email field requires email address in the correct format
     * If the user tries to submit the form without the required information or with an invalid format of the email, error messages will pop up:
 
      ![Missing name](docs/features/missing-name.webp)
@@ -740,7 +745,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
 
     * *On PC and mobile when you select Events or Contact, Home is being set as the Active item*
       
-      This is a known issue as Events and Contact are sections of the scrollable Home page and not separate pages. I will be able to fix once I progress trough the course with JavaScript.
+      This is a known issue as Events and Contact are sections of the scrollable Home page and not separate pages. I will be able to fix this once I progress through the course with JavaScript.
 
   * **Family and friends**
 
@@ -774,7 +779,7 @@ I generated desktop and mobile Lighthouse reports from Google Chrome DevTools to
   * **Fixed**:
   
     * I had issues with making the navbar and some sections of the site highly responsive, which I eventually solved after learning about flexbox and adding media queries
-    * A white space appeared on the right hand side of the screen on smaller screens which was coming from the specific width of the navbar - this was changed to 100% and overflow-x:hidden was used for the site based [on this post](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend)
+    * A white space appeared on the right-hand side of the screen on smaller screens which was coming from the specific width of the navbar - this was changed to 100% and overflow-x:hidden was used for the site based [on this post](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend)
     * Hero image was showing on top of the navbar on scrolling. This was fixed by adding z-index: 1000 to the navbar to keep it on top of the other content
     * List marker items on the Morning Pages page disappeared from view - this was fixed by moving them inside list item with list-style-position. They became part of text and were not affected anymore by any overflow: hidden setting
     * In Code Institute peer review, it was pointed out to me that text alignment of overlay cover text on here image and site logo was inconsistent on different devices. This was fixed by increasing left padding on overlay text on desktop and setting it smaller again in media query for smaller screens
